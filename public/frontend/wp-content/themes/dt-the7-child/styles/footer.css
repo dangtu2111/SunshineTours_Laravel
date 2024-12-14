@@ -1,0 +1,24 @@
+
+.footer {}
+
+.footer .wf-container-bottom {}
+
+.footer .wf-container-bottom .block {
+    /*width: 20%;*/
+}
+
+.footer .wf-container-bottom .block.block-info {
+    width: 60%;
+    text-align: center;
+}
+
+.footer .wf-container-bottom .block.block-social {
+    text-align: right;
+}
+
+.footer .wf-container-bottom .block.block-social .social-icons-item+.social-icons-item {
+    margin-left: 4px;
+}
+.footer .wf-container-bottom .block.block-social img {
+    width: 24px;
+}

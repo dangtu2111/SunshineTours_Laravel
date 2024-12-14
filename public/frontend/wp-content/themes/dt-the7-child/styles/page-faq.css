@@ -1,0 +1,4 @@
+/* override */
+body.page_faq .content .wpb_content_element.dt-style:not(.dt-accordion-bg-on) .wpb_accordion_header > a:before {
+    background-color: transparent;
+}

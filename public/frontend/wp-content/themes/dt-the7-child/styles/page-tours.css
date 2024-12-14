@@ -1,0 +1,471 @@
+
+.content .vc_row.row-homepage-booknow {
+    margin-top: -188px;
+    z-index: 999;
+}
+
+.content .vc_row.row-homepage-booknow .btn-homepage-booknow {
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 32px;
+    padding: 24px 64px;
+    padding-top: 16px;
+    text-transform: none;
+}
+
+.page_tours div#main {
+    padding-bottom: 0;
+}
+
+.page_tours .row-welcome-01 {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.page_tours .row-welcome-01 .block-welcome-to {
+
+}
+
+.page_tours .item-xo-girls-on-vespa {}
+.page_tours .item-xo-girls-on-vespa img {
+    max-width: 1300px;
+    width: 100%;
+}
+
+.page_tours .block-why-book {
+    max-width: 600px;
+    width: 100%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.page_tours .block-why-book .wpb_wrapper {
+    border: solid 8px #eeeeee;
+    border-radius: 48px;
+    padding: 0 24px;
+}
+.page_tours .block-why-book .wpb_wrapper h2,
+.page_tours .block-why-book .wpb_wrapper h3 {
+    margin-top: -28px;
+    background: white;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+.page_tours .block-why-book .wpb_wrapper ul {
+    text-align: left;
+    list-style-image: url('../assets/item-check.png');
+    margin-left: 32px;
+    margin-bottom: 24px;
+}
+.page_tours .block-why-book .wpb_wrapper ul li {}
+.page_tours .block-why-book .wpb_wrapper img {
+    margin-bottom: -8px !important;
+}
+
+.page_tours .wrapper-homepage-tours {
+    background: transparent url("../assets/homepage-bg-mid-ver02.webp") no-repeat top center;
+    min-height: 2000px;
+    /*padding: 360px 0;*/
+    background-size: cover;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours {
+    max-width: 998px !important;
+    
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .vc_col-sm-6 {
+    margin-bottom: 96px;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item {
+    max-width: 360px;
+    margin: 0 auto;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    padding-bottom: 32px;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-image {}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-image img {
+    width: 100%;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-title {
+    margin-top: -96px;
+    margin-bottom: 4px;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-title a {
+    text-decoration: none;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-title h2 {
+    font-family: "Skywalker", Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-size: 48px;
+    /*max-width: 360px;*/
+    margin: 0 auto;
+    color: #ffffff;
+    line-height: 1.2;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-time-start {
+    padding: 0px 48px;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-price-time {
+    padding: 0px 48px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-excerpt {
+    padding: 0px 48px;
+    margin-bottom: 4px;
+    line-height: 1.5;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-learnmore {
+    padding: 0px 48px;
+    margin-top: 16px;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-learnmore a {
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 24px;
+    padding: 8px 24px;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-title img.tour_title {
+    height: 128px;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.sights {
+    background-color: #2E3192;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.sights .wrap-title h2 {
+    max-width: 160px;
+    margin: 0 auto;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.foodie {
+    background-color: #C1272D;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.foodie .wrap-title h2 {
+    max-width: 160px;
+    margin: 0 auto;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.night {
+    background-color: #300026;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.night .wrap-title h2 {
+    max-width: 200px;
+    margin: 0 auto;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.photography {
+    background-color: #006837;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.photography .wrap-title h2 {
+    max-width: 320px;
+    margin: 0 auto;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.photography img,
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.night img,
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.foodie img,
+.page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item.sights img {
+    border-radius: 24px 24px 0 0;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours-more {
+
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours-more p {
+    font-size: 20px;
+}
+.page_tours .wrapper-homepage-tours .row-homepage-tours-more .button-link-hoian {
+    font-family: "Playfair Display SC", Helvetica, Arial, Verdana, sans-serif;
+    border-radius: 24px;
+    font-weight: bold;
+    padding: 12px 24px;
+}
+
+.page_tours .row-banner-drivevn {
+    /*margin: 0 -48px;*/
+}
+.page_tours .row-banner-drivevn .vc_column-inner {
+    padding: 0 !important;
+}
+.page_tours .row-banner-drivevn .item-banner-drivevn {
+    margin: 0;
+}
+
+.page_tours .row_home_blog {}
+.page_tours .row_home_blog .title1 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.page_tours .row_home_blog .vc_separator {
+    margin-bottom: 16px;
+}
+.page_tours .row_home_blog .title1 h3,
+.page_tours .row_home_blog .title1 h2 {
+    color: #999999;
+    font-size: 24px;
+}
+.page_tours .row_home_blog .title2 {
+    text-align: center;
+    color: #999999;
+    font-style: italic;
+}
+.page_tours .row_home_blog .home-feed-block {
+    margin-top: 64px;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-first {
+    padding: 0 32px 0 0;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-first .feed-first-title {}
+.page_tours .row_home_blog .home-feed-block .feed-block-first .feed-first-title a {
+    font-weight: bold;
+    font-size: 32px;
+    color: #333333;
+    text-decoration: none;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-first .feed-first-title a:hover {
+    color: #f68b25;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-first .feed-first-date {
+    font-style: italic;
+    color: #999999;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-first .feed-first-description {
+    /*color: #999999;*/
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-first .feed-first-readmore {}
+.page_tours .row_home_blog .home-feed-block .feed-block-first .feed-first-readmore a {
+    text-decoration: none;
+    font-style: italic;
+    color: #333333;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-first .feed-first-readmore a:hover {
+    color: #f68b25;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-others {
+    padding: 0 0 0 32px;
+    /*max-width: 640px;*/
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-others .feed-others-title {
+    margin-bottom: 2px;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-others .feed-others-title a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-others .feed-others-title a:hover {
+    color: #f68b25;
+}
+.page_tours .row_home_blog .home-feed-block .feed-block-others .feed-others-date {
+    margin-bottom: 16px;
+    color: #999999;
+    font-style: italic;
+}
+
+.page_tours .row-homepage-guests-recommended {}
+.page_tours .row-homepage-guests-recommended > .wpb_column {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+.page_tours .row-homepage-guests-recommended h3 {
+    color: #999999;
+    text-align: center;
+}
+
+.page_tours .row-our-guests-say-videos {}
+.page_tours .row-our-guests-say-videos .video-clips-block {
+    display: block;
+    overflow: hidden;
+    float: none;
+    clear: both;
+    /*width: 80%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.page_tours .row-our-guests-say-videos .video-clips-block .wrap-item {
+    float: left;
+    margin-bottom: 2em;
+    width: 30%;
+    /*margin-left: 4%;*/
+}
+.page_tours .row-our-guests-say-videos .video-clips-block .wrap-item+.wrap-item {
+    margin-left: 5%;
+}
+.page_tours .row-our-guests-say-videos .video-clips-item {
+    line-height: 0;
+    position: relative;
+}
+.page_tours .row-our-guests-say-videos .video-clips-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+.page_tours .row-our-guests-say-videos .video-clips-item a.wrap-hover {
+    line-height: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 16px;
+}
+.page_tours .row-our-guests-say-videos .video-clips-item a.wrap-hover > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    display: block;
+    /* background-color: rgba(0,0,0,.5); */
+    line-height: 1;
+    text-align: center;
+    margin-left: -160px;
+    margin-top: 36px;
+    padding: 8px 0;
+    color: white;
+    /*font-family: 'maiandra_gd_demi_bold', Helvetica , Arial, sans-serif;*/
+    opacity: 1;
+    color: #f68b25; /* #orange */
+}
+.page_tours .row-our-guests-say-videos .video-clips-item a.wrap-hover > i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin-left: -32px;
+    margin-top: -32px;
+    padding: 1px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 1;
+    opacity: 1;
+    /*color: #f68b25; !* #orange *!*/
+
+    background-color: transparent;
+}
+.page_tours .row-our-guests-say-videos .video-clips-item a > i:before {
+    /*background-color: rgba(0,0,0,.5);*/
+    border-radius: 500px;
+}
+.page_tours .row-our-guests-say-videos .video-clips-item:hover a.wrap-hover {
+    background-color: rgba(0,0,0,.5);
+}
+.page_tours .row-our-guests-say-videos .video-clips-item:hover a > i,
+.page_tours .row-our-guests-say-videos .video-clips-item:hover a > span {
+    /*opacity: .8;*/
+    color: #f68b25; /* #orange */
+}
+.page_tours .row-our-guests-say-videos .video-clips-item:hover a > i:before {
+    /*background-color: rgba(0,0,0,.8);*/
+}
+
+.page_tours .row-our-guests-say-videos .video-clips-item .vci-title {
+    font-size: 1.2em;
+    padding: 8px 0 4px 0;
+    text-align: center;
+}
+@media all and ( min-width: 800px ) and ( max-width: 997px ) {
+    .page_tours .row-our-guests-say-videos .video-clips-item a.wrap-hover > span {
+        margin-top: 24px;
+        width: 280px;
+        margin-left: -140px;
+    }
+    .page_tours .row-our-guests-say-videos .video-clips-item a.wrap-hover > i {
+        font-size: 48px;
+        width: 48px;
+        height: 48px;
+        margin-left: -24px;
+        margin-top: -24px;
+    }
+}
+
+.page_tours .row-homepage-guests-recommended .btn-homepage-visitoutgallery {
+    font-weight: bold;
+    font-size: 16pt;
+    border-radius: 32px;
+    padding: 16px 32px;
+    text-transform: none;
+}
+
+.page_tours .row-homepage-guests-recommended .block-as-recommend-title {}
+.page_tours .row-homepage-guests-recommended .block-as-recommend-title h2 {
+    text-align: center;
+    color: #999999;
+    font-size: 24px;
+}
+
+
+@media (max-width: 1366px) {
+    .content .vc_row.row-homepage-booknow {
+        margin-top: -177px;
+    }
+
+    .page_tours .row_home_blog .home-feed-block {
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page_tours .row-our-guests-say-videos {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content .vc_row.row-homepage-booknow {
+        margin-top: -133px;
+    }
+    .page_tours .wrapper-homepage-tours .row-homepage-tours .vc_col-sm-6 {
+        margin-bottom: 48px;
+    }
+    .page_tours .wrapper-homepage-tours .row-homepage-tours .wrap-item .wrap-excerpt {
+        min-height: 128px;
+    }
+    .page_tours .row-our-guests-say-videos .video-clips-block .wrap-item {
+        float: none;
+        clear: both;
+        margin-bottom: 2em;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .page_tours .row_home_blog {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .page_tours .row_home_blog .home-feed-block .feed-block-first {
+        padding: 0;
+    }
+    .page_tours .row_home_blog .home-feed-block .feed-block-others {
+        padding: 0;
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 360px) {
+    .content .vc_row.row-homepage-booknow .btn-homepage-booknow {
+        padding: 16px 48px 24px 48px;
+    }
+    .page_tours .block-why-book .wpb_wrapper {
+        padding: 0 8px;
+        border-radius: 24px;
+    }
+    .page_tours .block-why-book .wpb_wrapper h2, .page_tours .block-why-book .wpb_wrapper h3 {
+        width: 240px;
+        margin-top: -52px;
+    }
+    .page_tours .wrapper-homepage-tours .row-homepage-tours .vc_col-sm-6 {
+        margin-bottom: 24px;
+    }
+}

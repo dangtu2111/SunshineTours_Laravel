@@ -1,0 +1,42 @@
+
+.page_about {}
+
+.page_about .content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.page_about .col-content-left {}
+
+.page_about .col-content-left .vc_column-inner {
+    padding-left: 96px;
+    padding-right: 32px;
+}
+
+.page_about .col-content-left .s-tiaw img,
+.page_about .col-content-left .s-tungdo img {
+    max-width: 196px;
+}
+
+.page_about .col-content-right {}
+.page_about .col-content-right .vc_column-inner {
+    padding-right: 96px;
+    padding-left: 32px;
+}
+
+@media (max-width: 768px) {
+    .page_about .col-content-left .vc_column-inner {
+        padding-left: 24px;
+        padding-right: 0px;
+    }
+    .page_about .col-content-right .vc_column-inner {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 440px) {
+    .page_about .col-content-right {
+        margin-top: 48px;
+    }
+}

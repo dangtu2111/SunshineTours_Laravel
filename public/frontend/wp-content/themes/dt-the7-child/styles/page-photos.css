@@ -1,0 +1,8 @@
+body.single-dt_gallery {}
+
+body.single-dt_gallery article.dt_gallery {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+body.page-photos article.dt_gallery {}

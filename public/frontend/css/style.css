@@ -1,0 +1,35 @@
+body {
+    top: 0 !important;
+}
+
+body>div.skiptranslate {
+    display: none !important;
+}
+.foobar-wrapper {
+    z-index: 1099 !important;
+}
+
+@media (min-width: 960px) {
+    .foobar-wrapper {
+        display: none;
+    }
+
+    #page.boxed {
+        padding-top: 0;
+    }
+}
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.page-title>.wf-wrap,
+#fancy-header>.wf-wrap {
+	z-index: 0;
+}
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
+[data-wpr-lazyrender] {
+    content-visibility: auto;
+}       

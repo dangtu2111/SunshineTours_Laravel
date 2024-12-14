@@ -1,0 +1,36 @@
+
+.main-nav > li > a .menu-text {
+    font-weight: bold;
+}
+
+/*temp*/
+.main-nav ul.sub-nav:first-of-type {
+    /*visibility: visible !important;*/
+    /*opacity: 100 !important;*/
+    background-color: rgba(0,0,0,0.88);
+    left: 12px !important;
+}
+
+.main-nav .sub-nav > li > a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.main-nav .sub-nav > li > a .menu-text {
+    color: #ffffff !important;
+    font-size: 15px !important;
+}
+.main-nav .sub-nav > li > a:hover .menu-text,
+.main-nav .sub-nav > li.act > a .menu-text {
+    color: #f68b25 !important;
+}
+
+.main-nav .sub-nav > li+li > a {
+    margin-top: 2px;
+}
+
+@media (min-width:961px) and (max-width: 1366px)  {
+    .main-nav > li > a {
+        margin: 18px 0;
+    }
+}

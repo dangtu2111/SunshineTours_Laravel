@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Bold Italic'), local('PlayfairDisplay-BoldItalic'),
+        url('PlayfairDisplay-BoldItalic.html') format('woff2'),
+        url('PlayfairDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Bold'), local('PlayfairDisplay-Bold'),
+        url('PlayfairDisplay-Bold.html') format('woff2'),
+        url('PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'),
+        url('PlayfairDisplay-Regular.html') format('woff2'),
+        url('PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display SC';
+    src: local('Playfair Display SC Italic'), local('PlayfairDisplaySC-Italic'),
+        url('PlayfairDisplaySC-Italic.html') format('woff2'),
+        url('PlayfairDisplaySC-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display SC';
+    src: local('Playfair Display SC Regular'), local('PlayfairDisplaySC-Regular'),
+        url('PlayfairDisplaySC-Regular.html') format('woff2'),
+        url('PlayfairDisplaySC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display SC';
+    src: local('Playfair Display SC Bold'), local('PlayfairDisplaySC-Bold'),
+        url('PlayfairDisplaySC-Bold.html') format('woff2'),
+        url('PlayfairDisplaySC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display SC';
+    src: local('Playfair Display SC Bold Italic'), local('PlayfairDisplaySC-BoldItalic'),
+        url('PlayfairDisplaySC-BoldItalic.html') format('woff2'),
+        url('PlayfairDisplaySC-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'),
+        url('PlayfairDisplay-Italic.html') format('woff2'),
+        url('PlayfairDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+

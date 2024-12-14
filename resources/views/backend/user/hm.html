@@ -1,0 +1,366 @@
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Create User</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a>Create User</a>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2"></div>
+</div>
+@if($errors->any())
+<div class="alert alert-danger">
+    <ul>
+        @foreach($errors->all() as $error)
+        <li>{{$error}}</li>
+        @endforeach
+    </ul>
+</div>
+@endif
+<form action="{{ route('admin.user.store') }}" method="POST" class="box">
+    @csrf
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="panel-head">
+                    <div class="panel-title">General information</div>
+                    <div class="panel-description">
+                        <p>Enter general user information</p>
+                        <p>
+                            Note that fields marked with an
+                            <span class="text-danger">(*)</span> ​​are required.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="ibox">
+                    <div class="ibox-content">
+                        <div class="row mb10">
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="email"
+                                        class="control-label text-right"
+                                        >Email
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        class="form-control"
+                                        placeholder="Enter email"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="fullname"
+                                        class="control-label text-right"
+                                        >Full name
+                                        <span class="text-danger"
+                                            >(*)</span
+                                        ></label
+                                    >
+                                    <input
+                                        type="text"
+                                        name="fullname"
+                                        class="form-control"
+                                        placeholder="Enter full name"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb10">
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="user_catalogue_id"
+                                        class="control-label text-left"
+                                        >Group members
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <select
+                                        name="user_catalogue_id"
+                                        id="user_catalogue_id"
+                                        class="form-control"
+                                        required
+                                    >
+                                        <option value="0">
+                                            [Select group members]
+                                        </option>
+                                        <option value="1">Administrator</option>
+                                        <option value="2">Contributor</option>
+                                        <option value="3">User</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="Birthday"
+                                        class="control-label text-right"
+                                        >Birthday</label
+                                    >
+                                    <input
+                                        type="date"
+                                        name="Birthday"
+                                        class="form-control"
+                                        autocomplete="off"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb10">
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="password"
+                                        class="control-label text-right"
+                                        >Password
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <input
+                                        type="password"
+                                        name="password"
+                                        class="form-control"
+                                        placeholder="Enter password"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="re_password"
+                                        class="control-label text-right"
+                                        >Re-enter password
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <input
+                                        type="password"
+                                        name="re_password"
+                                        class="form-control"
+                                        placeholder="Re-enter password"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb10">
+                            <div class="col-lg-12">
+                                <div class="form-row">
+                                    <label
+                                        for="image"
+                                        class="control-label text-right"
+                                        >Avatar
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <a
+                                                id="lfm"
+                                                data-input="thumbnail"
+                                                data-preview="holder"
+                                                class="btn btn-primary"
+                                            >
+                                                <i class="fa fa-picture-o"></i>
+                                                Choose
+                                            </a>
+                                        </span>
+                                        <input
+                                            id="thumbnail"
+                                            class="form-control"
+                                            type="text"
+                                            name="filepath"
+                                        />
+                                    </div>
+                                    <div
+                                        id="holder"
+                                        style="
+                                            margin-top: 15px;
+                                            max-height: 100px;
+                                        "
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="panel-head">
+                    <div class="panel-title">Address Information</div>
+                    <div class="panel-description">
+                        <p>Enter user address details</p>
+                        <p>
+                            Note that fields marked with an
+                            <span class="text-danger">(*)</span> ​​are required.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="ibox">
+                    <div class="ibox-content">
+                        <div class="row mb10">
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="Country"
+                                        class="control-label text-right"
+                                        >Country
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        name="Country"
+                                        class="form-control"
+                                        placeholder="Enter country"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="Province"
+                                        class="control-label text-right"
+                                        >Province/City</label
+                                    >
+                                    <input
+                                        type="text"
+                                        name="Province"
+                                        class="form-control"
+                                        placeholder="Enter province or city"
+                                        autocomplete="off"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb10">
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="Distric"
+                                        class="control-label text-left"
+                                        >District
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        name="Distric"
+                                        class="form-control"
+                                        placeholder="Enter district"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="Ward"
+                                        class="control-label text-right"
+                                        >Ward</label
+                                    >
+                                    <input
+                                        type="text"
+                                        name="Ward"
+                                        class="form-control"
+                                        placeholder="Enter ward"
+                                        autocomplete="off"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb10">
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="Street"
+                                        class="control-label text-right"
+                                        >Street
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        name="Street"
+                                        class="form-control"
+                                        placeholder="Enter street"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-row">
+                                    <label
+                                        for="phone"
+                                        class="control-label text-right"
+                                        >Phone Number
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        name="phone"
+                                        class="form-control"
+                                        placeholder="Enter phone number"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb10">
+                            <div class="col-lg-12">
+                                <div class="form-row">
+                                    <label
+                                        for="Note"
+                                        class="control-label text-right"
+                                        >Note
+                                        <span class="text-danger">(*)</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        name="Note"
+                                        class="form-control"
+                                        placeholder="Enter any notes"
+                                        autocomplete="off"
+                                        required
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5"></div>
+            <div class="col-lg-7">
+                <div class="text-center">
+                    <button class="btn btn-primary" type="submit" name="send">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script src="/vendor/laravel-filemanager/js/stand-alone-button.js"></script>

@@ -1,0 +1,82 @@
+.mt20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.image-cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+table .image{
+    display: block;
+    width: 70px;
+}
+table strong{
+    min-width:88px;
+    display: inline-block;
+}
+.uk-flex-space-between{
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.uk-flex-middle {
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+    align-items: center;
+}
+.uk-flex{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.filter-wrapper .parpage{
+    display: inline-block !important; 
+}
+.filter-wrapper{
+    margin-bottom: 20px;
+}
+.btn{
+    margin-bottom:0 !important;
+    font-size:13px;
+    height:32px
+}
+.filter-wrapper .form-control{
+    height:32px;
+    max-width: 200px;
+}
+.input-group{
+    min-width: 215px;    
+}
+.mr10{    
+    margin-right:10px;
+
+}
+.mb10{    
+    margin-bottom:15px;
+
+}
+.mr5{
+    margin-right: 5px;
+}
+.pv{
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+.box .ibox{
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.panel-title{
+    font-size:20px;
+    margin-bottom:15px;
+    font-weight: 700;
+    color:#1a1a1a;
+}
+.panel-description{
+    font-size: 15px;
+}
+.fl-flasher.fl-success.fl-container.fl-show {
+    /* Các thuộc tính bạn muốn áp dụng */
+    z-index: 9999; 
+}

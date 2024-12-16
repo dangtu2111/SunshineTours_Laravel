@@ -9,7 +9,7 @@
 <link rel="profile" href="https://gmpg.org/xfn/11" />
 
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
-<title>Wanderland &#8211; Travel Blog</title>
+<title>Sunshine Tours</title>
 <meta name='robots' content='max-image-preview:large' />
 
 <!-- Google Tag Manager for WordPress by gtm4wp.com -->
@@ -211,6 +211,8 @@
 <meta name="msapplication-TileImage"
 	content="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/cropped-favicon-img-270x270.jpg" />
 <link rel="stylesheet" href="{{ asset('frontend/css/customize.css') }}">
+<!-- Font Awesome via CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
 
 
@@ -223,3 +225,4 @@
             @endforeach
         @endif
     @endif
+	

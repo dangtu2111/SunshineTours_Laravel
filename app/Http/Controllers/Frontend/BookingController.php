@@ -17,7 +17,7 @@ class BookingController extends Controller
   
 
         // Đặt tên template cho view
-        $template = 'frontend.about.index';
+        $template = 'frontend.booking.index';
 
         // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
         return view('frontend.layout.layout', compact('template'));

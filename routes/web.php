@@ -41,7 +41,6 @@ Route::group(['prefix' => 'admin', 'middleware' => AuthenticateMiddleware::class
     Route::get('/Report', [ReportController::class, 'index'])->name('admin.report');
     Route::get('/Feedback', [FeedbackController::class, 'index'])->name('admin.feedback');
 });
-Route::get('/loginAdmin', [AuthController::class,'index'])->name('auth.admin');
 Route::group(['prefix' => 'user', 'middleware' => AuthenticateMiddleware::class], function() {
     Route::get('/', [HomeController::class, 'index'])->name('admin.home');
     

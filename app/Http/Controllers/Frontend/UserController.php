@@ -13,6 +13,10 @@ use App\Repositories\Interfaces\UserRepositoryInterface as UserRepository;
 class UserController extends Controller
 {  
     public function index(){
-        return view('frontend.layout.layout');
+        // Đặt tên template cho view
+        $template = 'frontend.home.index';
+
+        // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
+        return view('frontend.layout.layout', compact('template'));
     }
 }

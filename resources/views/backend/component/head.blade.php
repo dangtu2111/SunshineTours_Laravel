@@ -20,7 +20,7 @@
     <link href="{{ asset('backend/css/customize.css') }}" rel="stylesheet">
     <script src="{{ asset('backend/js/jquery-3.1.1.min.js') }}"></script>
 
-    @if (isset($config) && is_array($config))
+    @if (isset($config['css']) && is_array($config['css']))
         @if(isset($config['css']))
             @foreach($config['css'] as $key => $val)
                 <link href="{{ asset($val)}}" rel="stylesheet">

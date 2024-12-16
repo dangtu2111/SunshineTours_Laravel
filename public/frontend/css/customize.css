@@ -1,0 +1,136 @@
+@media only screen and (max-width:1024px) {
+    .custom-footer-newsletter .mkdf-btn.mkdf-btn-solid {
+        width: auto;
+        display: block;
+    }
+}
+.bg-image-over {
+    z-index: 50;
+}
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
+.woocommerce form .form-row .required {
+    visibility: visible;
+}
+/*! This file is auto-generated */
+.wp-block-button__link {
+    color: #fff;
+    background-color: #32373c;
+    border-radius: 9999px;
+    box-shadow: none;
+    text-decoration: none;
+    padding: calc(.667em + 2px) calc(1.333em + 2px);
+    font-size: 1.125em
+}
+
+.wp-block-file__button {
+    background: #32373c;
+    color: #fff;
+    text-decoration: none
+}
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+.woocommerce-product-gallery {
+    opacity: 1 !important;
+}		
+.custom_dark.tparrows {
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    width: 65px
+}
+
+.custom_dark.tparrows:before {
+    font-family: "Ionicons";
+    color: #000;
+    line-height: 1.3em;
+    font-size: 35px
+}
+
+.custom_dark.tparrows.tp-leftarrow:before {
+    content: '\f3d5';
+    margin-left: -2px
+}
+
+.custom_dark.tparrows.tp-rightarrow:before {
+    content: '\f3d6';
+    margin-left: -2px
+}
+
+.custom_dark svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+
+.custom_dark svg path,
+.custom_dark svg polygon,
+.custom_dark svg ellipse {
+    fill: #f6f6f6;
+    stroke: none;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in
+}
+
+.custom_dark.tparrows.rs-touchhover svg path,
+.custom_dark.tparrows.rs-touchhover svg polygon,
+.custom_dark.tparrows.rs-touchhover svg ellipse {
+    fill: #59815b;
+    stroke: none;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out
+}
+
+.custom_dark.tparrows.rs-touchhover:before {
+    color: #fff;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out
+}
+
+#rev_slider_12_1_wrapper .custom_bullets .tp-bullet {
+    overflow: hidden;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background-color: #f2f2ea;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: absolute;
+    border: none
+}
+
+#rev_slider_12_1_wrapper .custom_bullets .tp-bullet.rs-touchhover,
+#rev_slider_12_1_wrapper .custom_bullets .tp-bullet.selected {
+    background-color: #59815b;
+    width: 13px;
+    height: 13px;
+    margin-top: -1.5px;
+    margin-left: -2px
+}
+
+.closest0 {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}

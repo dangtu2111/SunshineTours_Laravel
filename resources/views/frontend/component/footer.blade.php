@@ -1,160 +1,237 @@
-<footer data-wpr-lazyrender="1" id="footer" class="footer solid-bg">
-
-
-			<!-- !Bottom-bar -->
-			<div id="bottom-bar" class="solid-bg logo-left" role="contentinfo">
-				<div class="wf-wrap">
-					<div class="wf-container-bottom">
-
-						<div class="block block-logo">
-							<div id="branding-bottom"><a class="" href="index.html"><img class=" preload-me"
-										src="{{asset('frontend/wp-content/uploads/logo-footer-small.webp')}}"
-										srcset="https://xotours.vn/wp-content/uploads/logo-footer-small.webp 80w,https://xotours.vn/wp-content/uploads/logo-footer-1.webp 162w"
-										width="80" height="60" sizes="80px" alt="SAIGON - XO Tours Vietnam" /></a></div>
-						</div>
-
-						<div class="block block-info">
-							<p>Email: <strong>&#105;&#110;f&#111;&#64;&#120;o&#116;o&#117;&#114;s&#46;&#118;n</strong> /
-								Tel: <strong><a href="tel:+84933083727">+84 93308 3727</a></strong></p>
-							<p>© 2011 &#8211; 2024 XO Tours Vietnam &#8211; Motorcycle Tours.</p>
-							<p><span style="font-size: 9pt;">Công ty TNHH Đầu tư dịch vụ XO TOURS. MST <img
-										decoding="async" style="margin-bottom: -4px;"
-										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAATCAYAAAAqL6XVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAALySURBVFhH7VbBSiNBFNyf8UP8Am9785Yv8OjJWw5Cjl5CTlmEnUMOikgQQw5hEBmFRQZFghiUyCqigpie6empre7pSTpxonFXdlkxUJDuqX559V71m3x5Wp3DR8enyI+CT5F/DfVlSH8FoujZO+Cfi4wOfKizGqJq8fP3wB+KXEDU+FqwPx2DoAaZf2/7SG+8qR10uQb1EqJvznpGDEWKThvq0kO8W0dy00XSns9IjTUk/RDq/gEQh5Ae99ZXIE9CpBJIj0bBpsaobiBF/unaxJeRPAoof3R+GlfsMIef/H2Vn51HHNIBV12ksUB6WuZeGUrYY/nnsmJiZiI9j+QQMreM16SAbB11KohM4CxI+sNyVpeYpCPyhRhPrTpkZwnRlkYp69wuu4gLJB0PydkhVGjvZBFXY6tNvhW5XkHcsgU86gJPPuJVFj5cs+eIfcbRDSHHiIy618DdBgb6kMGkIKLBCt8zmHN35O1I5IsxWmUmke9b6OR0URp6vYjkjtzjxWKuAYs4dEEOdrR3wRxKzp5GCfKoNszFiIx7tMKt55BsglaACJpQPVr2NO9qBlfkizHaNSTaXrSwGTL6uRYpdAcmzhdxDSZFlpGck9f3IXdsVy0GQRtJa7QedbIgQRWMiLpq8or+72n/Z3vPOvlqDCtcdywIn4sscoLmmnVRJ4kGr4W+q9aaxhUU7rohu5Pb9HvMoZI/0Ae5nrTNZLdckbPGMGd0oap1KMU7aZOTfRawu1zMNespIs3+A1TeOX13x4qdiySifbbeTEZOsktaYHPcAho6kWxi8dWxx2CKE+yuifh7xn09hp2onWwdHXBC3zQhAw6hfn3iXelw9Z+Fswv+WDZJhcvTA04PMFssccI76rhNYyjyNQw2GexxfPC8DRwSJxz552XHktMwK3eBV+iabhoNHu22N4sUjQrkMd9/p7//r0Ts6GHCkb69UPjcxUzc6iIin+/ino9kd5wn6AoV5Pc4w8yd/J/xKfJjYA6/AMgZD/vcYJGZAAAAAElFTkSuQmCC" />.
-									611/111 Điện Biên Phủ, phường 1, quận 3, TP Hồ Chí Minh.</span></p>
-							<p><span style="font-size: 9pt;">International Tour Operator License No: 79 &#8211;
-									531/2017/TCDL &#8211; GP LHQT</span></p>
-						</div>
-
-						<div class="block block-social">
-							<div class="social-icons all-page"><span class="social-icons-item"><a
-										href="https://www.facebook.com/xotours" target="_blank"
-										title="Follow us on Facebook" class="social-icons-background facebook"><img
-											src="{{asset('frontend/wp-content/themes/dt-the7-child/assets/social-facebook-white.png')}}" /></a></span><span
-									class="social-icons-item"><a href="https://instagram.com/xotours/" target="_blank"
-										title="Follow us on Instagram" class="social-icons-background instagram"><img
-											src="{{asset('frontend/wp-content/themes/dt-the7-child/assets/social-instagram-white.png')}}" /></a></span><span
-									class="social-icons-item"><a href="https://twitter.com/XOTours" target="_blank"
-										title="Follow us on Twitter" class="social-icons-background twitter"><img
-											src="{{asset('frontend/wp-content/themes/dt-the7-child/assets/social-twitter-white.png')}}" /></a></span><span
-									class="social-icons-item"><a
-										href="https://www.youtube.com/user/odgnut?sub_confirmation=1" target="_blank"
-										title="Follow us on Youtube" class="social-icons-background youtube"><img
-											src="{{asset('frontend/wp-content/themes/dt-the7-child/assets/social-youtube-white.png')}}" /></a></span>
+<footer class="mkdf-page-footer  mkdf-light-footer">
+				<div class="mkdf-footer-top-holder">
+					<div class="mkdf-footer-top-inner mkdf-grid">
+						<div class="mkdf-grid-row mkdf-footer-top-alignment-left">
+							<div class="mkdf-column-content mkdf-grid-col-3">
+								<div id="custom_html-3"
+									class="widget_text widget mkdf-footer-column-1 widget_custom_html">
+									<div class="textwidget custom-html-widget"><a href="index.html"
+											style="max-width: 144px;display: inline-block"><img
+												src="{{asset('frontend/wp-content/uploads/2019/12/logo-footer.png')}}"
+												alt="logo_footer" /></a></div>
+								</div>
 							</div>
-						</div>
-
-
-						<!--                <div class="wf-float-left">-->
-						<!---->
-						<!--					--><!---->
-						<!--                </div>-->
-
-						<!--			-->
-						<!--            <div class="wf-float-right">-->
-
-
-					</div>
-
-				</div><!-- .wf-container-bottom -->
-				<div class="wf-container-bottom_under">
-					<div class="text-center"><span onmouseover="SHFC()" onclick="SHFC()" id="shfc-toggle">Still not sure
-							about booking with XO Tours Saigon? Read on...</span></div>
-					<div id="footer-2" class="edih">
-						<h4>Interested in A Different Kind of Adventure in Vietnam?</h4>
-						<p>XO Tours offers unique Saigon food tours and city tours led by women. Guests ride pillion on
-							the back of our motorbikes driven by highly trained, fully licensed, English speaking,
-							female tour guides wearing traditional Vietnamese Ao Dai. Our specially trained guides will
-							show you the real Vietnam food of Saigon and historical side of Vietnam that most other tour
-							companies cannot! We believe that in order to see, smell and experience the<strong> real
-								Vietnam</strong>, you must do it from the back of a motorbike not inside a car or bus!
-						</p>
-						<h4>What kind of tours do you offer?</h4>
-						<p>We currently offer 3 different adventure tours led by women on the back of motorbikes in Ho
-							Chi Minh City.</p>
-						<ol>
-							<li><strong><a href="tours/ho-chi-minh-city-tours.html">The Sights of Saigon</a> </strong>–
-								a fun sightseeing tour of both old and new Saigon; offering a good mixture of major
-								attractions and lesser-known sites.</li>
-							<li><strong><a href="tours/things-to-do-in-saigon-at-night.html">Saigon By
-										Night</a></strong> – This exhilarating scooter tour is one of the most fun
-								things to do in Saigon at night; combining delicious street food with a tour through 4
-								unique districts.</li>
-							<li><a href="tours/vietnam-food-tour.html"><strong>The XO Foodie</strong></a> – A
-								gastronomic adventure that will both excite you and fill up your belly! You&#8217;ll be
-								able to eat and drink without limitation (yes, unlimited servings of food and beer!)This
-								is our most popular tour of Saigon food and the most acclaimed Saigon food tour in
-								Vietnam!</li>
-						</ol>
-						<h4>Why are your tours led by women?</h4>
-						<p>Because we believe that Vietnamese women are the safest drivers in the country! Not only
-							that, we feel that the women in Vietnam are some of the hardest working but yet most
-							underappreciated in the world! Most of the street vendors in Vietnam are women and many of
-							these women work from 4 am until midnight every single day! <strong>Women are involved in
-								all aspects of Vietnamese life</strong>, from doing the daily shopping at the markets,
-							to running the household and even the family business! They are also responsible for serving
-							up most of the delicious Vietnamese Food found in the country! In our opinion, the best way
-							to learn about Vietnamese life is to talk to a Vietnamese woman!</p>
-						<h4>I&#8217;ve read the reviews on Tripadvisor already but what makes your tours different?</h4>
-						<ol>
-							<li>XO Tours focus on Vietnamese people, the culture and the amazing Vietnamese Food! Each
-								of our tours is designed to offer you a peek into the living, working and eating habits
-								of locals. These are meant to be immersive so not only will you get to see parts of the
-								city most tourists don&#8217;t get to see, you will often find yourselves sitting among
-								the locals and eating where only locals do!</li>
-							<li>We care about your safety! Of the many tours in Saigon, we are the only to include
-								accident insurance with all our tours! When you book with us, you are automatically
-								covered for up to $10,000 per person/per tour for any injuries that you sustain while
-								riding on our motorbikes.</li>
-							<li>Our employees are highly trained. All our employees work full time and are fully focused
-								on providing the best service. Unlike other tour operators, we do not hire student
-								drivers. To us, it&#8217;s not worth risking your safety to save a few dollars. Our
-								guides also have the ability to communicate fluently in English and can explain how to
-								make all the dishes you eat and have a high understanding of Vietnamese Food!</li>
-							<li>We go the extra distance to make your tours memorable! We take pictures of the entire
-								journey and email them to you later for no extra cost! For a small additional fee, we
-								also offer high definition video cameras which we can use to film and edit them to
-								create a fun memento of your adventure in Vietnam!</li>
-						</ol>
-						<p><span style="font-size: 8pt;">
-								<div class="wrap-html-sitemap sp-html-sitemap">
-									<div class="sp-wrap-cpt">
-										<h2 class="sp-cpt-name">Pages</h2>
-										<ul class="sp-list-posts sp-cpt-hierarchical">
-											<li class="page_item page-item-9"><a href="index.html">XO Tours Saigon</a>
-												<ul class='children'>
-													<li class="page_item page-item-11"><a
-															href="tours/ho-chi-minh-city-tours.html">The Sights Of
-															Saigon</a></li>
-													<li class="page_item page-item-13"><a
-															href="tours/vietnam-food-tour.html">The XO Foodie Tour
-															&#8211; Voted top 9 food tours in the world!</a></li>
-													<li class="page_item page-item-15"><a
-															href="tours/things-to-do-in-saigon-at-night.html">Saigon by
-															Night</a></li>
-													<li class="page_item page-item-17"><a
-															href="tours/saigon-photography-tour.html">Saigon Through The
-															Lens</a></li>
-												</ul>
-											</li>
-											<li class="page_item page-item-786"><a href="photos.html">Photo Gallery</a>
-											</li>
-											<li class="page_item page-item-293"><a href="gallery.html">Gallery</a></li>
-											<li class="page_item page-item-296"><a href="faq.html">FAQ</a></li>
-											<li class="page_item page-item-809"><a href="video-clips.html">Video
-													clips</a></li>
-											<li class="page_item page-item-299"><a href="contact.html">Contact</a></li>
-											<li class="page_item page-item-302"><a href="about-us.html">About</a></li>
-											<li class="page_item page-item-492"><a href="insurance.html">Insurance</a>
-											</li>
-										</ul>
+							<div class="mkdf-column-content mkdf-grid-col-9">
+								<div id="custom_html-2"
+									class="widget_text widget mkdf-footer-column-2 widget_custom_html">
+									<div class="textwidget custom-html-widget">
+										<div class="mkdf-section-title-holder   mkdf-st-highlight"
+											style="margin-top:15px">
+											<div class="mkdf-st-inner">
+												<p class="mkdf-st-text mkdf-text-highlight"
+													style="font-family: Crimson text;font-style: italic;font-size: 25px;line-height: 30px;font-weight: 400;">
+													Based in Utah, USA, Wanderland is a blog by Markus <span
+														class="mkdf-st-highlight-title-holder" style="color: #ecebe1">
+														<span class="mkdf-st-highlight-title"
+															style="color: #59815b">Thompson.</span>
+														<span class="mkdf-st-highlight">
+															<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+																xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+																y="0px" viewbox="0 0 15.7 30"
+																style="enable-background:new 0 0 15.7 30;"
+																xml:space="preserve" class="mkdf-active-hover-left">
+																<polygon class="st0"
+																	points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 ">
+																</polygon>
+															</svg>
+															<span class="mkdf-active-hover-middle"></span>
+															<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+																xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+																y="0px" viewbox="0 0 13.3 30"
+																style="enable-background:new 0 0 13.3 30;"
+																xml:space="preserve" class="mkdf-active-hover-right">
+																<polygon class="st0"
+																	points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 ">
+																</polygon>
+															</svg>
+														</span>
+													</span> His posts <br />explore outdoor experiences through photos
+													and diaries with tips &amp; tricks.
+												</p>
+											</div>
+										</div>
 									</div>
 								</div>
-							</span></p>
+							</div>
+						</div>
 					</div>
-					<script
-						type="text/javascript">var shfc = false; function SHFC() { if (shfc) { document.getElementById("footer-2").style.display = "block"; document.getElementById("shfc-toggle").innerHTML = "Hide content"; shfc = false; } else { document.getElementById("footer-2").style.display = "none"; document.getElementById("shfc-toggle").innerHTML = "Still not sure about booking with XO Tours Saigon? Read on..."; shfc = true; } }; SHFC();</script>
 				</div>
-			</div>
-	</div><!-- .wf-wrap -->
-	</div><!-- #bottom-bar -->
-	</footer><!-- #footer -->
+				<div class="mkdf-footer-middle-holder">
+					<div class="mkdf-footer-middle-inner mkdf-grid">
+						<div class="mkdf-grid-row mkdf-footer-middle-alignment-left">
+							<div class="mkdf-column-content mkdf-grid-col-3">
+								<div id="text-4" class="widget mkdf-footer-column-1 widget_text">
+									<div class="mkdf-widget-title-holder">
+										<h6 class="mkdf-widget-title">About the blog</h6>
+									</div>
+									<div class="textwidget">
+										<p style="line-height: 23px; max-width: 90%;">Lorem ipsum dolor sit amet, conse
+											ctetur adipisicing elit, sed do eiusmod mas.</p>
+									</div>
+								</div>
+							</div>
+							<div class="mkdf-column-content mkdf-grid-col-3">
+								<div class="widget mkdf-contact-form-7-widget ">
+									<div class="mkdf-widget-title-holder">
+										<h6 class="mkdf-widget-title">Subscribe to newsletter</h6>
+									</div>
+									<div class="wpcf7 no-js" id="wpcf7-f174-o2" lang="en-US" dir="ltr">
+										<div class="screen-reader-response">
+											<p role="status" aria-live="polite" aria-atomic="true"></p>
+											<ul></ul>
+										</div>
+										<form action="https://wanderland.qodeinteractive.com/#wpcf7-f174-o2"
+											method="post" class="wpcf7-form init demo" aria-label="Contact form"
+											novalidate="novalidate" data-status="init">
+											<div style="display: none;">
+												<input type="hidden" name="_wpcf7" value="174" />
+												<input type="hidden" name="_wpcf7_version" value="5.9.2" />
+												<input type="hidden" name="_wpcf7_locale" value="en_US" />
+												<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f174-o2" />
+												<input type="hidden" name="_wpcf7_container_post" value="0" />
+												<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+											</div>
+											<div class="custom-footer-newsletter"><span class="wpcf7-form-control-wrap"
+													data-name="your-name"><input size="40"
+														class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+														aria-required="true" aria-invalid="false"
+														placeholder="Your name..." value="" type="text"
+														name="your-name" /></span><span class="wpcf7-form-control-wrap"
+													data-name="your-email"><input size="40"
+														class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+														aria-required="true" aria-invalid="false"
+														placeholder="Your e-mail..." value="" type="email"
+														name="your-email" /></span><button
+													class="wpcf7-form-control wpcf7-submit mkdf-btn-custom-hover-color mkdf-btn-custom-hover-bg mkdf-btn-custom-border-hover mkdf-btn mkdf-btn-medium mkdf-btn-solid"
+													type="submit"><span class="mkdf-btn-text">subscribe</span></button>
+											</div>
+											<div class="wpcf7-response-output" aria-hidden="true"></div>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="mkdf-column-content mkdf-grid-col-3">
+								<div class="widget mkdf-blog-list-widget">
+									<div class="mkdf-widget-title-holder">
+										<h6 class="mkdf-widget-title" style="margin-bottom: 16px">Recent news</h6>
+									</div>
+									<div class="mkdf-blog-list-holder mkdf-grid-list mkdf-bl-minimal mkdf-one-columns mkdf-disable-bottom-space mkdf-normal-space mkdf-bl-pag-no-pagination "
+										data-type=minimal data-number-of-posts=3 data-number-of-columns=one
+										data-space-between-items=normal data-category=visiting data-orderby=date
+										data-order=ASC data-image-size=thumbnail data-title-tag=p data-excerpt-length=0
+										data-post-info-section=yes data-post-info-image=yes data-post-info-author=no
+										data-post-info-date=yes data-post-info-category=yes data-post-info-comments=no
+										data-post-info-like=no data-post-info-share=no
+										data-pagination-type=no-pagination data-max-num-pages=1 data-next-page=2>
+										<div class="mkdf-bl-wrapper mkdf-outer-space">
+											<ul class="mkdf-blog-list">
+												<li class="mkdf-bl-item mkdf-item-space clearfix">
+													<div class="mkdf-bli-inner">
+														<div class="mkdf-bli-content">
+															<div itemprop="dateCreated"
+																class="mkdf-post-info-date entry-date published updated">
+																<span aria-hidden="true"
+																	class="mkdf-icon-font-elegant icon_calendar "></span>
+																<a itemprop="url" href="2019/10/index.html">
+																	October 2, 2019 </a>
+																<meta itemprop="interactionCount"
+																	content="UserComments: 0" />
+															</div>
+															<p itemprop="name" class="entry-title mkdf-post-title">
+																<a itemprop="url" href="trip-to-iceland/index.html"
+																	title="Trip to Iceland">
+																	Trip to Iceland </a>
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="mkdf-bl-item mkdf-item-space clearfix">
+													<div class="mkdf-bli-inner">
+														<div class="mkdf-bli-content">
+															<div itemprop="dateCreated"
+																class="mkdf-post-info-date entry-date published updated">
+																<span aria-hidden="true"
+																	class="mkdf-icon-font-elegant icon_calendar "></span>
+																<a itemprop="url" href="2019/10/index.html">
+																	October 2, 2019 </a>
+																<meta itemprop="interactionCount"
+																	content="UserComments: 0" />
+															</div>
+															<p itemprop="name" class="entry-title mkdf-post-title">
+																<a itemprop="url"
+																	href="on-the-shores-of-a-vanishing-island-in-india-2/index.html"
+																	title="On the Shores of a Vanishing Island in India">
+																	On the Shores of a Vanishing Island in India </a>
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="mkdf-bl-item mkdf-item-space clearfix">
+													<div class="mkdf-bli-inner">
+														<div class="mkdf-bli-content">
+															<div itemprop="dateCreated"
+																class="mkdf-post-info-date entry-date published updated">
+																<span aria-hidden="true"
+																	class="mkdf-icon-font-elegant icon_calendar "></span>
+																<a itemprop="url" href="2019/10/index.html">
+																	October 2, 2019 </a>
+																<meta itemprop="interactionCount"
+																	content="UserComments: 0" />
+															</div>
+															<p itemprop="name" class="entry-title mkdf-post-title">
+																<a itemprop="url" href="visiting-rabat/index.html"
+																	title="Visiting Rabat">
+																	Visiting Rabat </a>
+															</p>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="mkdf-column-content mkdf-grid-col-3">
+								<div id="mkdf_instagram_widget-3"
+									class="widget mkdf-footer-column-4 widget_mkdf_instagram_widget">
+									<div class="mkdf-widget-title-holder">
+										<h6 class="mkdf-widget-title">Instagram feed</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mkdf-footer-bottom-holder">
+					<div class="mkdf-footer-bottom-inner mkdf-grid">
+						<div class="mkdf-grid-row ">
+							<div class="mkdf-grid-col-6">
+								<div class="widget mkdf-social-icons-group-widget mkdf-light-skin text-align-left">
+									<div class="mkdf-widget-title-holder">
+										<h6 class="mkdf-widget-title">Socials</h6>
+									</div> <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+										href="https://www.instagram.com/qodeinteractive/" target="_blank">
+										<span class="mkdf-social-icon-widget ion-social-instagram"></span> </a>
+									<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+										href="https://twitter.com/qodeinteractive/" target="_blank">
+										<span class="mkdf-social-icon-widget ion-social-twitter"></span> </a>
+									<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+										href="https://www.facebook.com/QodeInteractive/" target="_blank">
+										<span class="mkdf-social-icon-widget ion-social-facebook"></span> </a>
+									<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+										href="https://www.youtube.com/QodeInteractiveVideos" target="_blank">
+										<span class="mkdf-social-icon-widget ion-social-youtube"></span> </a>
+								</div>
+							</div>
+							<div class="mkdf-grid-col-6">
+								<div id="text-5" class="widget mkdf-footer-bottom-column-2 widget_text">
+									<div class="textwidget">
+										<p>© 2020 <a href="https://qodeinteractive.com/">Qode Interactive</a><span
+												style="color: #999999;">, All Rights Reserved</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>

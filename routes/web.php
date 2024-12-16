@@ -70,5 +70,10 @@ Route::group(['prefix' => 'user', 'middleware' => AuthenticateMiddleware::class]
 
 
 Route::get('/', [App\Http\Controllers\Frontend\UserController::class,'index'])->name('index');
+Route::get('/about', [App\Http\Controllers\Frontend\AboutUsController::class,'index'])->name('about');
+Route::get('/gallery', [App\Http\Controllers\Frontend\GalleryController::class,'index'])->name('gallery');
+Route::get('/booking', [App\Http\Controllers\Frontend\BookingController::class,'index'])->name('booking');
+Route::get('/FAQ', [App\Http\Controllers\Frontend\FAQController::class,'index'])->name('FAQ');
+Route::get('/blog', [App\Http\Controllers\Frontend\BlogController::class,'index'])->name('blog');
 
 

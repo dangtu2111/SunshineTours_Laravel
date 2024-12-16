@@ -16,9 +16,9 @@ use App\Http\Middleware\AuthenticateMiddleware;
 Route::get('/loginAdmin', [AuthController::class,'index'])->name('auth.admin');
 Route::get('/logoutAdmin', [AuthController::class,'logout'])->name('auth.logout');
 Route::post('/authAdmin', [AuthController::class,'login'])->name('auth.login');
-Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
-    \UniSharp\LaravelFilemanager\Lfm::routes();
-});
+// Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
+//     \UniSharp\LaravelFilemanager\Lfm::routes();
+// });
 Route::group(['prefix' => 'admin', 'middleware' => AuthenticateMiddleware::class], function() {
     Route::get('/', [HomeController::class, 'index'])->name('admin.home');
     

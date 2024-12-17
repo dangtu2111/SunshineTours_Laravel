@@ -57,7 +57,7 @@ class BookingController extends Controller
         // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
         return view('frontend.layout.layout', compact('template','config'));
     }
-    public function oder(){
+    public function orrder(){
       
         $config = [
             "css"=>[
@@ -79,7 +79,7 @@ class BookingController extends Controller
             ]
             ];
         // Đặt tên template cho view
-        $template = 'frontend.booking.oder';
+        $template = 'frontend.booking.order';
 
         // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
         return view('frontend.layout.layout', compact('template','config'));

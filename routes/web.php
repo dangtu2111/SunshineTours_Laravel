@@ -48,5 +48,7 @@ Route::get('/gallery', [App\Http\Controllers\Frontend\GalleryController::class,'
 Route::get('/booking', [App\Http\Controllers\Frontend\BookingController::class,'index'])->name('booking');
 Route::get('/FAQ', [App\Http\Controllers\Frontend\FAQController::class,'index'])->name('FAQ');
 Route::get('/blog', [App\Http\Controllers\Frontend\BlogController::class,'index'])->name('blog');
+Route::get('/booking/tour_detail', [App\Http\Controllers\Frontend\BookingController::class,'tour_detail'])->name('tour_detail');
+Route::get('/booking/oder', [App\Http\Controllers\Frontend\BookingController::class,'oder'])->name('tour_detail');
 
 

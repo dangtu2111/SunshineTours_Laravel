@@ -29,8 +29,8 @@
 	href='{{asset("frontend/wp-includes/css/dist/block-library/style.min75e4.css?ver=6.4.5")}}' type='text/css' media='all' />
 
 <link id='global-styles-inline-css' type='text/css' rel='stylesheet' href="{{asset('frontend/css/global-styles-inline.css')}}">
-<link rel='stylesheet' id='titan-adminbar-styles-css'
-	href='{{asset("frontend/wp-content/plugins/anti-spam/assets/css/admin-bara927.css?ver=7.3.5")}}' type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='titan-adminbar-styles-css'
+	href='{{asset("frontend/wp-content/plugins/anti-spam/assets/css/admin-bara927.css?ver=7.3.5")}}' type='text/css' media='all' /> -->
 <link rel='stylesheet' id='contact-form-7-css'
 	href='{{asset("frontend/wp-content/plugins/contact-form-7/includes/css/styles6dcf.css?ver=5.9.2")}}' type='text/css' media='all' />
 <link rel='stylesheet' id='rabbit_css-css'
@@ -200,11 +200,6 @@
 </script>
 
 
-<meta name="generator"
-	content="Elementor 3.20.1; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
-<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-<meta name="generator"
-	content="Powered by Slider Revolution 6.6.20 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 <link rel="icon" href="{{asset('frontend/wp-content/uploads/2019/12/cropped-favicon-img-32x32.jpg')}}" sizes="32x32" />
 <link rel="icon" href="{{asset('frontend/wp-content/uploads/2019/12/cropped-favicon-img-192x192.jpg')}}" sizes="192x192" />
 <link rel="apple-touch-icon" href="{{asset('frontend/wp-content/uploads/2019/12/cropped-favicon-img-180x180.jpg')}}" />

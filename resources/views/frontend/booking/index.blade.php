@@ -178,9 +178,9 @@
                                 </div>
                             </div>
                             <div class="container py-4">
-                                <div class="row g-4">
+                                <div class="row g-4 d-flex justify-content-center">
                                     <!-- Card 1 -->
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-lg-3 ">
                                         <div class="card border-0 shadow-sm">
                                             <img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
                                             <div class="card-body">
@@ -223,7 +223,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-lg-3 col-md-4">
                                         <div class="card border-0 shadow-sm">
                                             <img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
                                             <div class="card-body">
@@ -266,7 +266,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-lg-3 col-md-4">
                                         <div class="card border-0 shadow-sm">
                                             <img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
                                             <div class="card-body">

@@ -4,6 +4,15 @@
         display: block;
     }
 }
+.note {
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px 12px;
+    color: #495057;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
 .bg-image-over {
     z-index: 50;
 }

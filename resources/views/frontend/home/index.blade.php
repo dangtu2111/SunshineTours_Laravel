@@ -43,7 +43,7 @@
 											<!-- START Main home REVOLUTION SLIDER 6.6.20 -->
 											<p class="rs-p-wp-fix"></p>
 											@php
-												$url=asset('frontend/wp-content/uploads/2019/11/h1-rev-slide1-bckg.jpg');
+											$url=asset('frontend/wp-content/uploads/2019/11/h1-rev-slide1-bckg.jpg');
 											@endphp
 											<rs-module-wrap id="rev_slider_12_1_wrapper" data-source="gallery"
 												style="
@@ -73,11 +73,7 @@
 																data-rsp_o="off" data-rsp_bd="off" data-frame_0="y:50;"
 																data-frame_1="st:450;sp:1000;"
 																data-frame_999="o:0;st:w;sR:7200;"
-																style="z-index:8;font-family:'Muli';">Lorem
-																ipsum dolor sit amet, consectetur
-																adipisicing elit, sed do eiusmod tempor
-																incididu nt ut labore et dolore magna
-																aliqua.
+																style="z-index:8;font-family:'Muli';">Welcome to the dynamic city where light, creativity and opportunity converge. Discover the modern beauty and unique culture of Ho Chi Minh!
 															</rs-layer><!--
 
 				--><rs-layer id="slider-12-slide-23-layer-4" data-type="text" data-xy="x:c;y:m;yo:104px,104px,104px,152px;"
@@ -168,8 +164,7 @@
 																data-rsp_bd="off" data-frame_0="y:50;"
 																data-frame_1="st:300;sp:1000;"
 																data-frame_999="o:0;st:w;"
-																style="z-index:10;font-family:'Oswald';text-transform:uppercase;">Everyday
-																urban concrete jungle
+																style="z-index:10;font-family:'Oswald';text-transform:uppercase;">Welcome to SunShine Ho Chi Minh
 															</a><!--
 
 				--><rs-layer id="slider-12-slide-23-layer-14" data-type="text"
@@ -213,11 +208,7 @@
 																data-rsp_o="off" data-rsp_bd="off" data-frame_0="y:50;"
 																data-frame_1="st:450;sp:1000;"
 																data-frame_999="o:0;st:w;sR:7200;"
-																style="z-index:8;font-family:'Muli';">Lorem
-																ipsum dolor sit amet, consectetur
-																adipisicing elit, sed do eiusmod tempor
-																incididu nt ut labore et dolore magna
-																aliqua.
+																style="z-index:8;font-family:'Muli';">Explore the rich culinary journey of Vietnam, where each dish tells a story full of colour, flavour and tradition. Experience the amazing diversity from street food to unique specialties!
 															</rs-layer><!--
 
 				--><rs-layer id="slider-12-slide-32-layer-4" data-type="text" data-xy="x:c;y:m;yo:104px,104px,104px,168px;"
@@ -294,8 +285,7 @@
 																data-rsp_bd="off" data-frame_0="y:50;"
 																data-frame_1="st:300;sp:1000;"
 																data-frame_999="o:0;st:w;"
-																style="z-index:10;font-family:'Oswald';text-transform:uppercase;">Amazon
-																Rainforest Experience
+																style="z-index:10;font-family:'Oswald';text-transform:uppercase;">Vietnam's culinary adventure.
 															</a><!--
 
 				--><rs-layer id="slider-12-slide-32-layer-14" data-type="text"
@@ -338,11 +328,7 @@
 																data-rsp_o="off" data-rsp_bd="off" data-frame_0="y:50;"
 																data-frame_1="st:450;sp:1000;"
 																data-frame_999="o:0;st:w;sR:7200;"
-																style="z-index:8;font-family:'Muli';">Lorem
-																ipsum dolor sit amet, consectetur
-																adipisicing elit, sed do eiusmod tempor
-																incididu nt ut labore et dolore magna
-																aliqua.
+																style="z-index:8;font-family:'Muli';">Every step is an exciting challenge and every moment brings surprises. Be ready to face new opportunities, explore the unseen and push all limits!
 															</rs-layer><!--
 
 				--><rs-layer id="slider-12-slide-33-layer-4" data-type="text" data-xy="x:c;y:m;yo:104px,104px,104px,149px;"
@@ -419,8 +405,7 @@
 																data-rsp_bd="off" data-frame_0="y:50;"
 																data-frame_1="st:300;sp:1000;"
 																data-frame_999="o:0;st:w;"
-																style="z-index:10;font-family:'Oswald';text-transform:uppercase;">CLIMBING
-																IN THE SWISS ALPS
+																style="z-index:10;font-family:'Oswald';text-transform:uppercase;">Exciting challenges and full of surprises
 															</a><!--
 
 				--><rs-layer id="slider-12-slide-33-layer-14" data-type="text"
@@ -451,7 +436,7 @@
 												</rs-module>
 												<script data-cfasync="false"
 													src="{{asset('frontend/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js')}}"></script>
-												
+
 											</rs-module-wrap>
 											<!-- END REVOLUTION SLIDER -->
 										</div>
@@ -475,7 +460,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="mkdf-row-grid-section-wrapper ">
+							<!-- <div class="mkdf-row-grid-section-wrapper ">
 								<div class="mkdf-row-grid-section">
 									<div class="vc_row wpb_row vc_row-fluid">
 										<div class="wpb_column vc_column_container vc_col-sm-12">
@@ -590,7 +575,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 							<div class="vc_row wpb_row vc_row-fluid vc_custom_1572593905416 vc_row-has-fill">
 								<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0">
 									<div class="vc_column-inner">
@@ -1906,11 +1891,11 @@
 																	<span class="mkdf-st-tagline">Lorem
 																		ipsum dolor</span>
 																	<h2 class="mkdf-st-title">
-																		Travel essentials <span
+																	Customer <span
 																			class="mkdf-st-highlight-title-holder"
 																			style="color: #ffffff">
 																			<span class="mkdf-st-highlight-title"
-																				style="color: #59815b">items</span>
+																				style="color: #59815b"> Feedback </span>
 																			<span class="mkdf-st-highlight">
 																				<svg version="1.1"
 																					xmlns="http://www.w3.org/2000/svg"
@@ -1944,7 +1929,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="mkdf-row-grid-section-wrapper ">
+											<!-- <div class="mkdf-row-grid-section-wrapper ">
 												<div class="mkdf-row-grid-section">
 													<div class="vc_row wpb_row vc_inner vc_row-fluid">
 														<div class="wpb_column vc_column_container vc_col-sm-12">
@@ -2313,7 +2298,7 @@
 														</div>
 													</div>
 												</div>
-											</div>
+											</div> -->
 										</div>
 									</div>
 								</div>

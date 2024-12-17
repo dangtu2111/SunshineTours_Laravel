@@ -101,7 +101,7 @@
                                           >
                                             <div class="mkdf-st-inner">
                                               <h3 class="mkdf-st-title">
-                                                Find Answers
+                                              Ho Chi Minh City (Saigon) FAQ
                                               </h3>
                                               <p
                                                 class="mkdf-st-text"
@@ -110,11 +110,7 @@
                                                   line-height: 26px;
                                                 "
                                               >
-                                                Lorem ipsum dolor sit amet,
-                                                consectetur adipisic ing elit,
-                                                sed do eiusmod tempor incididu
-                                                nt ut labore et dolore magna
-                                                aliqu.
+                                              Everyone has their first time. Equip yourself with the necessary knowledge.
                                               </p>
                                             </div>
                                           </div>
@@ -253,8 +249,7 @@
                                                             </svg>
                                                           </span>
                                                         </span>
-                                                        How to start preparing
-                                                        for a travelers life
+                                                        What does XO stand for?
                                                       </h5>
                                                       <p
                                                         class="mkdf-st-text"
@@ -263,24 +258,10 @@
                                                           line-height: 26px;
                                                         "
                                                       >
-                                                        Lorem ipsum dolor sit
-                                                        amet, consectetur
-                                                        adipisic ing elit, sed
-                                                        do eiusmod tempor
-                                                        incididu nt ut labore et
-                                                        dolore magna aliqua. Ut
-                                                        enim ad minim veniam,
-                                                        quis nostrud exerc
-                                                        itation ullamco laboris
-                                                        nisi. Ut aliquip ex ea
-                                                        commodo consequat. Duis
-                                                        aute irure dolr.
-                                                        Inreprehen derit. in
-                                                        voluptate velit esse
-                                                        cillum dolore. Eu fugiat
-                                                        nulla pariatur dolore
-                                                        magna.
+                                                      X.O. is short for “xe om”, which are motorbike taxis in Vietnam. Our xe oms are very unique however because all our drivers are women who wear beautiful Vietnamese dresses and can speak fluent English!
                                                       </p>
+                                                      <p>Here is a link to a fun Youtube video explaining “What is XO”? – <a href="https://www.youtube.com/watch?v=-BY9B6jnpP8 ">https://www.youtube.com/watch?v=-BY9B6jnpP8 </a></p>
+                                            
                                                     </div>
                                                   </div>
                                                   <div
@@ -353,8 +334,7 @@
                                                             </svg>
                                                           </span>
                                                         </span>
-                                                        keeping consistency in
-                                                        your blog posts
+                                                        Do you offer your tours in any other city in Vietnam besides Ho Chi Minh City?
                                                       </h5>
                                                       <p
                                                         class="mkdf-st-text"
@@ -363,30 +343,7 @@
                                                           line-height: 26px;
                                                         "
                                                       >
-                                                        Lorem ipsum dolor sit
-                                                        amet, consectetur
-                                                        adipisic ing elit, sed
-                                                        do eiusmod tempor
-                                                        incididu nt ut labore et
-                                                        dolore magna aliqua.Ut
-                                                        enim ad minim veniam,
-                                                        quis nostrud exerc
-                                                        itation ullamco laboris
-                                                        nisi.ut aliquip ex ea
-                                                        commodo. Duis aute irure
-                                                        dolr. Inreprehen derit.
-                                                        Duis aute irure dolr.
-                                                        Inreprehen derit. in
-                                                        voluptate velit esse
-                                                        cillum dolore. Eu fugiat
-                                                        nulla pariatur. Excep
-                                                        teur sint occaecat non
-                                                        proident, sunt in culpa
-                                                        qui officia deserunt
-                                                        mollit anim id est
-                                                        laborum. Sed ut persp
-                                                        iciatis unde omnis iste
-                                                        natus error sit.
+                                                      No. We currently only offer our tours in Ho Chi Minh City. There are many unreputable tour companies that have tried to make a quick profit by using our name and reputation however, so please beware of these copycats. These tour companies are very poorly managed and are not safe in our opinion. If you are not booking a tour with us through “xotours.vn” then you are not going with the real XO Tours.
                                                       </p>
                                                     </div>
                                                   </div>
@@ -460,8 +417,7 @@
                                                             </svg>
                                                           </span>
                                                         </span>
-                                                        Getting a bang for your
-                                                        buck every time
+                                                        Do you offer your tours in any other language other than English?
                                                       </h5>
                                                       <p
                                                         class="mkdf-st-text"
@@ -470,23 +426,9 @@
                                                           line-height: 26px;
                                                         "
                                                       >
-                                                        Lorem ipsum dolor sit
-                                                        amet, consectetur
-                                                        adipisic ing elit, sed
-                                                        do eiusmod tempor
-                                                        incididu nt ut labore et
-                                                        dolore magna aliqua. Ut
-                                                        enim ad minim veniam,
-                                                        quis nostrud exerc
-                                                        itation ullamco laboris
-                                                        nisi. Ut aliquip ex ea
-                                                        commodo consequat. Duis
-                                                        aute irure dolr.
-                                                        Inreprehen derit. in
-                                                        voluptate velit esse
-                                                        cillum dolore. Eu fugiat
-                                                        nulla pariatur dolore
-                                                        magna.
+                                                      All our tours are by default offered in ENGLISH however we also provide an option to book a Chinese (Mandarin) OR Korean translator on our evening tours (for an additional fee) if you book for a minimum of 4 pax or you book a Private tour (minimum 2 pax). We require 24 hours notice to arrange a Chinese or Korean Translator.
+
+                                                      <a href="https://www.instagram.com/reel/C-UcFuIv6CB/">https://www.instagram.com/reel/C-UcFuIv6CB/</a>
                                                       </p>
                                                     </div>
                                                   </div>

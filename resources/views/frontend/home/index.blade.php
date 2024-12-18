@@ -1423,7 +1423,7 @@
 															<div class="vc_column-inner">
 																<div class="wpb_wrapper">
 																	<div class="mkdf-blog-slider-holder mkdf-bs-slider">
-																		<ul  class="px-sm-3 mkdf-blog-slider mkdf-owl-slider"
+																		<ul  class="px-3 mkdf-blog-slider mkdf-owl-slider"
 																			data-number-of-items="3"
 																			data-slider-margin="22"
 																			data-enable-pagination="no">

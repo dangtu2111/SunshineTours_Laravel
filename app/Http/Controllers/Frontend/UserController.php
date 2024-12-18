@@ -15,8 +15,13 @@ class UserController extends Controller
     public function index(){
         // Đặt tên template cho view
         $template = 'frontend.home.index';
+        $config=[
+            'css'=>[
+                'frontend/css/booking.css',
+            ]
+            ];
 
         // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
-        return view('frontend.layout.layout', compact('template'));
+        return view('frontend.layout.layout', compact('template','config'));
     }
 }

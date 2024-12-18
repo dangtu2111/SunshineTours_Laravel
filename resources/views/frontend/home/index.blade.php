@@ -1,3 +1,5 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <a id='mkdf-back-to-top' href='#'>
 	<span class="mkdf-icon-stack">
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -43,7 +45,7 @@
 											<!-- START Main home REVOLUTION SLIDER 6.6.20 -->
 											<p class="rs-p-wp-fix"></p>
 											@php
-											$url=asset('frontend/wp-content/uploads/2019/11/h1-rev-slide1-bckg.jpg');
+											$url=asset('frontend/img/background_nhatho.jpg');
 											@endphp
 											<rs-module-wrap id="rev_slider_12_1_wrapper" data-source="gallery"
 												style="
@@ -63,7 +65,7 @@
 																src="{{asset('frontend/wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
 																alt="a" title="h1-rev-slide1-bckg" width="1920"
 																height="882" class="rev-slidebg tp-rs-img rs-lazyload"
-																data-lazyload="{{asset('frontend/wp-content/uploads/2019/11/h1-rev-slide1-bckg.jpg')}}"
+																data-lazyload="{{asset('frontend/img/background_nhatho.jpg')}}"
 																data-no-retina>
 															<!--
 				--><rs-layer id="slider-12-slide-23-layer-1" data-type="text" data-color="#fff"
@@ -192,13 +194,13 @@
 --> </rs-slide>
 														<rs-slide style="position: absolute;" data-key="rs-32"
 															data-title="Slide"
-															data-thumb="//wanderland.qodeinteractive.com/wp-content/uploads/2019/11/h1-rev-slide2-bckg-50x100.jpg"
+															data-thumb="{{asset('frontend/img/background_lanmark.jpg')}}"
 															data-anim="ms:1000;r:0;" data-in="o:0;" data-out="a:false;">
 															<img loading="lazy" decoding="async"
-																src="{{asset('frontend/wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
+																src="{{asset('frontend/img/background_lanmark.jpg')}}"
 																alt="a" title="h1-rev-slide2-bckg" width="1920"
 																height="882" class="rev-slidebg tp-rs-img rs-lazyload"
-																data-lazyload="//wanderland.qodeinteractive.com/wp-content/uploads/2019/11/h1-rev-slide2-bckg.jpg"
+																data-lazyload="{{asset('frontend/img/background_lanmark.jpg')}}"
 																data-no-retina>
 															<!--
 				--><rs-layer id="slider-12-slide-32-layer-1" data-type="text" data-color="#fff"
@@ -312,13 +314,13 @@
 --> </rs-slide>
 														<rs-slide style="position: absolute;" data-key="rs-33"
 															data-title="Slide"
-															data-thumb="//wanderland.qodeinteractive.com/wp-content/uploads/2019/11/h1-rev-slide3-bckg-50x100.jpg"
+															data-thumb="{{asset('frontend/img/background.jpg')}}"
 															data-anim="ms:1000;r:0;" data-in="o:0;" data-out="a:false;">
 															<img loading="lazy" decoding="async"
 																src="{{asset('frontend/wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
 																alt="a" title="h1-rev-slide3-bckg" width="1920"
 																height="882" class="rev-slidebg tp-rs-img rs-lazyload"
-																data-lazyload="//wanderland.qodeinteractive.com/wp-content/uploads/2019/11/h1-rev-slide3-bckg.jpg"
+																data-lazyload="{{asset('frontend/img/background.jpg')}}"
 																data-no-retina>
 															<!--
 				--><rs-layer id="slider-12-slide-33-layer-1" data-type="text" data-color="#fff"
@@ -690,10 +692,10 @@
 																														decoding="async"
 																														width="1300"
 																														height="865"
-																														src="{{asset('frontend/wp-content/uploads/2019/10/blog-post-img-01.jpg')}}"
+																														src="{{asset('frontend/img/4x3/ho-chi-minh-city.jpg')}}"
 																														class="attachment-full size-full wp-post-image"
 																														alt="s"
-																														srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-01.jpg 1300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-01-600x399.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-01-300x200.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-01-768x511.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-01-1024x681.jpg 1024w"
+																														srcset="{{asset('frontend/img/4x3/ho-chi-minh-city.jpg')}} 1300w, {{asset('frontend/img/4x3/ho-chi-minh-city.jpg')}} 600w, {{asset('frontend/img/4x3/ho-chi-minh-city.jpg')}} 300w, {{asset('frontend/img/4x3/ho-chi-minh-city.jpg')}} 1024w"
 																														sizes="(max-width: 1300px) 100vw, 1300px" />
 																												</a>
 																											</div>
@@ -956,10 +958,10 @@
 																														decoding="async"
 																														width="1300"
 																														height="865"
-																														src="{{asset('frontend/wp-content/uploads/2019/10/blog-post-img-02.jpg')}}"
+																														src="{{asset('frontend/img/4x3/ho-chi-minh-city-hall.jpg')}}"
 																														class="attachment-full size-full wp-post-image"
 																														alt="s"
-																														srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-02.jpg 1300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-02-600x399.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-02-300x200.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-02-768x511.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-02-1024x681.jpg 1024w"
+																														srcset="{{asset('frontend/img/4x3/ho-chi-minh-city-hall.jpg')}} 1300w, {{asset('frontend/img/4x3/ho-chi-minh-city-hall.jpg')}} 600w, {{asset('frontend/img/4x3/ho-chi-minh-city-hall.jpg')}} 300w, {{asset('frontend/img/4x3/ho-chi-minh-city-hall.jpg')}} 768w, {{asset('frontend/img/4x3/ho-chi-minh-city-hall.jpg')}} 1024w"
 																														sizes="(max-width: 1300px) 100vw, 1300px" />
 																												</a>
 																											</div>
@@ -1362,13 +1364,12 @@
 																								ipsum
 																								dolore</span>
 																							<h2 class="mkdf-st-title">
-																								Featured
-																								blog <span
+																								SunShine <span
 																									class="mkdf-st-highlight-title-holder"
 																									style="color: #f2f1e7">
 																									<span
 																										class="mkdf-st-highlight-title"
-																										style="color: #59815b">posts</span>
+																										style="color: #59815b">Tours</span>
 																									<span
 																										class="mkdf-st-highlight">
 																										<svg version="1.1"
@@ -1426,114 +1427,51 @@
 																			data-number-of-items="3"
 																			data-slider-margin="22"
 																			data-enable-pagination="no">
-																			<li class="mkdf-blog-slider-item">
-																				<div
-																					class="mkdf-blog-slider-item-inner">
-																					<div class="mkdf-item-image">
-																						<a itemprop="url"
-																							href="pre-trip-reading-travel-plans-for-amazon-brazil/index.html">
-																							<img loading="lazy"
-																								decoding="async"
-																								width="1300"
-																								height="1551"
-																								src="{{asset('frontend/wp-content/uploads/2019/10/blog-post-img-03.jpg')}}"
-																								class="attachment-full size-full wp-post-image"
-																								alt="s"
-																								srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-03.jpg 1300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-03-600x716.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-03-251x300.jpg 251w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-03-768x916.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-03-858x1024.jpg 858w"
-																								sizes="(max-width: 1300px) 100vw, 1300px" />
-																						</a>
-																						<div
-																							class="mkdf-post-info-category mkdf-st-highlight">
-																							<a href="category/adventure/index.html"
-																								rel="category tag">Adventure</a>
-																							<span
-																								class="mkdf-st-highlight">
-																								<svg version="1.1"
-																									xmlns="http://www.w3.org/2000/svg"
-																									xmlns:xlink="http://www.w3.org/1999/xlink"
-																									x="0px" y="0px"
-																									viewBox="0 0 15.7 30"
-																									style="enable-background:new 0 0 15.7 30;"
-																									xml:space="preserve"
-																									class="mkdf-active-hover-left">
-																									<polygon class="st0"
-																										points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 " />
-																								</svg> <span
-																									class="mkdf-active-hover-middle"></span>
-																								<svg version="1.1"
-																									xmlns="http://www.w3.org/2000/svg"
-																									xmlns:xlink="http://www.w3.org/1999/xlink"
-																									x="0px" y="0px"
-																									viewBox="0 0 13.3 30"
-																									style="enable-background:new 0 0 13.3 30;"
-																									xml:space="preserve"
-																									class="mkdf-active-hover-right">
-																									<polygon class="st0"
-																										points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 " />
-																								</svg>
-																							</span>
-																						</div>
-																					</div>
-																					<div class="mkdf-item-text-wrapper">
-																						<div
-																							class="mkdf-item-text-holder">
-																							<div
-																								class="mkdf-item-text-holder-inner">
-																								<div
-																									class="mkdf-item-info-section">
-																									<div itemprop="dateCreated"
-																										class="mkdf-post-info-date entry-date published updated">
-																										<span
-																											aria-hidden="true"
-																											class="mkdf-icon-font-elegant icon_calendar "></span>
-																										<a itemprop="url"
-																											href="2019/10/index.html">
-																											October
-																											8,
-																											2019
-																										</a>
-																										<meta
-																											itemprop="interactionCount"
-																											content="UserComments: 0" />
-																									</div>
-																									<div
-																										class="mkdf-post-info-author">
-																										<span
-																											aria-hidden="true"
-																											class="mkdf-icon-font-elegant icon_pencil "></span>
-																										<a itemprop="author"
-																											class="mkdf-post-info-author-link"
-																											href="author/alisa-michaels/index.html">
-																											<span
-																												class="mkdf-post-info-author-text">
-																												by
-																											</span>
-																											Alisa
-																											Michaels
-																										</a>
-																									</div>
-																								</div>
-
-																								<h5 itemprop="name"
-																									class="entry-title mkdf-post-title">
-																									<a itemprop="url"
-																										href="pre-trip-reading-travel-plans-for-amazon-brazil/index.html"
-																										title="Pre-Trip Reading &#038; Travel Plans for Amazon, Brazil">
-																										Pre-Trip
-																										Reading
-																										&#038;
-																										Travel
-																										Plans
-																										for
-																										Amazon,
-																										Brazil
-																									</a>
-																								</h5>
+																			<!-- <li class="mkdf-blog-slider-item">
+																				<div class="mkdf-blog-slider-item-inner">
+																					<div class="card border-0 shadow-sm">
+																						<img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
+																						<div class="card-body">
+																							<h5 class="card-title fw-bold">Explore the castle and ancient village in Karda</h5>
+																							<p class="card-text text-muted" style="
+    font-weight: 400;
+">
+																								<svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+																									<path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+																									<path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+																									<line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+																									<line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+																									<path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+																									<path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+																									<path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+																									<path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+																									<path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+																								</svg> 3 days &nbsp;
+																								<svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+																									<circle cx="16" cy="11" r="4" />
+																									<path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
+																								</svg>3 Destinations
+																							</p>
+																							<p class="mb-2">
+																								<strong>4.9</strong>
+																								<span class="text-warning">★★★★★</span>
+																								<small class="text-muted">(231 reviews)</small>
+																							</p>
+																							<p class="price">
+																								<span class="fs-4 fw-bold text-success">$195.80</span>
+																								<del class="text-muted">$230.00</del>
+																							</p>
+																							<div class="container text-center
+                                                ">
+																								<a href="#" class="btn btn-success ">
+																									Booking Now <i class="fa-solid fa-arrow-right"></i>
+																								</a>
 																							</div>
+
 																						</div>
 																					</div>
 																				</div>
-																			</li>
+																			</li> -->
 																			<li class="mkdf-blog-slider-item">
 																				<div
 																					class="mkdf-blog-slider-item-inner">
@@ -1544,15 +1482,13 @@
 																								decoding="async"
 																								width="1300"
 																								height="1551"
-																								src="{{asset('frontend/wp-content/uploads/2019/10/blog-post-img-04.jpg')}}"
+																								src="{{asset('frontend/img/3x4/tourist.jpg')}}"
 																								class="attachment-full size-full wp-post-image"
-																								alt="s"
-																								srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-04.jpg 1300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-04-600x716.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-04-251x300.jpg 251w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-04-768x916.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-04-858x1024.jpg 858w"
-																								sizes="(max-width: 1300px) 100vw, 1300px" />
+																								alt="s" />
 																						</a>
 																						<div
 																							class="mkdf-post-info-category mkdf-st-highlight">
-																							<a href="category/adventure/index.html"
+																							<a href="{{route('tour_detail')}}"
 																								rel="category tag">Adventure</a>
 																							<span
 																								class="mkdf-st-highlight">
@@ -1647,20 +1583,18 @@
 																					class="mkdf-blog-slider-item-inner">
 																					<div class="mkdf-item-image">
 																						<a itemprop="url"
-																							href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html">
+																							href="the-ultimate-grand-canyon-travel-guide-for-alpinists/index.html">
 																							<img loading="lazy"
 																								decoding="async"
 																								width="1300"
 																								height="1551"
-																								src="{{asset('frontend/wp-content/uploads/2019/10/blog-post-img-05.jpg')}}"
+																								src="{{asset('frontend/img/3x4/smile.jpg')}}"
 																								class="attachment-full size-full wp-post-image"
-																								alt="s"
-																								srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-05.jpg 1300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-05-600x716.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-05-251x300.jpg 251w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-05-768x916.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-05-858x1024.jpg 858w"
-																								sizes="(max-width: 1300px) 100vw, 1300px" />
+																								alt="s" />
 																						</a>
 																						<div
 																							class="mkdf-post-info-category mkdf-st-highlight">
-																							<a href="category/adventure/index.html"
+																							<a href="{{route('tour_detail')}}"
 																								rel="category tag">Adventure</a>
 																							<span
 																								class="mkdf-st-highlight">
@@ -1733,7 +1667,116 @@
 																								<h5 itemprop="name"
 																									class="entry-title mkdf-post-title">
 																									<a itemprop="url"
-																										href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html"
+																										href="the-ultimate-grand-canyon-travel-guide-for-alpinists/index.html"
+																										title="The Ultimate Grand Canyon Travel Guide for alpinists">
+																										The
+																										Ultimate
+																										Grand
+																										Canyon
+																										Travel
+																										Guide
+																										for
+																										alpinists
+																									</a>
+																								</h5>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</li>
+																			<li class="mkdf-blog-slider-item">
+																				<div
+																					class="mkdf-blog-slider-item-inner">
+																					<div class="mkdf-item-image">
+																						<a itemprop="url"
+																							href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html"
+																							class="d-block text-decoration-none">
+																							<img loading="lazy"
+																								decoding="async"
+																								src="{{asset('frontend/img/3x4/pexels.jpg')}}"
+																								alt="Guided Hikes in Iceland Rhyolite Mountain Trail"
+																								class="img-fluid rounded"
+																								width="1300"
+																								height="1551" />
+																						</a>
+
+
+																						<div
+																							class="mkdf-post-info-category mkdf-st-highlight">
+																							<a href="category/adventure/index.html"
+																								rel="category tag">Adventure</a>
+																							<span
+																								class="mkdf-st-highlight">
+																								<svg version="1.1"
+																									xmlns="http://www.w3.org/2000/svg"
+																									xmlns:xlink="http://www.w3.org/1999/xlink"
+																									x="0px" y="0px"
+																									viewBox="0 0 15.7 30"
+																									style="enable-background:new 0 0 15.7 30;"
+																									xml:space="preserve"
+																									class="mkdf-active-hover-left">
+																									<polygon class="st0"
+																										points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 " />
+																								</svg> <span
+																									class="mkdf-active-hover-middle"></span>
+																								<svg version="1.1"
+																									xmlns="http://www.w3.org/2000/svg"
+																									xmlns:xlink="http://www.w3.org/1999/xlink"
+																									x="0px" y="0px"
+																									viewBox="0 0 13.3 30"
+																									style="enable-background:new 0 0 13.3 30;"
+																									xml:space="preserve"
+																									class="mkdf-active-hover-right">
+																									<polygon class="st0"
+																										points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 " />
+																								</svg>
+																							</span>
+																						</div>
+																					</div>
+																					<div class="mkdf-item-text-wrapper">
+																						<div
+																							class="mkdf-item-text-holder">
+																							<div
+																								class="mkdf-item-text-holder-inner">
+																								<div
+																									class="mkdf-item-info-section">
+																									<div itemprop="dateCreated"
+																										class="mkdf-post-info-date entry-date published updated">
+																										<span
+																											aria-hidden="true"
+																											class="mkdf-icon-font-elegant icon_calendar "></span>
+																										<a itemprop="url"
+																											href="{{route('tour_detail')}}">
+																											October
+																											8,
+																											2019
+																										</a>
+																										<meta
+																											itemprop="interactionCount"
+																											content="UserComments: 0" />
+																									</div>
+																									<div
+																										class="mkdf-post-info-author">
+																										<span
+																											aria-hidden="true"
+																											class="mkdf-icon-font-elegant icon_pencil "></span>
+																										<a itemprop="author"
+																											class="mkdf-post-info-author-link"
+																											href="{{route('tour_detail')}}">
+																											<span
+																												class="mkdf-post-info-author-text">
+																												by
+																											</span>
+																											Alisa
+																											Michaels
+																										</a>
+																									</div>
+																								</div>
+
+																								<h5 itemprop="name"
+																									class="entry-title mkdf-post-title">
+																									<a itemprop="url"
+																										href="{{route('tour_detail')}}"
 																										title="Guided Hikes in Iceland &#8211; Rhyolite mountain Trail">
 																										Guided
 																										Hikes
@@ -1755,20 +1798,18 @@
 																					class="mkdf-blog-slider-item-inner">
 																					<div class="mkdf-item-image">
 																						<a itemprop="url"
-																							href="my-favorite-hiking-trails-around-reykjavik/index.html">
+																							href="{{route('tour_detail')}}">
 																							<img loading="lazy"
 																								decoding="async"
 																								width="1300"
 																								height="1551"
-																								src="{{asset('frontend/wp-content/uploads/2019/10/blog-post-img-45.jpg')}}"
+																								src="{{asset('frontend/img/3x4/cho.jpg')}}"
 																								class="attachment-full size-full wp-post-image"
-																								alt="k"
-																								srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-45.jpg 1300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-45-251x300.jpg 251w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-45-768x916.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-45-858x1024.jpg 858w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-45-600x716.jpg 600w"
-																								sizes="(max-width: 1300px) 100vw, 1300px" />
+																								alt="k" />
 																						</a>
 																						<div
 																							class="mkdf-post-info-category mkdf-st-highlight">
-																							<a href="category/adventure/index.html"
+																							<a href="{{route('tour_detail')}}"
 																								rel="category tag">Adventure</a>
 																							<span
 																								class="mkdf-st-highlight">
@@ -1827,7 +1868,7 @@
 																											class="mkdf-icon-font-elegant icon_pencil "></span>
 																										<a itemprop="author"
 																											class="mkdf-post-info-author-link"
-																											href="author/alisa-michaels/index.html">
+																											href="{{route('tour_detail')}}">
 																											<span
 																												class="mkdf-post-info-author-text">
 																												by
@@ -1841,7 +1882,7 @@
 																								<h5 itemprop="name"
 																									class="entry-title mkdf-post-title">
 																									<a itemprop="url"
-																										href="my-favorite-hiking-trails-around-reykjavik/index.html"
+																										href="{{route('tour_detail')}}"
 																										title="My Favorite Hiking Trails Around Reykjavík">
 																										My
 																										Favorite
@@ -1891,7 +1932,7 @@
 																	<span class="mkdf-st-tagline">Lorem
 																		ipsum dolor</span>
 																	<h2 class="mkdf-st-title">
-																	Customer <span
+																		Customer <span
 																			class="mkdf-st-highlight-title-holder"
 																			style="color: #ffffff">
 																			<span class="mkdf-st-highlight-title"

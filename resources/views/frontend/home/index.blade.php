@@ -2404,17 +2404,19 @@
 																										class="mkdf-dl-item-inner">
 																										<div
 																											class="mkdf-dli-image d-flex justify-content-center">
+																											<div class="col-12 col-md-7 col-lg-8">
 																											<img loading="lazy"
 																												decoding="async"
 																												width="1299"
 																												height="714"
-																												style="width:65%"
+																												
 																												src="{{asset('frontend\img\feedback\feedback_01.jpg')}}"
 																												class="rounded attachment-full size-full wp-post-image"
 																												alt="a"
 																												srcset="{{asset('frontend\img\feedback\feedback_01.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 600w"
 																												sizes="(max-width: 1299px) 100vw, 1299px" />
 																										</div>
+																											</div>
 																										<div
 																											class="mkdf-dli-text-holder">
 																											<div
@@ -2579,17 +2581,19 @@
 																										class="mkdf-dl-item-inner">
 																										<div
 																											class="mkdf-dli-image d-flex justify-content-center">
+																											<div class="col-12 col-md-7 col-lg-8">
 																											<img loading="lazy"
 																												decoding="async"
 																												width="1299"
 																												height="714"
-																												style="width:75%"
+																												
 																												src="{{asset('frontend\img\feedback\feedback_02.jpg')}}"
 																												class="rounded attachment-full size-full wp-post-image"
 																												alt="a"
 																												srcset="{{asset('frontend\img\feedback\feedback_02.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 600w"
 																												sizes="(max-width: 1299px) 100vw, 1299px" />
 																										</div>
+																											</div>
 																										<div
 																											class="mkdf-dli-text-holder">
 																											<div
@@ -2754,17 +2758,19 @@
 																										class="mkdf-dl-item-inner">
 																										<div
 																											class="mkdf-dli-image d-flex justify-content-center">
+																											<div class="col-12 col-md-7 col-lg-8">
 																											<img loading="lazy"
 																												decoding="async"
 																												width="1299"
 																												height="714"
-																												style="width:75%"
+																												
 																												src="{{asset('frontend\img\feedback\feedback_03.JPG')}}"
 																												class="rounded attachment-full size-full wp-post-image"
 																												alt="a"
 																												srcset="{{asset('frontend\img\feedback\feedback_03.JPG')}} 1299w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 300w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 768w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 1024w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 600w"
 																												sizes="(max-width: 1299px) 100vw, 1299px" />
 																										</div>
+																											</div>
 																										<div
 																											class="mkdf-dli-text-holder">
 																											<div
@@ -2929,17 +2935,19 @@
 																										class="mkdf-dl-item-inner">
 																										<div
 																											class="mkdf-dli-image d-flex justify-content-center">
+																											<div class="col-12 col-md-7 col-lg-8">
 																											<img loading="lazy"
 																												decoding="async"
 																												width="1299"
 																												height="714"
-																												style="width:75%"
+																												
 																												src="{{asset('frontend\img\feedback\feedback_04.jpg')}}"
 																												class="rounded attachment-full size-full wp-post-image"
 																												alt="a"
 																												srcset="{{asset('frontend\img\feedback\feedback_04.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 600w"
 																												sizes="(max-width: 1299px) 100vw, 1299px" />
 																										</div>
+																											</div>
 																										<div
 																											class="mkdf-dli-text-holder">
 																											<div

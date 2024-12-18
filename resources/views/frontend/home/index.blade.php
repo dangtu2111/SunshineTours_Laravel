@@ -1423,7 +1423,7 @@
 															<div class="vc_column-inner">
 																<div class="wpb_wrapper">
 																	<div class="mkdf-blog-slider-holder mkdf-bs-slider">
-																		<ul class="mkdf-blog-slider mkdf-owl-slider"
+																		<ul  class="px-sm-3 mkdf-blog-slider mkdf-owl-slider"
 																			data-number-of-items="3"
 																			data-slider-margin="22"
 																			data-enable-pagination="no">
@@ -1917,11 +1917,11 @@
 								</div>
 							</div>
 							<div class="vc_row wpb_row vc_row-fluid vc_custom_1579107555274 vc_row-has-fill"
-								style="background-color:#f1f1e7">
+								style="background-color:#f1f1e7;padding-bottom:0 !important">
 								<div class="wpb_column vc_column_container vc_col-sm-12">
 									<div class="vc_column-inner">
 										<div class="wpb_wrapper">
-											<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1579085340244">
+											<div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1579085340244" style="padding-bottom:0 !important">
 												<div
 													class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-3 vc_col-lg-6">
 													<div class="vc_column-inner">
@@ -2403,15 +2403,16 @@
 																									<div
 																										class="mkdf-dl-item-inner">
 																										<div
-																											class="mkdf-dli-image">
+																											class="mkdf-dli-image d-flex justify-content-center">
 																											<img loading="lazy"
 																												decoding="async"
 																												width="1299"
 																												height="714"
-																												src="{{asset('frontend/wp-content/uploads/2019/10/h1-img-21.jpg')}}"
-																												class="attachment-full size-full wp-post-image"
+																												style="width:65%"
+																												src="{{asset('frontend\img\feedback\feedback_01.jpg')}}"
+																												class="rounded attachment-full size-full wp-post-image"
 																												alt="a"
-																												srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-img-21.jpg 1299w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-img-21-300x165.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-img-21-768x422.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-img-21-1024x563.jpg 1024w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-img-21-600x330.jpg 600w"
+																												srcset="{{asset('frontend\img\feedback\feedback_01.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 600w"
 																												sizes="(max-width: 1299px) 100vw, 1299px" />
 																										</div>
 																										<div
@@ -2577,15 +2578,16 @@
 																									<div
 																										class="mkdf-dl-item-inner">
 																										<div
-																											class="mkdf-dli-image">
+																											class="mkdf-dli-image d-flex justify-content-center">
 																											<img loading="lazy"
 																												decoding="async"
 																												width="1299"
 																												height="714"
-																												src="{{asset('frontend/wp-content/uploads/2019/10/h1-dest-slider-img-2.jpg')}}"
-																												class="attachment-full size-full wp-post-image"
+																												style="width:75%"
+																												src="{{asset('frontend\img\feedback\feedback_02.jpg')}}"
+																												class="rounded attachment-full size-full wp-post-image"
 																												alt="a"
-																												srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-dest-slider-img-2.jpg 1299w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-dest-slider-img-2-300x165.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-dest-slider-img-2-768x422.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-dest-slider-img-2-1024x563.jpg 1024w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h1-dest-slider-img-2-600x330.jpg 600w"
+																												srcset="{{asset('frontend\img\feedback\feedback_02.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 600w"
 																												sizes="(max-width: 1299px) 100vw, 1299px" />
 																										</div>
 																										<div
@@ -2751,15 +2753,16 @@
 																									<div
 																										class="mkdf-dl-item-inner">
 																										<div
-																											class="mkdf-dli-image">
+																											class="mkdf-dli-image d-flex justify-content-center">
 																											<img loading="lazy"
 																												decoding="async"
 																												width="1299"
 																												height="714"
-																												src="{{asset('frontend/wp-content/uploads/2019/12/h1-dest-slider-img-3.jpg')}}"
-																												class="attachment-full size-full wp-post-image"
+																												style="width:75%"
+																												src="{{asset('frontend\img\feedback\feedback_03.JPG')}}"
+																												class="rounded attachment-full size-full wp-post-image"
 																												alt="a"
-																												srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-3.jpg 1299w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-3-300x165.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-3-768x422.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-3-1024x563.jpg 1024w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-3-600x330.jpg 600w"
+																												srcset="{{asset('frontend\img\feedback\feedback_03.JPG')}} 1299w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 300w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 768w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 1024w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 600w"
 																												sizes="(max-width: 1299px) 100vw, 1299px" />
 																										</div>
 																										<div
@@ -2925,15 +2928,16 @@
 																									<div
 																										class="mkdf-dl-item-inner">
 																										<div
-																											class="mkdf-dli-image">
+																											class="mkdf-dli-image d-flex justify-content-center">
 																											<img loading="lazy"
 																												decoding="async"
 																												width="1299"
 																												height="714"
-																												src="{{asset('frontend/wp-content/uploads/2019/12/h1-dest-slider-img-4.jpg')}}"
-																												class="attachment-full size-full wp-post-image"
+																												style="width:75%"
+																												src="{{asset('frontend\img\feedback\feedback_04.jpg')}}"
+																												class="rounded attachment-full size-full wp-post-image"
 																												alt="a"
-																												srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-4.jpg 1299w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-4-300x165.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-4-768x422.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-4-1024x563.jpg 1024w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/h1-dest-slider-img-4-600x330.jpg 600w"
+																												srcset="{{asset('frontend\img\feedback\feedback_04.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 600w"
 																												sizes="(max-width: 1299px) 100vw, 1299px" />
 																										</div>
 																										<div

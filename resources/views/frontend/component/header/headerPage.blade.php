@@ -175,7 +175,7 @@
 							<img
 								itemprop="image"
 								class="mkdf-light-logo"
-								src="{{asset('frontend/wp-content/uploads/2020/01/logo-img-03.png')}}"
+								src="{{asset('frontend/img/logo/logo04.png')}}"
 								width="286"
 								height="160"
 								alt="light logo" />

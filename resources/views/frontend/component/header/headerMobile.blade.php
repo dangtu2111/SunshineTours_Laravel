@@ -13,7 +13,7 @@
 									<img
 										loading="lazy"
 										itemprop="image"
-										src="{{asset('frontend\wp-content\uploads\2019\10\logo-dark-img-02.png')}}"
+										src="{{asset('frontend\img\logo\logo06.png')}}"
 										width="144"
 										height="77"
 										alt="Mobile Logo" />

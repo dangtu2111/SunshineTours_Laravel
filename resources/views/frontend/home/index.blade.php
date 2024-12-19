@@ -162,12 +162,16 @@
 																target="_self" rel="nofollow" data-type="text"
 																data-xy="x:c;y:m;yo:-55px,-55px,-88px,-78px;"
 																data-text="w:normal;s:55,55,55,40;l:65,65,65,50;fw:700;a:left,left,center,center;"
-																data-dim="w:auto,auto,673px,442px;" data-rsp_o="off"
+																data-dim="w:auto,auto,673px,400px;" data-rsp_o="off"
 																data-rsp_bd="off" data-frame_0="y:50;"
 																data-frame_1="st:300;sp:1000;"
 																data-frame_999="o:0;st:w;"
-																style="z-index:10;font-family:'Oswald';text-transform:uppercase;">Welcome to SunShine Ho Chi Minh
-															</a><!--
+																style="z-index:10;font-family:'Oswald';text-transform:uppercase;">
+																Welcome to SunShine Ho Chi Minh
+															</a>
+															
+
+															<!--
 
 				--><rs-layer id="slider-12-slide-23-layer-14" data-type="text"
 																data-xy="x:c;xo:104px,98px,103px,214px;y:b,b,m,m;yo:554px,468px,-168px,-160px;"
@@ -330,7 +334,7 @@
 																data-rsp_o="off" data-rsp_bd="off" data-frame_0="y:50;"
 																data-frame_1="st:450;sp:1000;"
 																data-frame_999="o:0;st:w;sR:7200;"
-																style="z-index:8;font-family:'Muli';">Every step is an exciting challenge and every moment brings surprises. Be ready to face new opportunities, explore the unseen and push all limits!
+																style="z-index:8;margin-top:30px;font-family:'Muli';">Every step is an exciting challenge and every moment brings surprises. Be ready to face new opportunities, explore the unseen and push all limits!
 															</rs-layer><!--
 
 				--><rs-layer id="slider-12-slide-33-layer-4" data-type="text" data-xy="x:c;y:m;yo:104px,104px,104px,149px;"

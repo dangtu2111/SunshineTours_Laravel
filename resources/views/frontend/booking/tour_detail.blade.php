@@ -99,7 +99,7 @@
                                     <div class="col-sm-5 text-right">
                                         <p class="price-book">
                                             From-<span>$345</span>/night
-                                            <a href="" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
+                                            <a href="{{route('order')}}" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
                                         </p>
                                     </div>
                                 </div>
@@ -516,7 +516,7 @@
                                 <div class="col-lg-9 detail-footer-cn text-right">
                                     <p class="price-book">
                                         From-<span>$345</span>/night
-                                        <a href="" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
+                                        <a href="{{route('order')}}" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
                                     </p>
                                 </div>
                             </div>

@@ -1,4 +1,5 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <a id="mkdf-back-to-top" href="#">
     <span class="mkdf-icon-stack">
         <svg
@@ -47,14 +48,17 @@
         <div
             class="mkdf-title-holder mkdf-standard-type mkdf-title-va-header-bottom mkdf-preload-background mkdf-has-bg-image mkdf-bg-responsive-disabled"
             style="
-          height: 452px;
-          background-image: url(frontend/wp-content/uploads/2019/10/p1-bckg-01.jpg);
-        "
+    height: 452px;
+    background-image: url(frontend/img/background_booking.jpg);
+    background-size: cover;
+    background-position: center;
+  "
             data-height="452">
+
             <div class="mkdf-title-image">
                 <img
                     itemprop="image"
-                    src="{{asset('frontend/wp-content/uploads/2019/10/p1-bckg-01.jpg')}}"
+                    src="{{asset('frontend/img/background_booking.jpg')}}"
                     alt="s" />
             </div>
             <div
@@ -73,6 +77,490 @@
                 <div class="mkdf-grid-row">
                     <div class="mkdf-page-content-holder mkdf-grid-col-12">
                         <div class="wpb-content-wrapper">
+                        <div class="container py-4">
+                                <div class="row g-4 d-flex justify-content-center">
+                                    <!-- Card 1 -->
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="mkdf-blog-slider-item border-0 shadow-sm rounded">
+                                            <div class="mkdf-blog-slider-item-inner">
+                                                <div class="mkdf-item-image mkdf-tilt-trigger">
+                                                    <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
+                                                    </a>
+
+
+                                                    <div class="mkdf-post-info-category mkdf-st-highlight">
+                                                        <a href="category/adventure/index.html" rel="category tag">Adventure</a>
+                                                        <span class="mkdf-st-highlight">
+                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.7 30" style="enable-background:new 0 0 15.7 30;" xml:space="preserve" class="mkdf-active-hover-left">
+                                                                <polygon class="st0" points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 "></polygon>
+                                                            </svg> <span class="mkdf-active-hover-middle"></span>
+                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 30" style="enable-background:new 0 0 13.3 30;" xml:space="preserve" class="mkdf-active-hover-right">
+                                                                <polygon class="st0" points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 "></polygon>
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="mkdf-item-text-wrapper">
+                                                    <div class="mkdf-item-text-holder">
+                                                        <div class="mkdf-item-text-holder-inner">
+
+
+                                                            <h5 itemprop="name" style="font-size: clamp(14px, 2vw, 24px);" class="entry-title mkdf-post-title">
+                                                                <a itemprop="url" href="http://127.0.0.1:8000/booking/tour_detail" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
+                                                                    Guided
+                                                                    Hikes
+                                                                    in
+                                                                    Iceland
+                                                                    –
+                                                                    Rhyolite
+                                                                    mountain
+                                                                    Trail
+                                                                </a>
+                                                            </h5>
+                                                            <div class="mkdf-item-info-section">
+                                                                <div class="p-0 d-block d-md-block d-lg-flex container">
+                                                                    <p class="card-text text-muted m-0" style="
+    font-weight: 400;font-size: clamp(12px, 2vw, 16px);
+">
+                                                                    <svg style="width: clamp(18px, 2vw, 24px); height: clamp(18px, 2vw, 24px);" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                    </svg> 3 days &nbsp;
+                                                                    
+                                                                </p>
+                                                                <p class="card-text text-muted m-0" style=" font-size: clamp(12px, 2vw, 16px);
+    font-weight: 400;
+"><svg style="width: clamp(18px, 2vw, 24px); height: clamp(18px, 2vw, 24px);" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                                                        <circle cx="16" cy="11" r="4"></circle>
+                                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z"></path>
+                                                                    </svg>
+                                                                    3 Destinations</p>
+                                                                </div>
+                                                                
+                                                                <p class="mb-0 mb-md-2">
+                                                    <strong>4.9</strong>
+                                                    <span class="text-warning">★★★★★</span>
+                                                    <small class="text-muted">(231 reviews)</small>
+                                                </p>
+                                                                <p class="price m-1 m-md-3">
+                                                                    <span style="font-size: clamp(16px, 2vw, 20px)" class="fw-bold text-success">$195.80</span>
+                                                                    <del class="text-muted" style="font-size: clamp(12px, 2vw, 16px)">$230.00</del>
+                                                                </p>
+                                                                <div class="container text-center pb-4
+                                                ">
+                                                                    <a href="{{route('tour_detail')}}" style="font-size: clamp(12px, 2vw, 18px);" class="btn btn-success ">
+                                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="mkdf-blog-slider-item border-0 shadow-sm rounded">
+                                            <div class="mkdf-blog-slider-item-inner">
+                                                <div class="mkdf-item-image mkdf-tilt-trigger">
+                                                    <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
+                                                    </a>
+
+
+                                                    <div class="mkdf-post-info-category mkdf-st-highlight">
+                                                        <a href="category/adventure/index.html" rel="category tag">Adventure</a>
+                                                        <span class="mkdf-st-highlight">
+                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.7 30" style="enable-background:new 0 0 15.7 30;" xml:space="preserve" class="mkdf-active-hover-left">
+                                                                <polygon class="st0" points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 "></polygon>
+                                                            </svg> <span class="mkdf-active-hover-middle"></span>
+                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 30" style="enable-background:new 0 0 13.3 30;" xml:space="preserve" class="mkdf-active-hover-right">
+                                                                <polygon class="st0" points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 "></polygon>
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="mkdf-item-text-wrapper">
+                                                    <div class="mkdf-item-text-holder">
+                                                        <div class="mkdf-item-text-holder-inner">
+
+
+                                                            <h5 itemprop="name" style="font-size: clamp(14px, 2vw, 24px);" class="entry-title mkdf-post-title">
+                                                                <a itemprop="url" href="http://127.0.0.1:8000/booking/tour_detail" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
+                                                                    Guided
+                                                                    Hikes
+                                                                    in
+                                                                    Iceland
+                                                                    –
+                                                                    Rhyolite
+                                                                    mountain
+                                                                    Trail
+                                                                </a>
+                                                            </h5>
+                                                            <div class="mkdf-item-info-section">
+                                                                <div class="p-0 d-block d-md-block d-lg-flex container">
+                                                                    <p class="card-text text-muted m-0" style="
+    font-weight: 400;font-size: clamp(12px, 2vw, 16px);
+">
+                                                                    <svg style="width: clamp(18px, 2vw, 24px); height: clamp(18px, 2vw, 24px);" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                    </svg> 3 days &nbsp;
+                                                                    
+                                                                </p>
+                                                                <p class="card-text text-muted m-0" style=" font-size: clamp(12px, 2vw, 16px);
+    font-weight: 400;
+"><svg style="width: clamp(18px, 2vw, 24px); height: clamp(18px, 2vw, 24px);" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                                                        <circle cx="16" cy="11" r="4"></circle>
+                                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z"></path>
+                                                                    </svg>
+                                                                    3 Destinations</p>
+                                                                </div>
+                                                                
+                                                                <p class="mb-0 mb-md-2">
+                                                    <strong>4.9</strong>
+                                                    <span class="text-warning">★★★★★</span>
+                                                    <small class="text-muted">(231 reviews)</small>
+                                                </p>
+                                                                <p class="price m-1 m-md-3">
+                                                                    <span style="font-size: clamp(16px, 2vw, 20px)" class="fw-bold text-success">$195.80</span>
+                                                                    <del class="text-muted" style="font-size: clamp(12px, 2vw, 16px)">$230.00</del>
+                                                                </p>
+                                                                <div class="container text-center pb-4
+                                                ">
+                                                                    <a href="{{route('tour_detail')}}" style="font-size: clamp(12px, 2vw, 18px);" class="btn btn-success ">
+                                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-4 col-lg-3">
+                                        <div class="mkdf-blog-slider-item border-0 shadow-sm rounded">
+                                            <div class="mkdf-blog-slider-item-inner">
+                                                <div class="mkdf-item-image mkdf-tilt-trigger">
+                                                    <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
+                                                    </a>
+
+
+                                                    <div class="mkdf-post-info-category mkdf-st-highlight">
+                                                        <a href="category/adventure/index.html" rel="category tag">Adventure</a>
+                                                        <span class="mkdf-st-highlight">
+                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.7 30" style="enable-background:new 0 0 15.7 30;" xml:space="preserve" class="mkdf-active-hover-left">
+                                                                <polygon class="st0" points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 "></polygon>
+                                                            </svg> <span class="mkdf-active-hover-middle"></span>
+                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 30" style="enable-background:new 0 0 13.3 30;" xml:space="preserve" class="mkdf-active-hover-right">
+                                                                <polygon class="st0" points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 "></polygon>
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="mkdf-item-text-wrapper">
+                                                    <div class="mkdf-item-text-holder">
+                                                        <div class="mkdf-item-text-holder-inner">
+
+
+                                                            <h5 itemprop="name" style="font-size: clamp(14px, 2vw, 24px);" class="entry-title mkdf-post-title">
+                                                                <a itemprop="url" href="http://127.0.0.1:8000/booking/tour_detail" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
+                                                                    Guided
+                                                                    Hikes
+                                                                    in
+                                                                    Iceland
+                                                                    –
+                                                                    Rhyolite
+                                                                    mountain
+                                                                    Trail
+                                                                </a>
+                                                            </h5>
+                                                            <div class="mkdf-item-info-section">
+                                                                <div class="p-0 d-block d-md-block d-lg-flex container">
+                                                                    <p class="card-text text-muted m-0" style="
+    font-weight: 400;font-size: clamp(12px, 2vw, 16px);
+">
+                                                                    <svg style="width: clamp(18px, 2vw, 24px); height: clamp(18px, 2vw, 24px);" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                    </svg> 3 days &nbsp;
+                                                                    
+                                                                </p>
+                                                                <p class="card-text text-muted m-0" style=" font-size: clamp(12px, 2vw, 16px);
+    font-weight: 400;
+"><svg style="width: clamp(18px, 2vw, 24px); height: clamp(18px, 2vw, 24px);" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                                                        <circle cx="16" cy="11" r="4"></circle>
+                                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z"></path>
+                                                                    </svg>
+                                                                    3 Destinations</p>
+                                                                </div>
+                                                                
+                                                                <p class="mb-0 mb-md-2">
+                                                    <strong>4.9</strong>
+                                                    <span class="text-warning">★★★★★</span>
+                                                    <small class="text-muted">(231 reviews)</small>
+                                                </p>
+                                                                <p class="price m-1 m-md-3">
+                                                                    <span style="font-size: clamp(16px, 2vw, 20px)" class="fw-bold text-success">$195.80</span>
+                                                                    <del class="text-muted" style="font-size: clamp(12px, 2vw, 16px)">$230.00</del>
+                                                                </p>
+                                                                <div class="container text-center pb-4
+                                                ">
+                                                                    <a href="{{route('tour_detail')}}" style="font-size: clamp(12px, 2vw, 18px);" class="btn btn-success ">
+                                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-md-4 col-lg-3">
+                                        <div class="mkdf-blog-slider-item border-0 shadow-sm rounded">
+                                            <div class="mkdf-blog-slider-item-inner">
+                                                <div class="mkdf-item-image mkdf-tilt-trigger">
+                                                    <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
+                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
+                                                    </a>
+
+
+                                                    <div class="mkdf-post-info-category mkdf-st-highlight">
+                                                        <a href="category/adventure/index.html" rel="category tag">Adventure</a>
+                                                        <span class="mkdf-st-highlight">
+                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.7 30" style="enable-background:new 0 0 15.7 30;" xml:space="preserve" class="mkdf-active-hover-left">
+                                                                <polygon class="st0" points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 "></polygon>
+                                                            </svg> <span class="mkdf-active-hover-middle"></span>
+                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 30" style="enable-background:new 0 0 13.3 30;" xml:space="preserve" class="mkdf-active-hover-right">
+                                                                <polygon class="st0" points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 "></polygon>
+                                                            </svg>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="mkdf-item-text-wrapper">
+                                                    <div class="mkdf-item-text-holder">
+                                                        <div class="mkdf-item-text-holder-inner">
+
+
+                                                            <h5 itemprop="name" style="font-size: clamp(14px, 2vw, 24px);" class="entry-title mkdf-post-title">
+                                                                <a itemprop="url" href="http://127.0.0.1:8000/booking/tour_detail" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
+                                                                    Guided
+                                                                    Hikes
+                                                                    in
+                                                                    Iceland
+                                                                    –
+                                                                    Rhyolite
+                                                                    mountain
+                                                                    Trail
+                                                                </a>
+                                                            </h5>
+                                                            <div class="mkdf-item-info-section">
+                                                                <div class="p-0 d-block d-md-block d-lg-flex container">
+                                                                    <p class="card-text text-muted m-0" style="
+    font-weight: 400;font-size: clamp(12px, 2vw, 16px);
+">
+                                                                    <svg style="width: clamp(18px, 2vw, 24px); height: clamp(18px, 2vw, 24px);" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                    </svg> 3 days &nbsp;
+                                                                    
+                                                                </p>
+                                                                <p class="card-text text-muted m-0" style=" font-size: clamp(12px, 2vw, 16px);
+    font-weight: 400;
+"><svg style="width: clamp(18px, 2vw, 24px); height: clamp(18px, 2vw, 24px);" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                                                        <circle cx="16" cy="11" r="4"></circle>
+                                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z"></path>
+                                                                    </svg>
+                                                                    3 Destinations</p>
+                                                                </div>
+                                                                
+                                                                <p class="mb-0 mb-md-2">
+                                                    <strong>4.9</strong>
+                                                    <span class="text-warning">★★★★★</span>
+                                                    <small class="text-muted">(231 reviews)</small>
+                                                </p>
+                                                                <p class="price m-1 m-md-3">
+                                                                    <span style="font-size: clamp(16px, 2vw, 20px)" class="fw-bold text-success">$195.80</span>
+                                                                    <del class="text-muted" style="font-size: clamp(12px, 2vw, 16px)">$230.00</del>
+                                                                </p>
+                                                                <div class="container text-center pb-4
+                                                ">
+                                                                    <a href="{{route('tour_detail')}}" style="font-size: clamp(12px, 2vw, 18px);" class="btn btn-success ">
+                                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-4 col-lg-3 ">
+                                        <div class="card border-0 shadow-sm">
+                                            <img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
+                                            <div class="card-body">
+                                                <h5 class="card-title fw-bold">Explore the castle and ancient village in Karda</h5>
+                                                <p class="card-text text-muted" style="
+    font-weight: 400;
+">
+                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg> 3 days &nbsp;
+                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                                        <circle cx="16" cy="11" r="4" />
+                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
+                                                    </svg>3 Destinations
+                                                </p>
+                                                <p class="mb-0 mb-md-2">
+                                                    <strong>4.9</strong>
+                                                    <span class="text-warning">★★★★★</span>
+                                                    <small class="text-muted">(231 reviews)</small>
+                                                </p>
+                                                <p class="price m-0">
+                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
+                                                    <del class="text-muted">$230.00</del>
+                                                </p>
+                                                <div class="container text-center
+                                                ">
+                                                    <a href="#" class="btn btn-success ">
+                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4">
+                                        <div class="card border-0 shadow-sm">
+                                            <img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
+                                            <div class="card-body">
+                                                <h5 class="card-title fw-bold">Explore the castle and ancient village in Karda</h5>
+                                                <p class="card-text text-muted" style="
+    font-weight: 400;
+">
+                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg> 3 days &nbsp;
+                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                                        <circle cx="16" cy="11" r="4" />
+                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
+                                                    </svg>3 Destinations
+                                                </p>
+                                                <p class="mb-0 mb-md-2">
+                                                    <strong>4.9</strong>
+                                                    <span class="text-warning">★★★★★</span>
+                                                    <small class="text-muted">(231 reviews)</small>
+                                                </p>
+                                                <p class="price m-0">
+                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
+                                                    <del class="text-muted">$230.00</del>
+                                                </p>
+                                                <div class="container text-center
+                                                ">
+                                                    <a href="#" class="btn btn-success ">
+                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4">
+                                        <div class="card border-0 shadow-sm">
+                                            <img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
+                                            <div class="card-body">
+                                                <h5 class="card-title fw-bold">Explore the castle and ancient village in Karda</h5>
+                                                <p class="card-text text-muted" style="
+    font-weight: 400;
+">
+                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg> 3 days &nbsp;
+                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                                        <circle cx="16" cy="11" r="4" />
+                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
+                                                    </svg>3 Destinations
+                                                </p>
+                                                <p class="mb-0 mb-md-2">
+                                                    <strong>4.9</strong>
+                                                    <span class="text-warning">★★★★★</span>
+                                                    <small class="text-muted">(231 reviews)</small>
+                                                </p>
+                                                <p class="price m-0">
+                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
+                                                    <del class="text-muted">$230.00</del>
+                                                </p>
+                                                <div class="container text-center
+                                                ">
+                                                    <a href="#" class="btn btn-success ">
+                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
                             <div class="mkdf-row-grid-section-wrapper">
                                 <div class="mkdf-row-grid-section">
                                     <div
@@ -177,446 +665,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="container py-4">
-                                <div class="row g-4 d-flex justify-content-center">
-                                    <!-- Card 1 -->
-                                    <div class="col-md-4 col-lg-3">
-                                        <div class="mkdf-blog-slider-item border-0 shadow-sm rounded">
-                                            <div class="mkdf-blog-slider-item-inner">
-                                                <div class="mkdf-item-image mkdf-tilt-trigger">
-                                                    <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
-                                                    </a>
-
-
-                                                    <div class="mkdf-post-info-category mkdf-st-highlight">
-                                                        <a href="category/adventure/index.html" rel="category tag">Adventure</a>
-                                                        <span class="mkdf-st-highlight">
-                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.7 30" style="enable-background:new 0 0 15.7 30;" xml:space="preserve" class="mkdf-active-hover-left">
-                                                                <polygon class="st0" points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 "></polygon>
-                                                            </svg> <span class="mkdf-active-hover-middle"></span>
-                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 30" style="enable-background:new 0 0 13.3 30;" xml:space="preserve" class="mkdf-active-hover-right">
-                                                                <polygon class="st0" points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 "></polygon>
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="mkdf-item-text-wrapper">
-                                                    <div class="mkdf-item-text-holder">
-                                                        <div class="mkdf-item-text-holder-inner">
-
-
-                                                            <h5 itemprop="name" class="entry-title mkdf-post-title">
-                                                                <a itemprop="url" href="http://127.0.0.1:8000/booking/tour_detail" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
-                                                                    Guided
-                                                                    Hikes
-                                                                    in
-                                                                    Iceland
-                                                                    –
-                                                                    Rhyolite
-                                                                    mountain
-                                                                    Trail
-                                                                </a>
-                                                            </h5>
-                                                            <div class="mkdf-item-info-section">
-                                                                <p class="card-text text-muted m-0" style="
-    font-weight: 400;
-">
-                                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-                                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-                                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                    </svg> 3 days &nbsp;
-                                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                                                        <circle cx="16" cy="11" r="4"></circle>
-                                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z"></path>
-                                                                    </svg>
-                                                                </p>
-                                                                <p class="m-0">3 Destinations</p>
-                                                                <p class="price">
-                                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
-                                                                    <del class="text-muted">$230.00</del>
-                                                                </p>
-                                                                <div class="container text-center pb-4
-                                                ">
-                                                                    <a href="#" class="btn btn-success ">
-                                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-lg-3">
-                                        <div class="mkdf-blog-slider-item border-0 shadow-sm rounded">
-                                            <div class="mkdf-blog-slider-item-inner">
-                                                <div class="mkdf-item-image mkdf-tilt-trigger">
-                                                    <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
-                                                    </a>
-
-
-                                                    <div class="mkdf-post-info-category mkdf-st-highlight">
-                                                        <a href="category/adventure/index.html" rel="category tag">Adventure</a>
-                                                        <span class="mkdf-st-highlight">
-                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.7 30" style="enable-background:new 0 0 15.7 30;" xml:space="preserve" class="mkdf-active-hover-left">
-                                                                <polygon class="st0" points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 "></polygon>
-                                                            </svg> <span class="mkdf-active-hover-middle"></span>
-                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 30" style="enable-background:new 0 0 13.3 30;" xml:space="preserve" class="mkdf-active-hover-right">
-                                                                <polygon class="st0" points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 "></polygon>
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="mkdf-item-text-wrapper">
-                                                    <div class="mkdf-item-text-holder">
-                                                        <div class="mkdf-item-text-holder-inner">
-
-
-                                                            <h5 itemprop="name" class="entry-title mkdf-post-title">
-                                                                <a itemprop="url" href="http://127.0.0.1:8000/booking/tour_detail" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
-                                                                    Guided
-                                                                    Hikes
-                                                                    in
-                                                                    Iceland
-                                                                    –
-                                                                    Rhyolite
-                                                                    mountain
-                                                                    Trail
-                                                                </a>
-                                                            </h5>
-                                                            <div class="mkdf-item-info-section">
-                                                                <p class="card-text text-muted m-0" style="
-    font-weight: 400;
-">
-                                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-                                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-                                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                    </svg> 3 days &nbsp;
-                                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                                                        <circle cx="16" cy="11" r="4"></circle>
-                                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z"></path>
-                                                                    </svg>
-                                                                </p>
-                                                                <p class="m-0">3 Destinations</p>
-                                                                <p class="price">
-                                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
-                                                                    <del class="text-muted">$230.00</del>
-                                                                </p>
-                                                                <div class="container text-center pb-4
-                                                ">
-                                                                    <a href="#" class="btn btn-success ">
-                                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-lg-3">
-                                        <div class="mkdf-blog-slider-item border-0 shadow-sm rounded">
-                                            <div class="mkdf-blog-slider-item-inner">
-                                                <div class="mkdf-item-image mkdf-tilt-trigger">
-                                                    <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
-                                                    </a>
-
-
-                                                    <div class="mkdf-post-info-category mkdf-st-highlight">
-                                                        <a href="category/adventure/index.html" rel="category tag">Adventure</a>
-                                                        <span class="mkdf-st-highlight">
-                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.7 30" style="enable-background:new 0 0 15.7 30;" xml:space="preserve" class="mkdf-active-hover-left">
-                                                                <polygon class="st0" points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 "></polygon>
-                                                            </svg> <span class="mkdf-active-hover-middle"></span>
-                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 30" style="enable-background:new 0 0 13.3 30;" xml:space="preserve" class="mkdf-active-hover-right">
-                                                                <polygon class="st0" points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 "></polygon>
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="mkdf-item-text-wrapper">
-                                                    <div class="mkdf-item-text-holder">
-                                                        <div class="mkdf-item-text-holder-inner">
-
-
-                                                            <h5 itemprop="name" class="entry-title mkdf-post-title">
-                                                                <a itemprop="url" href="http://127.0.0.1:8000/booking/tour_detail" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
-                                                                    Guided
-                                                                    Hikes
-                                                                    in
-                                                                    Iceland
-                                                                    –
-                                                                    Rhyolite
-                                                                    mountain
-                                                                    Trail
-                                                                </a>
-                                                            </h5>
-                                                            <div class="mkdf-item-info-section">
-                                                                <p class="card-text text-muted m-0" style="
-    font-weight: 400;
-">
-                                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-                                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-                                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                    </svg> 3 days &nbsp;
-                                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                                                        <circle cx="16" cy="11" r="4"></circle>
-                                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z"></path>
-                                                                    </svg>
-                                                                </p>
-                                                                <p class="m-0">3 Destinations</p>
-                                                                <p class="price">
-                                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
-                                                                    <del class="text-muted">$230.00</del>
-                                                                </p>
-                                                                <div class="container text-center pb-4
-                                                ">
-                                                                    <a href="#" class="btn btn-success ">
-                                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="col-md-4 col-lg-3">
-                                        <div class="mkdf-blog-slider-item border-0 shadow-sm rounded">
-                                            <div class="mkdf-blog-slider-item-inner">
-                                                <div class="mkdf-item-image mkdf-tilt-trigger">
-                                                    <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
-                                                    </a>
-
-
-                                                    <div class="mkdf-post-info-category mkdf-st-highlight">
-                                                        <a href="category/adventure/index.html" rel="category tag">Adventure</a>
-                                                        <span class="mkdf-st-highlight">
-                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15.7 30" style="enable-background:new 0 0 15.7 30;" xml:space="preserve" class="mkdf-active-hover-left">
-                                                                <polygon class="st0" points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 "></polygon>
-                                                            </svg> <span class="mkdf-active-hover-middle"></span>
-                                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 13.3 30" style="enable-background:new 0 0 13.3 30;" xml:space="preserve" class="mkdf-active-hover-right">
-                                                                <polygon class="st0" points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 "></polygon>
-                                                            </svg>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="mkdf-item-text-wrapper">
-                                                    <div class="mkdf-item-text-holder">
-                                                        <div class="mkdf-item-text-holder-inner">
-
-
-                                                            <h5 itemprop="name" class="entry-title mkdf-post-title">
-                                                                <a itemprop="url" href="http://127.0.0.1:8000/booking/tour_detail" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
-                                                                    Guided
-                                                                    Hikes
-                                                                    in
-                                                                    Iceland
-                                                                    –
-                                                                    Rhyolite
-                                                                    mountain
-                                                                    Trail
-                                                                </a>
-                                                            </h5>
-                                                            <div class="mkdf-item-info-section">
-                                                                <p class="card-text text-muted m-0" style="
-    font-weight: 400;
-">
-                                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-                                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
-                                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                                    </svg> 3 days &nbsp;
-                                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                                                        <circle cx="16" cy="11" r="4"></circle>
-                                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z"></path>
-                                                                    </svg>
-                                                                </p>
-                                                                <p class="m-0">3 Destinations</p>
-                                                                <p class="price">
-                                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
-                                                                    <del class="text-muted">$230.00</del>
-                                                                </p>
-                                                                <div class="container text-center pb-4
-                                                ">
-                                                                    <a href="#" class="btn btn-success ">
-                                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col-md-4 col-lg-3 ">
-                                        <div class="card border-0 shadow-sm">
-                                            <img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
-                                            <div class="card-body">
-                                                <h5 class="card-title fw-bold">Explore the castle and ancient village in Karda</h5>
-                                                <p class="card-text text-muted" style="
-    font-weight: 400;
-">
-                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg> 3 days &nbsp;
-                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                                        <circle cx="16" cy="11" r="4" />
-                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
-                                                    </svg>3 Destinations
-                                                </p>
-                                                <p class="mb-2">
-                                                    <strong>4.9</strong>
-                                                    <span class="text-warning">★★★★★</span>
-                                                    <small class="text-muted">(231 reviews)</small>
-                                                </p>
-                                                <p class="price">
-                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
-                                                    <del class="text-muted">$230.00</del>
-                                                </p>
-                                                <div class="container text-center
-                                                ">
-                                                    <a href="#" class="btn btn-success ">
-                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-4">
-                                        <div class="card border-0 shadow-sm">
-                                            <img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
-                                            <div class="card-body">
-                                                <h5 class="card-title fw-bold">Explore the castle and ancient village in Karda</h5>
-                                                <p class="card-text text-muted" style="
-    font-weight: 400;
-">
-                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg> 3 days &nbsp;
-                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                                        <circle cx="16" cy="11" r="4" />
-                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
-                                                    </svg>3 Destinations
-                                                </p>
-                                                <p class="mb-2">
-                                                    <strong>4.9</strong>
-                                                    <span class="text-warning">★★★★★</span>
-                                                    <small class="text-muted">(231 reviews)</small>
-                                                </p>
-                                                <p class="price">
-                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
-                                                    <del class="text-muted">$230.00</del>
-                                                </p>
-                                                <div class="container text-center
-                                                ">
-                                                    <a href="#" class="btn btn-success ">
-                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-4">
-                                        <div class="card border-0 shadow-sm">
-                                            <img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
-                                            <div class="card-body">
-                                                <h5 class="card-title fw-bold">Explore the castle and ancient village in Karda</h5>
-                                                <p class="card-text text-muted" style="
-    font-weight: 400;
-">
-                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg> 3 days &nbsp;
-                                                    <svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                                                        <circle cx="16" cy="11" r="4" />
-                                                        <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
-                                                    </svg>3 Destinations
-                                                </p>
-                                                <p class="mb-2">
-                                                    <strong>4.9</strong>
-                                                    <span class="text-warning">★★★★★</span>
-                                                    <small class="text-muted">(231 reviews)</small>
-                                                </p>
-                                                <p class="price">
-                                                    <span class="fs-4 fw-bold text-success">$195.80</span>
-                                                    <del class="text-muted">$230.00</del>
-                                                </p>
-                                                <div class="container text-center
-                                                ">
-                                                    <a href="#" class="btn btn-success ">
-                                                        Booking Now <i class="fa-solid fa-arrow-right"></i>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </div>
+                            
                             <div class="mkdf-row-grid-section-wrapper">
                                 <div class="mkdf-row-grid-section">
                                     <div

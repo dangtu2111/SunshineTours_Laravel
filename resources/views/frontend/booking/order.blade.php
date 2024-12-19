@@ -447,7 +447,7 @@
                                                                             <p
                                                                                 class="mkdf-st-text"
                                                                                 style="
-                                            font-size: 18px;
+                                            font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
                                             font-weight:400 !important;
@@ -465,7 +465,7 @@
                                                                             <p
                                                                                 class="mkdf-st-text"
                                                                                 style="
-                                            font-size: 18px;
+                                            font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
                                             font-weight:400 !important;
@@ -477,7 +477,7 @@
                                                                             <p
                                                                                 class="mkdf-st-text"
                                                                                 style="
-                                            font-size: 18px;
+                                            font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
                                             font-weight:400 !important;
@@ -488,7 +488,7 @@
                                                                             <p
                                                                                 class="mkdf-st-text"
                                                                                 style="
-                                            font-size: 18px;
+                                            font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
                                             font-weight:400 !important;
@@ -499,7 +499,7 @@
                                                                             <p
                                                                                 class="mkdf-st-text"
                                                                                 style="
-                                            font-size: 18px;
+                                            font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
                                             font-weight:400 !important;

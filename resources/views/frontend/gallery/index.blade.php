@@ -47,7 +47,9 @@
             class="mkdf-title-holder mkdf-standard-type mkdf-title-va-header-bottom mkdf-preload-background mkdf-has-bg-image mkdf-bg-responsive-disabled"
             style="
                 height: 452px;
-                background-image: url(frontend/wp-content/uploads/2019/10/p4-bckg-01.jpg);
+                background-image: url(frontend/img/background_gallery.jpg);
+                background-size: cover;
+    background-position: center;
               "
             data-height="452">
             <div class="mkdf-title-image">

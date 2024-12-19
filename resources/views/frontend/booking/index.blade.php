@@ -185,7 +185,7 @@
                                             <div class="mkdf-blog-slider-item-inner">
                                                 <div class="mkdf-item-image mkdf-tilt-trigger">
                                                     <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-                                                        <img loading="lazy" decoding="async" src="http://127.0.0.1:8000/frontend/img/3x4/pexels.jpg" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
+                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
                                                     </a>
 
 
@@ -261,7 +261,7 @@
                                             <div class="mkdf-blog-slider-item-inner">
                                                 <div class="mkdf-item-image mkdf-tilt-trigger">
                                                     <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-                                                        <img loading="lazy" decoding="async" src="http://127.0.0.1:8000/frontend/img/3x4/pexels.jpg" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
+                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
                                                     </a>
 
 
@@ -337,7 +337,7 @@
                                             <div class="mkdf-blog-slider-item-inner">
                                                 <div class="mkdf-item-image mkdf-tilt-trigger">
                                                     <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-                                                        <img loading="lazy" decoding="async" src="http://127.0.0.1:8000/frontend/img/3x4/pexels.jpg" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
+                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
                                                     </a>
 
 
@@ -413,7 +413,7 @@
                                             <div class="mkdf-blog-slider-item-inner">
                                                 <div class="mkdf-item-image mkdf-tilt-trigger">
                                                     <a itemprop="url" href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html" class="d-block text-decoration-none mkdf-tilt-target" style="transform-origin: 51.8347% 48.9293% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
-                                                        <img loading="lazy" decoding="async" src="http://127.0.0.1:8000/frontend/img/3x4/pexels.jpg" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
+                                                        <img loading="lazy" decoding="async" src="{{asset('frontend/img/3x4/pexels.jpg')}}" alt="Guided Hikes in Iceland Rhyolite Mountain Trail" class="img-fluid rounded" width="1300" height="1551">
                                                     </a>
 
 

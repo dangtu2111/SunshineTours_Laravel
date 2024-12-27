@@ -13,43 +13,51 @@ use App\Http\Controllers\Backend\FeedbackController;
 use App\Http\Controllers\Backend\AuthController;
 use App\Http\Middleware\AuthenticateMiddleware;
 
-Route::get('/loginAdmin', [AuthController::class,'index'])->name('auth.admin');
-Route::get('/logoutAdmin', [AuthController::class,'logout'])->name('auth.logout');
-Route::post('/authAdmin', [AuthController::class,'login'])->name('auth.login');
+Route::get('/loginAdmin', [AuthController::class, 'index'])->name('auth.admin');
+Route::get('/logoutAdmin', [AuthController::class, 'logout'])->name('auth.logout');
+Route::post('/authAdmin', [AuthController::class, 'login'])->name('auth.login');
 // Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
 //     \UniSharp\LaravelFilemanager\Lfm::routes();
 // });
-Route::group(['prefix' => 'admin', 'middleware' => AuthenticateMiddleware::class], function() {
+Route::group(['prefix' => 'admin', 'middleware' => AuthenticateMiddleware::class], function () {
     Route::get('/', [HomeController::class, 'index'])->name('admin.home');
-    
+
     // Các route con của admin
     Route::get('/Tour', [TourController::class, 'index'])->name('admin.tour');
     Route::get('/user', [UserController::class, 'index'])->name('admin.user');
-    
-    Route::group(['prefix' => 'user'], function() {
+
+    Route::group(['prefix' => 'user'], function () {
         Route::get('create', [UserController::class, 'create'])->name('admin.user.create');
         Route::get('delete/{id}', [UserController::class, 'delete'])->name('admin.user.delete');
         Route::post('destroy/{id}', [UserController::class, 'destroy'])->name('admin.user.destroy');
-        Route::get('edit/{id}', [UserController::class, 'edit'])->where(['id'=>'[0-9]+'])->name('admin.user.edit');
-        Route::post('update/{id}', [UserController::class, 'update'])->where(['id'=>'[0-9]+'])->name('admin.user.update');
+        Route::get('edit/{id}', [UserController::class, 'edit'])->where(['id' => '[0-9]+'])->name('admin.user.edit');
+        Route::post('update/{id}', [UserController::class, 'update'])->where(['id' => '[0-9]+'])->name('admin.user.update');
         Route::post('store', [UserController::class, 'store'])->name('admin.user.store');
     });
-    
+    Route::group(['prefix' => 'Content'], function () {
+        Route::get('/', [ContentController::class, 'index'])->name('admin.content');
+        Route::post('/addCategory', [ContentController::class, 'addCategory'])->name('admin.content.addCategory');
+        Route::get('/addNewPost', [ContentController::class, 'addNewPost'])->name('admin.content.addNewPost');
+        Route::get('/editPost/{id}', [ContentController::class, 'editPost'])->name('admin.content.editPost');
+        Route::post('/updatePost/{id}', [ContentController::class, 'updatePost'])->name('admin.content.updatePost');
+        Route::post('/deletePost/{id}', [ContentController::class, 'deletePost'])->name('admin.content.deletePost');
+        Route::post('/formNewPost', [ContentController::class, 'formNewPost'])->name('admin.content.formNewPost');
+        Route::post('/updateNameCategory', [ContentController::class, 'updateNameCategory'])->name('admin.content.updateNameCategory');
+        Route::post('/deleteCategory', [ContentController::class, 'deleteCategory'])->name('admin.content.deleteCategory');
+    });
     Route::get('/Booking', [BookingController::class, 'index'])->name('admin.booking');
     Route::get('/Payment', [PaymentController::class, 'index'])->name('admin.payment');
-    Route::get('/Content', [ContentController::class, 'index'])->name('admin.content');
     Route::get('/Report', [ReportController::class, 'index'])->name('admin.report');
+
     Route::get('/Feedback', [FeedbackController::class, 'index'])->name('admin.feedback');
 });
 
-Route::get('/', [App\Http\Controllers\Frontend\UserController::class,'index'])->name('index');
-Route::get('/about', [App\Http\Controllers\Frontend\AboutUsController::class,'index'])->name('about');
-Route::get('/gallery', [App\Http\Controllers\Frontend\GalleryController::class,'index'])->name('gallery');
-Route::get('/booking', [App\Http\Controllers\Frontend\BookingController::class,'index'])->name('booking');
-Route::get('/FAQ', [App\Http\Controllers\Frontend\FAQController::class,'index'])->name('FAQ');
-Route::get('/blog', [App\Http\Controllers\Frontend\BlogController::class,'index'])->name('blog');
-Route::get('/booking/tour_detail', [App\Http\Controllers\Frontend\BookingController::class,'tour_detail'])->name('tour_detail');
-Route::get('/booking/order', [App\Http\Controllers\Frontend\BookingController::class,'order'])->name('order');
-Route::get('/booking/checkout', [App\Http\Controllers\Frontend\BookingController::class,'checkout'])->name('checkout');
-
-
+Route::get('/', [App\Http\Controllers\Frontend\UserController::class, 'index'])->name('index');
+Route::get('/about', [App\Http\Controllers\Frontend\AboutUsController::class, 'index'])->name('about');
+Route::get('/gallery', [App\Http\Controllers\Frontend\GalleryController::class, 'index'])->name('gallery');
+Route::get('/booking', [App\Http\Controllers\Frontend\BookingController::class, 'index'])->name('booking');
+Route::get('/FAQ', [App\Http\Controllers\Frontend\FAQController::class, 'index'])->name('FAQ');
+Route::get('/blog', [App\Http\Controllers\Frontend\BlogController::class, 'index'])->name('blog');
+Route::get('/booking/tour_detail', [App\Http\Controllers\Frontend\BookingController::class, 'tour_detail'])->name('tour_detail');
+Route::get('/booking/order', [App\Http\Controllers\Frontend\BookingController::class, 'order'])->name('order');
+Route::get('/booking/checkout', [App\Http\Controllers\Frontend\BookingController::class, 'checkout'])->name('checkout');

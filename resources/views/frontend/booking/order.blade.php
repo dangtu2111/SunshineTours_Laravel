@@ -329,56 +329,75 @@
 
 
 
-                                            <div class="container mt-3 selectGuests">
+                                            <div id="input-group-container" class="container mt-3 selectGuests">
                                                 <h4><strong>Number of guests</strong></h4>
-                                                </hr>
+                                                <hr>
+
+                                                <!-- Input group ban đầu -->
                                                 <div class="input-group mb-3">
                                                     <!-- Select bên trái -->
                                                     <div class="input-group-prepend">
-                                                        <select class="custom-select">
-                                                            <option selected>Chọn hành động</option>
-                                                            <option value="1">Action</option>
-                                                            <option value="2">Another action</option>
-                                                            <option value="3">Something else here</option>
-                                                            <option value="4">Separated link</option>
+                                                        <select class="fs-4 custom-select">
+                                                            <option selected>Select number of people</option>
                                                         </select>
                                                     </div>
-                                                    <!-- Select ở giữa -->
-                                                    <select class="custom-select text-center">
-                                                        <option selected>Chọn một mục</option>
-                                                        <option value="1">Option 1</option>
-                                                        <option value="2">Option 2</option>
-                                                        <option value="3">Option 3</option>
+
+                                                    <script>
+                                                        // Get the select element inside the input-group-prepend
+                                                        const newSelectElement = document.querySelector('.input-group-prepend select');
+
+                                                        // Create options dynamically for numbers 1 to 100
+                                                        for (let i = 1; i <= 100; i++) {
+                                                            const option = document.createElement('option');
+                                                            option.value = i;
+                                                            option.textContent = i;
+                                                            newSelectElement.appendChild(option);
+                                                        }
+                                                    </script>
+
+                                                    <select class="custom-select text-center fs-4">
+                                                        <option value="0" selected>Guests (8 years and older)</option>
+                                                        <option value="1">Guests (4 to 7 years old)</option>
+                                                        <option value="2">Guests (3 years and under)</option>
                                                     </select>
-                                                    <!-- Select bên phải -->
                                                     <div class="input-group-append">
-                                                        <select class="custom-select">
-                                                            <option selected>Chọn hành động</option>
-                                                            <option value="1">Action</option>
-                                                            <option value="2">Another action</option>
-                                                            <option value="3">Something else here</option>
-                                                            <option value="4">Separated link</option>
-                                                        </select>
+                                                        <span class="input-group-text notranslate fs-4">$82.00</span>
+                                                    </div>
+                                                    <div class="input-group-append">
+                                                        <button class="btn  ml-2 remove-button"><i class="fa-solid fa-trash"></i></button>
                                                     </div>
                                                 </div>
+
+                                                <!-- Nút thêm input group -->
+                                                <button id="add-button" class="btn btn-primary mb-3 fs-3" style="    width: 100%; background: transparent;border: 1px solid gray; color:#606470"><i class="fa-solid fa-plus"></i></button>
                                             </div>
+
+
+
                                             <div class="container mt-3">
 
                                                 <h5 class="mb-3">Chọn các tùy chọn</h5>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="option1" id="checkbox1">
-                                                    <label class="form-check-label" for="checkbox1">
-                                                        Tùy chọn 1
+                                                <div class="form-check m-md-3">
+                                                    <input class="form-check-input" style="width:15px;height:15px; " type="checkbox" value="option1" id="checkbox1">
+                                                    <label class="form-check-label fs-4 ml-3" for="checkbox1">
+                                                        VIP Private Tour
                                                     </label>
                                                 </div>
                                                 <div class="note">
                                                     <span>Additional <span class="notranslate">$30.00</span> per Guests (8 years and older), minimum of 2</span>
                                                 </div>
 
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="option2" id="checkbox2">
-                                                    <label class="form-check-label" for="checkbox2">
-                                                        Tùy chọn 2
+                                                <div class="form-check m-md-3">
+                                                    <input class="form-check-input" style="width:15px;height:15px; " type="checkbox" value="option2" id="checkbox2">
+                                                    <label class="form-check-label fs-4 ml-3" for="checkbox2">
+                                                        Tour video (+$50.00)
+                                                    </label>
+                                                </div>
+                                                <div class="note "><span>We can film your ride (for an extra 50USD) and create a special video of your Vietnam Adventure! We can also mix in a custom music track in your video upon request.</span></div>
+                                                <div class="form-check m-md-3">
+                                                    <input class="form-check-input" style="width:15px;height:15px;" type="checkbox" value="option2" id="checkbox2">
+                                                    <label class="form-check-label fs-4 ml-3" for="checkbox2">
+                                                        Car/Bus (+$60.00)
                                                     </label>
                                                 </div>
                                                 <div class="note "><span>We can film your ride (for an extra 50USD) and create a special video of your Vietnam Adventure! We can also mix in a custom music track in your video upon request.</span></div>
@@ -395,21 +414,21 @@
                                                     <button type="button" class="btn btn-primary mx-2">06:00 PM</button>
                                                 </div>
                                             </div>
-                                            <br>  
-                                            
+                                            <br>
+
                                             <div class="subtotal text-center p-4" style="border-top:1px solid #000">
                                                 <!-- Thẻ hiển thị subtotal -->
                                                 <div class="subtotal-container d-flex justify-content-between">
-                                                    <span class="subtotal-label">Subtotal:</span>
-                                                    <span id="subtotal">$0.00</span>
+                                                    <span class="subtotal-label fs-3">Subtotal:</span>
+                                                    <span id="subtotal" class="fs-3">$0.00</span>
                                                 </div>
                                                 <div class="subtotal-container d-flex justify-content-between">
-                                                    <span class="subtotal-label">Total:</span>
-                                                    <span id="total">$0.00</span>
+                                                    <span class="subtotal-label fs-3">Total:</span>
+                                                    <span id="total" class="fs-3">$0.00</span>
                                                 </div>
 
                                                 <!-- Nút Submit -->
-                                                <button style="width:80%" class="btn btn-primary button-91" role="button">Book It</button>
+                                                <button style="width:80%" class="btn btn-primary button-91 fs-3" role="button">Book It</button>
                                             </div>
 
 
@@ -546,3 +565,53 @@
     </div>
     <!-- close div.content_inner -->
 </div>
+<script>
+    // Thêm sự kiện xóa cho nhóm input ban đầu
+    document.querySelector('.remove-button').addEventListener('click', function() {
+        this.closest('.input-group').remove();
+    });
+
+    // Xử lý thêm nhóm input mới khi nhấn nút
+    document.getElementById('add-button').addEventListener('click', () => {
+        const container = document.getElementById('input-group-container');
+
+        // Tạo nhóm input mới
+        const newInputGroup = document.createElement('div');
+        newInputGroup.className = 'input-group mb-3';
+        newInputGroup.innerHTML = `
+                                                        <div class="input-group-prepend">
+                                                            <select class="fs-4 custom-select">
+                                                                <option selected>Select number of people</option>
+                                                            </select>
+                                                        </div>
+                                                        <select class="custom-select text-center fs-4">
+                                                            <option value="0" selected>Guests (8 years and older)</option>
+                                                            <option value="1">Guests (4 to 7 years old)</option>
+                                                            <option value="2">Guests (3 years and under)</option>
+                                                        </select>
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text notranslate fs-4">$82.00</span>
+                                                        </div>
+                                                        <div class="input-group-append">
+                                                            <button class="btn  ml-2 remove-button"><i class="fa-solid fa-trash"></i></button>
+                                                        </div>
+                                                    `;
+
+        // Chèn nhóm mới vào TRƯỚC nút button
+        container.insertBefore(newInputGroup, container.querySelector('#add-button'));
+
+        // Tạo options cho select mới
+        const newSelectElement = newInputGroup.querySelector('.input-group-prepend select');
+        for (let i = 1; i <= 100; i++) {
+            const option = document.createElement('option');
+            option.value = i;
+            option.textContent = i;
+            newSelectElement.appendChild(option);
+        }
+
+        // Thêm sự kiện xóa cho nút "Remove"
+        newInputGroup.querySelector('.remove-button').addEventListener('click', () => {
+            newInputGroup.remove();
+        });
+    });
+</script>

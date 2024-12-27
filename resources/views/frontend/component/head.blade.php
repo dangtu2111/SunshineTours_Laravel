@@ -7,6 +7,7 @@
 
 <meta charset="UTF-8" />
 <link rel="profile" href="https://gmpg.org/xfn/11" />
+<link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <title>Sunshine Tours</title>

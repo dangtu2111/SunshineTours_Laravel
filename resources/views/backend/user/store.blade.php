@@ -127,7 +127,7 @@
                                     >
                                     @foreach($role_id as $key => $item)
                                         <option value="{{ $key }}" 
-                                            {{ $key == old('role_id', isset($user->role_id) ? $user->role_id : '') ? 'selected' : '' }}>
+                                            {{ $key == old('role_id', default: isset($user->role_id) ? $user->role_id : '') ? 'selected' : '' }}>
                                             {{ $item }}
                                         </option>
                                     @endforeach
@@ -223,7 +223,6 @@
                                             class="form-control"
                                             type="text"
                                             value='{{old("avatar", ($user->avatar) ?? " ")}}'
-
                                             name="avatar"
                                         />
                                     </div>

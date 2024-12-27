@@ -123,6 +123,22 @@ return new class extends Migration
             $table->longText('payload');
             $table->integer('last_activity')->index();
         });
+        Schema::create('category_posts', function (Blueprint $table) {
+            $table->id();
+            $table->string('name', 200);
+            $table->timestamps();
+        });
+        Schema::create('posts', function (Blueprint $table) {
+            $table->id();
+            $table->string('title', 255);
+            $table->string('img')->nullable();
+            $table->text('description')->nullable();
+            $table->text('content');
+            $table->foreignId('category_id')->constrained('category_posts')->onDelete('cascade');
+            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
+            
+            $table->timestamps();
+        });
     }
 
     /**
@@ -141,5 +157,7 @@ return new class extends Migration
         Schema::dropIfExists('users');
         Schema::dropIfExists('roles');
         Schema::dropIfExists('sessions');
+        Schema::dropIfExists('category_posts');
+        Schema::dropIfExists('posts');
     }
 };

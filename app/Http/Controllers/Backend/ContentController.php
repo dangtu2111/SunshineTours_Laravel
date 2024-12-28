@@ -6,7 +6,6 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\CategoriesContentRequest;
 use App\Http\Requests\NewPostRequest;
 use App\Services\Interfaces\ContentServiceInterface as ContentService;
-use App\Models\Post;
 use App\Repositories\Interfaces\ContentRepositoryInterface as ContentRepository;
 use Illuminate\Http\Request;
 

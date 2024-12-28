@@ -99,7 +99,7 @@
                                     <div class="col-sm-5 text-right">
                                         <p class="price-book">
                                             From-<span>$345</span>/night
-                                            <a href="{{route('order')}}" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
+                                            <a href="{{route('order',['id'=>$tour->id])}}" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
                                         </p>
                                     </div>
                                 </div>
@@ -111,7 +111,7 @@
                         <section class="detail-slider">
                             
                             <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/7TQqzmow7V8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="560" height="315" src="{{$tour->youtube}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
                         </section>
@@ -516,7 +516,7 @@
                                 <div class="col-lg-9 detail-footer-cn text-right">
                                     <p class="price-book">
                                         From-<span>$345</span>/night
-                                        <a href="{{route('order')}}" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
+                                        <a href="{{route('order',['id'=>$tour->id])}}" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
                                     </p>
                                 </div>
                             </div>

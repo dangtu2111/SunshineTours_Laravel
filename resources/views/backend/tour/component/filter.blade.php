@@ -22,7 +22,7 @@
                                 </span>
                             </div>
                         </div>
-                        <a href="{{route('admin.user.create')}}" class="btn btn-primary"><i class="fa fa-plus mr5"></i>Add new Tours</a>
+                        <a href="{{route('admin.tour.addTour')}}" class="btn btn-primary"><i class="fa fa-plus mr5"></i>Add new Tours</a>
                     </div>
                 </div>
             </div>

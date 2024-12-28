@@ -26,7 +26,7 @@ class Tour extends Model
         'title',
         'price',
         'discount',
-        'thumbnail',
+        'youtube',
         'description',
         'deleted',
     ];
@@ -48,5 +48,9 @@ class Tour extends Model
     public function category()
     {
         return $this->belongsTo(Category::class);
+    }
+    public function images()
+    {
+        return $this->hasMany(Image::class, 'tour_id');
     }
 }

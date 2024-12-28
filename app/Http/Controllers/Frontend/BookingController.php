@@ -4,17 +4,30 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Models\User;
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use App\Services\Interfaces\UserServiceInterface as UserService;
-use App\Http\Requests\StoreUserRequest;
-use App\Http\Requests\UpdateUserRequest;
-use App\Repositories\Interfaces\UserRepositoryInterface as UserRepository;
+use App\Repositories\Interfaces\TourRepositoryInterface as TourRepository;
+use App\Repositories\Interfaces\ImageRepositoryInterface as ImageRepository;
+use App\Services\Interfaces\TourServiceInterface as TourService;
+use App\Services\Interfaces\BookingServiceInterface as BookingService;
+use App\Http\Requests\OrderRequest;
 
 class BookingController extends Controller
 {  
+    protected $tourService;
+    protected $tourRepository;
+    protected $imageRepository;
+    protected $bookingService;
+    public function __construct(
+        TourService $tourService,
+        TourRepository $tourRepository,
+        ImageRepository $imageRepository,
+        BookingService $bookingService
+    ){
+        $this->tourService = $tourService;
+        $this->tourRepository= $tourRepository;
+        $this->imageRepository= $imageRepository;
+        $this->bookingService = $bookingService;
+    }
     public function index(){
-
-  
         $config = [
             "css"=>[
                 'frontend/css/booking.css',
@@ -22,12 +35,12 @@ class BookingController extends Controller
             ];
         // Đặt tên template cho view
         $template = 'frontend.booking.index';
+        $tours=$this->tourRepository->allImage();
 
         // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
-        return view('frontend.layout.layout', compact('template','config'));
+        return view('frontend.layout.layout', compact('template','config' ,'tours'));
     }
-    public function tour_detail(){
-        
+    public function tour_detail($id,){
         $config = [
             "css"=>[
                 'frontend/css/tour_detail/font-awesome.min.css',
@@ -53,12 +66,23 @@ class BookingController extends Controller
             ];
         // Đặt tên template cho view
         $template = 'frontend.booking.tour_detail';
-
+        $tour=$this->tourRepository->findById($id);
+        $tour->youtube=$this->convertYoutubeUrlToEmbed($tour->youtube);
         // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
-        return view('frontend.layout.layout', compact('template','config'));
+        return view('frontend.layout.layout', compact('template','config','tour'));
     }
-    public function order(){
-      
+    public function convertYoutubeUrlToEmbed($url) {
+        $parsedUrl = parse_url($url);
+        if (isset($parsedUrl['query'])) {
+            parse_str($parsedUrl['query'], $queryParams);
+            if (isset($queryParams['v'])) {
+                return 'https://www.youtube.com/embed/' . $queryParams['v'];
+            }
+        }
+        return $url; // Nếu không phải URL hợp lệ, trả về URL gốc.
+    }
+    public function order($id){
+        
         $config = [
             "css"=>[
                 'frontend/css/tour_detail/font-awesome.min.css',
@@ -80,12 +104,13 @@ class BookingController extends Controller
             ];
         // Đặt tên template cho view
         $template = 'frontend.booking.order';
-
+        $tour=$this->tourRepository->findById($id);
+        $tour->youtube=$this->convertYoutubeUrlToEmbed($tour->youtube);
         // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
-        return view('frontend.layout.layout', compact('template','config'));
+        return view('frontend.layout.layout', compact('template','config','tour'));
     }
-    public function checkout(){
-      
+    public function checkout($id,OrderRequest $request){
+    
         $config = [
             "css"=>[
                 'frontend/css/checkout.css'
@@ -96,8 +121,10 @@ class BookingController extends Controller
             ];
         // Đặt tên template cho view
         $template = 'frontend.booking.checkout';
-
+        
+        $tour=$this->tourRepository->findById($id);
+        $tour->youtube=$this->convertYoutubeUrlToEmbed($tour->youtube);
         // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
-        return view('frontend.layout.layout', compact('template','config'));
+        return view('frontend.layout.layout', compact('template','config','tour'));
     }
 }

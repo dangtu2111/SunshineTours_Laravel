@@ -48,7 +48,7 @@
         $bg=asset('frontend/wp-content/uploads/2019/10/p1-bckg-01.jpg');
         @endphp
         <div
-            class="mkdf-title-holder mkdf-standard-type mkdf-title-va-header-bottom mkdf-preload-background mkdf-has-bg-image mkdf-bg-responsive-disabled"
+            class="height-auto-md mkdf-title-holder mkdf-standard-type mkdf-title-va-header-bottom mkdf-preload-background mkdf-has-bg-image mkdf-bg-responsive-disabled"
             style="
           height: 452px;
           background-image: url({{$bg}});
@@ -80,7 +80,7 @@
                                 <div class="row g-4 d-flex justify-content-center">
                                     <div class="col-md-6">
                                         <div class="row" style="height: 300px;">
-                                            <iframe style="height: 300px;" title="The XO Foodie" class="embed-responsive-item d-block w-100" src="https://www.youtube.com/embed/7TQqzmow7V8?si=0YzDmwdXvgcbDaVK"></iframe>
+                                            <iframe style="height: 300px;" title="The XO Foodie" class="embed-responsive-item d-block w-100" src="{{$tour->youtube}}"></iframe>
 
                                         </div>
                                         <div class="mkdf-post-content oder-content" id="oder-content">
@@ -234,238 +234,235 @@
                                         <button class="btn btn-show-more" id="showMoreBtn" onclick="toggleContent()">Show More</button>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="elegant-calencar d-md-flex">\
-                                            @php
-                                            $bg01=asset('frontend/images/bg.jpg');
-                                            @endphp
-                                            <div class="wrap-header d-flex align-items-center img" style="background-image: url({{$bg01}});">
-                                                <p id="reset">Today</p>
-                                                <div id="header" class="p-0">
-                                                    <!-- <div class="pre-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-left"></i></div> -->
-                                                    <div class="head-info">
-                                                        <div class="head-month">December - 2024</div>
-                                                        <div class="head-day">17</div>
-                                                    </div>
-                                                    <!-- <div class="next-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i></div> -->
-                                                </div>
-                                            </div>
-                                            <div class="calendar-wrap">
-                                                <div class="w-100 button-wrap">
-                                                    <div class="pre-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-left"></i></div>
-                                                    <div class="next-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i></div>
-                                                </div>
-                                                <table id="calendar">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>Sun</th>
-                                                            <th>Mon</th>
-                                                            <th>Tue</th>
-                                                            <th>Wed</th>
-                                                            <th>Thu</th>
-                                                            <th>Fri</th>
-                                                            <th>Sat</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td id="" class="">1</td>
-                                                            <td id="" class="">2</td>
-                                                            <td id="" class="">3</td>
-                                                            <td id="" class="">4</td>
-                                                            <td id="" class="">5</td>
-                                                            <td id="" class="">6</td>
-                                                            <td id="" class="">7</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td id="" class="">8</td>
-                                                            <td id="" class="">9</td>
-                                                            <td id="" class="">10</td>
-                                                            <td id="" class="">11</td>
-                                                            <td id="" class="">12</td>
-                                                            <td id="" class="">13</td>
-                                                            <td id="" class="">14</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td id="" class="">15</td>
-                                                            <td id="" class="">16</td>
-                                                            <td id="today" class="">17</td>
-                                                            <td id="" class="">18</td>
-                                                            <td id="" class="">19</td>
-                                                            <td id="" class="">20</td>
-                                                            <td id="" class="">21</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td id="" class="">22</td>
-                                                            <td id="" class="">23</td>
-                                                            <td id="" class="">24</td>
-                                                            <td id="" class="">25</td>
-                                                            <td id="" class="">26</td>
-                                                            <td id="" class="">27</td>
-                                                            <td id="" class="">28</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td id="" class="">29</td>
-                                                            <td id="" class="">30</td>
-                                                            <td id="" class="">31</td>
-                                                            <td id="disabled" class=""></td>
-                                                            <td id="disabled" class=""></td>
-                                                            <td id="disabled" class=""></td>
-                                                            <td id="disabled" class=""></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td id="disabled" class=""></td>
-                                                            <td id="disabled" class=""></td>
-                                                            <td id="disabled" class=""></td>
-                                                            <td id="disabled" class=""></td>
-                                                            <td id="disabled" class=""></td>
-                                                            <td id="disabled" class=""></td>
-                                                            <td id="disabled" class=""></td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
+                                        @if ($errors->any())
+                                        <div class="alert alert-danger">
+                                            <ul>
+                                                @foreach ($errors->all() as $error)
+                                                <li>{{ $error }}</li>
+                                                @endforeach
+                                            </ul>
                                         </div>
-                                        <div class="container p-3 rounded-bottom-3" style="background:rgba(58, 58, 58, .05);">
-
-
-
-                                            <div id="input-group-container" class="container mt-3 selectGuests">
-                                                <h4><strong>Number of guests</strong></h4>
-                                                <hr>
-
-                                                <!-- Input group ban đầu -->
-                                                <div class="input-group mb-3">
-                                                    <!-- Select bên trái -->
-                                                    <div class="input-group-prepend">
-                                                        <select class="fs-4 custom-select">
-                                                            <option selected>Select number of people</option>
-                                                        </select>
-                                                    </div>
-
-                                                    <script>
-                                                        // Get the select element inside the input-group-prepend
-                                                        const newSelectElement = document.querySelector('.input-group-prepend select');
-
-                                                        // Create options dynamically for numbers 1 to 100
-                                                        for (let i = 1; i <= 100; i++) {
-                                                            const option = document.createElement('option');
-                                                            option.value = i;
-                                                            option.textContent = i;
-                                                            newSelectElement.appendChild(option);
-                                                        }
-                                                    </script>
-
-                                                    <select class="custom-select text-center fs-4">
-                                                        <option value="0" selected>Guests (8 years and older)</option>
-                                                        <option value="1">Guests (4 to 7 years old)</option>
-                                                        <option value="2">Guests (3 years and under)</option>
-                                                    </select>
-                                                    <div class="input-group-append">
-                                                        <span class="input-group-text notranslate fs-4">$82.00</span>
-                                                    </div>
-                                                    <div class="input-group-append">
-                                                        <button class="btn  ml-2 remove-button"><i class="fa-solid fa-trash"></i></button>
+                                        @endif
+                                        <form action="{{route('checkout',['id'=>$tour->id])}}" method="POST" id="selectedDateForm">
+                                            @csrf
+                                            <div class="elegant-calencar d-md-flex">\
+                                                @php
+                                                $bg01=asset('frontend/images/bg.jpg');
+                                                @endphp
+                                                <div class="wrap-header d-flex align-items-center img" style="background-image: url({{$bg01}});">
+                                                    <p id="reset">Today</p>
+                                                    <div id="header" class="p-0">
+                                                        <!-- <div class="pre-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-left"></i></div> -->
+                                                        <div class="head-info">
+                                                            <div class="head-month">December - 2024</div>
+                                                            <div class="head-day">17</div>
+                                                        </div>
+                                                        <!-- <div class="next-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i></div> -->
                                                     </div>
                                                 </div>
-
-                                                <!-- Nút thêm input group -->
-                                                <button id="add-button" class="btn btn-primary mb-3 fs-3" style="    width: 100%; background: transparent;border: 1px solid gray; color:#606470"><i class="fa-solid fa-plus"></i></button>
+                                                <div class="calendar-wrap">
+                                                    <div class="w-100 button-wrap">
+                                                        <div class="pre-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-left"></i></div>
+                                                        <div class="next-button d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i></div>
+                                                    </div>
+                                                    <table id="calendar">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Sun</th>
+                                                                <th>Mon</th>
+                                                                <th>Tue</th>
+                                                                <th>Wed</th>
+                                                                <th>Thu</th>
+                                                                <th>Fri</th>
+                                                                <th>Sat</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td id="" class="">1</td>
+                                                                <td id="" class="">2</td>
+                                                                <td id="" class="">3</td>
+                                                                <td id="" class="">4</td>
+                                                                <td id="" class="">5</td>
+                                                                <td id="" class="">6</td>
+                                                                <td id="" class="">7</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td id="" class="">8</td>
+                                                                <td id="" class="">9</td>
+                                                                <td id="" class="">10</td>
+                                                                <td id="" class="">11</td>
+                                                                <td id="" class="">12</td>
+                                                                <td id="" class="">13</td>
+                                                                <td id="" class="">14</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td id="" class="">15</td>
+                                                                <td id="" class="">16</td>
+                                                                <td id="today" class="">17</td>
+                                                                <td id="" class="">18</td>
+                                                                <td id="" class="">19</td>
+                                                                <td id="" class="">20</td>
+                                                                <td id="" class="">21</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td id="" class="">22</td>
+                                                                <td id="" class="">23</td>
+                                                                <td id="" class="">24</td>
+                                                                <td id="" class="">25</td>
+                                                                <td id="" class="">26</td>
+                                                                <td id="" class="">27</td>
+                                                                <td id="" class="">28</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td id="" class="">29</td>
+                                                                <td id="" class="">30</td>
+                                                                <td id="" class="">31</td>
+                                                                <td id="disabled" class=""></td>
+                                                                <td id="disabled" class=""></td>
+                                                                <td id="disabled" class=""></td>
+                                                                <td id="disabled" class=""></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td id="disabled" class=""></td>
+                                                                <td id="disabled" class=""></td>
+                                                                <td id="disabled" class=""></td>
+                                                                <td id="disabled" class=""></td>
+                                                                <td id="disabled" class=""></td>
+                                                                <td id="disabled" class=""></td>
+                                                                <td id="disabled" class=""></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
                                             </div>
 
+                                            <input type="hidden" name="datetime" id="dateInput">
+                                            <div class="container p-3 rounded-bottom-3" style="background:rgba(58, 58, 58, .05);">
 
 
-                                            <div class="container mt-3">
 
-                                                <h5 class="mb-3">Chọn các tùy chọn</h5>
-                                                <div class="form-check m-md-3">
-                                                    <input class="form-check-input" style="width:15px;height:15px; " type="checkbox" value="option1" id="checkbox1">
-                                                    <label class="form-check-label fs-4 ml-3" for="checkbox1">
-                                                        VIP Private Tour
-                                                    </label>
-                                                </div>
-                                                <div class="note">
-                                                    <span>Additional <span class="notranslate">$30.00</span> per Guests (8 years and older), minimum of 2</span>
+                                                <div id="input-group-container" class="container mt-3 selectGuests">
+                                                    <h4><strong>Number of guests</strong></h4>
+                                                    <hr>
+                                                    <!-- Nút thêm input group -->
+                                                    <button id="add-button" class="btn btn-primary mb-3 fs-3" type="button" style="    width: 100%; background: transparent;border: 1px solid gray; color:#606470"><i class="fa-solid fa-plus"></i></button>
                                                 </div>
 
-                                                <div class="form-check m-md-3">
-                                                    <input class="form-check-input" style="width:15px;height:15px; " type="checkbox" value="option2" id="checkbox2">
-                                                    <label class="form-check-label fs-4 ml-3" for="checkbox2">
-                                                        Tour video (+$50.00)
-                                                    </label>
+
+
+                                                <div class="container mt-3">
+
+                                                    <h5 class="mb-3">Chọn các tùy chọn</h5>
+                                                    <div class="form-check m-md-3">
+                                                        <input id="checkvipcheckvip" name="vip" class="form-check-input" style="width:15px;height:15px; " type="checkbox" value="1" id="checkbox1">
+                                                        <label class="form-check-label fs-4 ml-3" for="checkbox1">
+                                                            VIP Private Tour
+                                                        </label>
+                                                    </div>
+                                                    <div class="note">
+                                                        <span>Additional <span class="notranslate">$30.00</span> per Guests (8 years and older), minimum of 2</span>
+                                                    </div>
+
+                                                    <div class="form-check m-md-3">
+                                                        <input id="video" name="video" class="form-check-input" style="width:15px;height:15px; " type="checkbox" value="1" id="checkbox2">
+                                                        <label class="form-check-label fs-4 ml-3" for="checkbox2">
+                                                            Tour video (+$50.00)
+                                                        </label>
+                                                    </div>
+                                                    <div class="note "><span>We can film your ride (for an extra 50USD) and create a special video of your Vietnam Adventure! We can also mix in a custom music track in your video upon request.</span></div>
+                                                    <div class="form-check m-md-3">
+                                                        <input id="car-bus" name="car-bus" class="form-check-input" style="width:15px;height:15px;" type="checkbox" value="1" id="checkbox2">
+                                                        <label class="form-check-label fs-4 ml-3" for="checkbox2">
+                                                            Car/Bus (+$60.00)
+                                                        </label>
+                                                    </div>
+                                                    <div class="note "><span>We can film your ride (for an extra 50USD) and create a special video of your Vietnam Adventure! We can also mix in a custom music track in your video upon request.</span></div>
+
+
                                                 </div>
-                                                <div class="note "><span>We can film your ride (for an extra 50USD) and create a special video of your Vietnam Adventure! We can also mix in a custom music track in your video upon request.</span></div>
-                                                <div class="form-check m-md-3">
-                                                    <input class="form-check-input" style="width:15px;height:15px;" type="checkbox" value="option2" id="checkbox2">
-                                                    <label class="form-check-label fs-4 ml-3" for="checkbox2">
-                                                        Car/Bus (+$60.00)
-                                                    </label>
+                                                <div class="container mt-3">
+                                                    <h4><strong>Select Time</strong></h4>
+                                                    <hr>
+                                                    <div class="btn-group row" style="width:100% ; " role="group" aria-label="Thời gian">
+                                                        <label class="col-md-3 fs-5" style="font-weight:400">
+                                                            <input type="checkbox" name="time[]" value="10:00 AM" class="btn-time"> 10:00 AM
+                                                        </label>
+                                                        <label class="col-md-3 fs-5" style="font-weight:400">
+                                                            <input type="checkbox" name="time[]" value="12:00 PM" class="btn-time"> 12:00 PM
+                                                        </label>
+                                                        <label class="col-md-3 fs-5" style="font-weight:400">
+                                                            <input type="checkbox" name="time[]" value="03:00 PM" class="btn-time"> 03:00 PM
+                                                        </label>
+                                                        <label class="col-md-3 fs-5" style="font-weight:400">
+                                                            <input type="checkbox" name="time[]" value="06:00 PM" class="btn-time"> 06:00 PM
+                                                        </label>
+                                                    </div>
                                                 </div>
-                                                <div class="note "><span>We can film your ride (for an extra 50USD) and create a special video of your Vietnam Adventure! We can also mix in a custom music track in your video upon request.</span></div>
+                                                <div class="container mt-3">
+                                                    <h4><strong>Payment method</strong></h4>
+                                                    <hr>
+                                                    <div class="btn-group row" style="width:100% ; " role="group" aria-label="Thời gian">
+                                                        <label class="col-md-3 fs-5" style="font-weight:400">
+                                                            <input type="radio" name="payment" value="option1" />
+                                                            Paypal
+                                                        </label><br>
+
+                                                        <label class="col-md-3 fs-5" style="font-weight:400">
+                                                            <input type="radio" name="payment" value="option2" />
+                                                            Credit card
+                                                        </label><br>
+
+                                                        <label class="col-md-3 fs-5" style="font-weight:400">
+                                                            <input type="radio" name="payment" value="option3" checked />
+                                                            Online transfer
+                                                        </label><br>
+
+                                                        
+                                                    </div>
+                                                </div>
+                                                <br>
+
+                                                <div class="subtotal text-center p-4" style="border-top:1px solid #000">
+                                                    <!-- Thẻ hiển thị subtotal -->
+                                                    <div class="subtotal-container d-flex justify-content-between">
+                                                        <span class="subtotal-label fs-3">Subtotal:</span>
+                                                        <span id="total-cost" class="fs-3">$0.00</span>
+                                                    </div>
+                                                    <div class="subtotal-container d-flex justify-content-between">
+                                                        <span class="subtotal-label fs-3">Total:</span>
+                                                        <span id="total" class="fs-3">$0.00</span>
+                                                    </div>
+
+                                                    <!-- Nút Submit -->
+                                                    <button style="width:80%" class="btn btn-primary button-91 fs-3" role="button">Book It</button>
+                                                </div>
 
 
                                             </div>
-                                            <div class="container mt-3">
-                                                <h4><strong>Select Time</strong></h4>
-                                                <hr>
-                                                <div class="btn-group" role="group" aria-label="Thời gian">
-                                                    <button type="button" class="btn btn-primary mx-2">10:00 AM</button>
-                                                    <button type="button" class="btn btn-primary mx-2">12:00 PM</button>
-                                                    <button type="button" class="btn btn-primary mx-2">03:00 PM</button>
-                                                    <button type="button" class="btn btn-primary mx-2">06:00 PM</button>
-                                                </div>
-                                            </div>
-                                            <br>
+                                        </form>
 
-                                            <div class="subtotal text-center p-4" style="border-top:1px solid #000">
-                                                <!-- Thẻ hiển thị subtotal -->
-                                                <div class="subtotal-container d-flex justify-content-between">
-                                                    <span class="subtotal-label fs-3">Subtotal:</span>
-                                                    <span id="subtotal" class="fs-3">$0.00</span>
-                                                </div>
-                                                <div class="subtotal-container d-flex justify-content-between">
-                                                    <span class="subtotal-label fs-3">Total:</span>
-                                                    <span id="total" class="fs-3">$0.00</span>
-                                                </div>
-
-                                                <!-- Nút Submit -->
-                                                <button style="width:80%" class="btn btn-primary button-91 fs-3" role="button">Book It</button>
-                                            </div>
-
-
-                                        </div>
 
                                     </div>
                                 </div>
                             </div>
                             <div class="mkdf-row-grid-section-wrapper">
                                 <div class="mkdf-row-grid-section">
-                                    <div
-                                        class="vc_row wpb_row vc_row-fluid vc_custom_1574948316589 vc_row-has-fill">
-                                        <div
-                                            class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-1 vc_col-lg-10">
+                                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1574948316589 vc_row-has-fill">
+                                        <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-1 vc_col-lg-10">
                                             <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
-                                                    <div
-                                                        class="mkdf-elements-holder mkdf-two-columns mkdf-responsive-mode-1024">
-                                                        <div
-                                                            class="mkdf-eh-item"
-                                                            data-item-class="mkdf-eh-custom-9290"
-                                                            data-769-1024="0 17% 0 0"
-                                                            data-681-768="0 4% 0 0">
+                                                    <div class="mkdf-elements-holder mkdf-two-columns mkdf-responsive-mode-1024">
+                                                        <div class="mkdf-eh-item" data-item-class="mkdf-eh-custom-9290" data-769-1024="0 17% 0 0" data-681-768="0 4% 0 0">
                                                             <div class="mkdf-eh-item-inner">
-                                                                <div
-                                                                    class="mkdf-eh-item-content mkdf-eh-custom-9290">
-                                                                    <div
-                                                                        class="mkdf-section-title-holder"
-                                                                        style="text-align: left; color:#000;">
+                                                                <div class="mkdf-eh-item-content mkdf-eh-custom-9290">
+                                                                    <div class="mkdf-section-title-holder" style="text-align: left; color:#000;">
                                                                         <div class="mkdf-st-inner">
                                                                             <span class="mkdf-st-tagline">Some things to note</span>
                                                                             <h3 class="mkdf-st-title">
                                                                                 Get ready for a relaxing trip
                                                                             </h3>
-                                                                            <p
-                                                                                class="mkdf-st-text"
-                                                                                style="
+                                                                            <p class="mkdf-st-text" style="
                                             font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
@@ -481,9 +478,7 @@
                                                                                 This information is subject to change, so PLEASE DOUBLE CHECK to see if you need a Vietnam Visa before booking your trip to Vietnam!
 
                                                                             </p>
-                                                                            <p
-                                                                                class="mkdf-st-text"
-                                                                                style="
+                                                                            <p class="mkdf-st-text" style="
                                             font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
@@ -493,9 +488,7 @@
                                                                                 <strong>2.</strong> If you booked one of our evening tours, and are going on a Mekong Delta or Cu Chi Tunnel Tour on the same date, you may not return in time for the evening tours. Mekong Delta and Cu Chi Tunnel Tours are notorious for returning late, and if you do not arrive in time for tour pickup and you are booked on one of our group tours, we won't be able to delay the tour start time out of consideration for our other guests and late cancellations will incur a cancellation fee as per the policy listed on our website.
 
                                                                             </p>
-                                                                            <p
-                                                                                class="mkdf-st-text"
-                                                                                style="
+                                                                            <p class="mkdf-st-text" style="
                                             font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
@@ -504,9 +497,7 @@
                                           "><strong>3.</strong> If you are traveling with friends or family and booking seperately, PLEASE LET US KNOW! We often run multiple groups at the same time and if we do not know you are traveling together, you may end up in different groups and we won't be able to rearrange the groups on short notice.
 
                                                                             </p>
-                                                                            <p
-                                                                                class="mkdf-st-text"
-                                                                                style="
+                                                                            <p class="mkdf-st-text" style="
                                             font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
@@ -515,9 +506,7 @@
                                           "><strong>4.</strong> All our tours are by default offered in ENGLISH however we also provide an option to book a Chinese (Mandarin) OR Korean translator on our evening tours (for an additional fee) if you book for a minimum of 4 pax or you book a Private tour (minimum 2 pax).
 
                                                                             </p>
-                                                                            <p
-                                                                                class="mkdf-st-text"
-                                                                                style="
+                                                                            <p class="mkdf-st-text" style="
                                             font-size: 14px;
                                             line-height: 26px;
                                             text-indent: 20px;
@@ -566,52 +555,187 @@
     <!-- close div.content_inner -->
 </div>
 <script>
-    // Thêm sự kiện xóa cho nhóm input ban đầu
-    document.querySelector('.remove-button').addEventListener('click', function() {
-        this.closest('.input-group').remove();
-    });
+    $(document).ready(function() {
+        // Thêm sự kiện xóa cho nhóm input ban đầu
+        $('.remove-button').on('click', function() {
+            $(this).closest('.input-group').remove();
+            updateTotalCost(); // Cập nhật lại tổng chi phí khi một nhóm bị xóa
+        });
 
-    // Xử lý thêm nhóm input mới khi nhấn nút
-    document.getElementById('add-button').addEventListener('click', () => {
-        const container = document.getElementById('input-group-container');
+        // Xử lý thêm nhóm input mới khi nhấn nút
+        $('#add-button').on('click', function() {
+            const container = $('#input-group-container');
+            const tourPrice = parseFloat("{{$tour->price}}");
 
-        // Tạo nhóm input mới
-        const newInputGroup = document.createElement('div');
-        newInputGroup.className = 'input-group mb-3';
-        newInputGroup.innerHTML = `
-                                                        <div class="input-group-prepend">
-                                                            <select class="fs-4 custom-select">
-                                                                <option selected>Select number of people</option>
-                                                            </select>
-                                                        </div>
-                                                        <select class="custom-select text-center fs-4">
-                                                            <option value="0" selected>Guests (8 years and older)</option>
-                                                            <option value="1">Guests (4 to 7 years old)</option>
-                                                            <option value="2">Guests (3 years and under)</option>
-                                                        </select>
-                                                        <div class="input-group-append">
-                                                            <span class="input-group-text notranslate fs-4">$82.00</span>
-                                                        </div>
-                                                        <div class="input-group-append">
-                                                            <button class="btn  ml-2 remove-button"><i class="fa-solid fa-trash"></i></button>
-                                                        </div>
-                                                    `;
+            // Tạo nhóm input mới
+            const newInputGroup = $(`
+            <div class="input-guest input-group mb-3">
+                <div class="input-group-prepend" style="width:20%">
+                    <select name='numberOfPeople[]' class="numberOfPeople fs-4 custom-select">
+                        <option selected>Select number of people</option>
+                    </select>
+                </div>
+                <select name='guest-type[]' class="guest-type custom-select text-center fs-4"  style="width:55%">
+                    <option value="${tourPrice}" selected>Guests (8 years and older)</option>
+                    <option value="${tourPrice * 0.6}">Guests (4 to 7 years old)</option>
+                    <option value="0">Guests (3 years and under)</option>
+                </select>
+                <div class="input-group-append" style="width:15%">
+                    <span class="input-group-text notranslate fs-4">$0.00</span>
+                </div>
+                <div class="input-group-append" style="width:10%">
+                    <button class="btn ml-2 remove-button" type="button"><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </div>
+        `);
 
-        // Chèn nhóm mới vào TRƯỚC nút button
-        container.insertBefore(newInputGroup, container.querySelector('#add-button'));
+            // Chèn nhóm mới vào container mà không thay đổi #input-group-container
+            container.find('#add-button').before(newInputGroup);
 
-        // Tạo options cho select mới
-        const newSelectElement = newInputGroup.querySelector('.input-group-prepend select');
-        for (let i = 1; i <= 100; i++) {
-            const option = document.createElement('option');
-            option.value = i;
-            option.textContent = i;
-            newSelectElement.appendChild(option);
+            // Tạo options cho select mới
+            const $newSelectElement = newInputGroup.find('.numberOfPeople');
+            for (let i = 1; i <= 100; i++) {
+                $newSelectElement.append(`<option value="${i}">${i}</option>`);
+            }
+
+            // Thêm sự kiện xóa cho nút "Remove" trong nhóm input mới
+            newInputGroup.find('.remove-button').on('click', function() {
+                newInputGroup.remove();
+                updateTotalCost(); // Cập nhật lại tổng chi phí khi một nhóm bị xóa
+            });
+
+            // Thêm sự kiện tính toán chi phí khi chọn số lượng người hoặc loại khách
+            // Gán sự kiện cho các select mới
+            newInputGroup.find('.guest-type').on('change', function() {
+                updateTotalCost(); // Cập nhật lại tổng chi phí mỗi khi có sự thay đổi
+                updatePriceSpan(newInputGroup); // Cập nhật giá trị trong span
+            });
+            newInputGroup.find('.numberOfPeople').on('change', function() {
+                updateTotalCost(); // Cập nhật lại tổng chi phí mỗi khi có sự thay đổi
+                updatePriceSpan(newInputGroup); // Cập nhật giá trị trong span
+            });
+
+            // Gọi trực tiếp hàm cập nhật lại giá trị trong span ngay sau khi thêm nhóm
+            updatePriceSpan(newInputGroup);
+        });
+
+        // Thêm sự kiện cho checkbox video và car-bus
+        $('#video').on('change', function() {
+            updateTotalCost(); // Cập nhật lại tổng chi phí khi checkbox thay đổi
+        });
+
+        $('#car-bus').on('change', function() {
+            updateTotalCost(); // Cập nhật lại tổng chi phí khi checkbox thay đổi
+        });
+        $('#checkvipcheckvip').on('change', function() {
+            updateTotalCost(); // Cập nhật lại tổng chi phí khi checkbox bị thay đổi
+        });
+        // Hàm tính toán tổng chi phí
+        function updateTotalCost() {
+            let totalCost = 0;
+
+            // Lặp qua tất cả các nhóm input và tính tổng chi phí
+            $('.input-guest').each(function() {
+                const numberOfPeople = $(this).find('.numberOfPeople').val(); // Lấy số người
+                const pricePerPerson = $(this).find('.guest-type').val(); // Lấy giá cho loại khách
+
+                // Kiểm tra nếu giá trị hợp lệ
+                if (numberOfPeople && pricePerPerson && !isNaN(numberOfPeople) && !isNaN(pricePerPerson)) {
+                    const totalPrice = numberOfPeople * parseFloat(pricePerPerson);
+                    $(this).find('.input-group-text').text('$' + totalPrice.toFixed(2));
+                    totalCost += totalPrice;
+                } else {
+                    $(this).find('.input-group-text').text('$00.00'); // Đặt giá trị mặc định nếu không hợp lệ
+                }
+            });
+
+            // Thêm chi phí cho các checkbox nếu được chọn
+            if ($('#video').prop('checked')) {
+                totalCost += 50; // Thêm $50 nếu video được chọn
+            }
+            if ($('#car-bus').prop('checked')) {
+                totalCost += 60; // Thêm $60 nếu car/bus được chọn
+            }
+            if ($('#checkvipcheckvip').prop('checked')) {
+                totalCost += 30; // Thêm $60 nếu car/bus được chọn
+            }
+
+
+            // Cập nhật tổng chi phí vào thẻ
+            $('#total-cost').text('$' + totalCost.toFixed(2));
         }
 
-        // Thêm sự kiện xóa cho nút "Remove"
-        newInputGroup.querySelector('.remove-button').addEventListener('click', () => {
-            newInputGroup.remove();
-        });
+        // Hàm cập nhật giá trị trong thẻ span khi thay đổi giá trị select
+        function updatePriceSpan(inputGroup) {
+            const numberOfPeople = inputGroup.find('.numberOfPeople').val(); // Lấy số người
+            const pricePerPerson = inputGroup.find('.guest-type').val(); // Lấy giá cho loại khách
+
+            // Kiểm tra nếu giá trị hợp lệ
+            if (numberOfPeople && pricePerPerson && !isNaN(numberOfPeople) && !isNaN(pricePerPerson)) {
+                const totalPrice = numberOfPeople * parseFloat(pricePerPerson); // Tính toán tổng chi phí
+                inputGroup.find('.input-group-text').text('$' + totalPrice.toFixed(2)); // Cập nhật giá trị trong span
+            } else {
+                inputGroup.find('.input-group-text').text('$00.00'); // Đặt giá trị mặc định nếu không hợp lệ
+            }
+        }
+
+        function create() {
+            const container = $('#input-group-container');
+            const tourPrice = parseFloat("{{$tour->price}}");
+
+            // Tạo nhóm input mới
+            const newInputGroup = $(`
+            <div class="input-guest input-group mb-3">
+                <div class="input-group-prepend" style="width:20%">
+                    <select name='numberOfPeople[]' class="numberOfPeople fs-4 custom-select">
+                        <option selected>Select number of people</option>
+                    </select>
+                </div>
+                <select  name='guest-type[]' class="guest-type custom-select text-center fs-4"  style="width:55%">
+                    <option value="${tourPrice}" selected>Guests (8 years and older)</option>
+                    <option value="${tourPrice * 0.6}">Guests (4 to 7 years old)</option>
+                    <option value="0">Guests (3 years and under)</option>
+                </select>
+                <div class="input-group-append" style="width:15%">
+                    <span class="input-group-text notranslate fs-4">$0.00</span>
+                </div>
+                <div class="input-group-append" style="width:10%">
+                    <button class="btn ml-2 remove-button"><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </div>
+        `);
+
+            // Chèn nhóm mới vào container mà không thay đổi #input-group-container
+            container.find('#add-button').before(newInputGroup);
+
+            // Tạo options cho select mới
+            const $newSelectElement = newInputGroup.find('.numberOfPeople');
+            for (let i = 1; i <= 100; i++) {
+                $newSelectElement.append(`<option value="${i}">${i}</option>`);
+            }
+
+            // Thêm sự kiện xóa cho nút "Remove" trong nhóm input mới
+            newInputGroup.find('.remove-button').on('click', function() {
+                newInputGroup.remove();
+                updateTotalCost(); // Cập nhật lại tổng chi phí khi một nhóm bị xóa
+            });
+
+            // Thêm sự kiện tính toán chi phí khi chọn số lượng người hoặc loại khách
+            // Gán sự kiện cho các select mới
+            newInputGroup.find('.guest-type').on('change', function() {
+                updateTotalCost(); // Cập nhật lại tổng chi phí mỗi khi có sự thay đổi
+                updatePriceSpan(newInputGroup); // Cập nhật giá trị trong span
+            });
+            newInputGroup.find('.numberOfPeople').on('change', function() {
+                updateTotalCost(); // Cập nhật lại tổng chi phí mỗi khi có sự thay đổi
+                updatePriceSpan(newInputGroup); // Cập nhật giá trị trong span
+            });
+
+            // Gọi trực tiếp hàm cập nhật lại giá trị trong span ngay sau khi thêm nhóm
+            updatePriceSpan(newInputGroup);
+
+        }
+        create();
+
     });
 </script>

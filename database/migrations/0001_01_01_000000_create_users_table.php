@@ -55,8 +55,11 @@ return new class extends Migration
             $table->string('title');
             $table->decimal('price', 10, 2);
             $table->decimal('discount', 10, 2)->nullable();
-            $table->string('thumbnail');
+            $table->string('youtube');
             $table->text('description')->nullable();
+            $table->string('meta_title')->nullable(); // Thêm trường Meta Tag Title
+            $table->text('meta_description')->nullable(); // Thêm trường Meta Tag Description
+            $table->text('meta_keywords')->nullable(); // Thêm trường Meta Tag Keywords
             $table->timestamps();
             $table->boolean('deleted')->default(false);
         });
@@ -133,11 +136,22 @@ return new class extends Migration
             $table->string('title', 255);
             $table->string('img')->nullable();
             $table->text('description')->nullable();
-            $table->text('content');
+            $table->longText('content');
             $table->foreignId('category_id')->constrained('category_posts')->onDelete('cascade');
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
             
             $table->timestamps();
+        });
+        Schema::create('payments', function (Blueprint $table) {
+            $table->id(); // id int [pk, increment]
+            $table->unsignedBigInteger('order_id'); // order_id int
+            $table->string('code', 50); // code varchar(50)
+            $table->integer('price'); // price int
+            $table->integer('total_money'); // total_money int
+            $table->timestamps(); // created_at, updated_at
+
+            // Khóa ngoại tham chiếu đến bảng "orders"
+            $table->foreign('order_id')->references('id')->on('orders')->onDelete('cascade');
         });
     }
 
@@ -159,5 +173,6 @@ return new class extends Migration
         Schema::dropIfExists('sessions');
         Schema::dropIfExists('category_posts');
         Schema::dropIfExists('posts');
+        Schema::dropIfExists('payments');
     }
 };

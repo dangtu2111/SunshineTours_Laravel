@@ -169,7 +169,7 @@
 																style="z-index:10;font-family:'Oswald';text-transform:uppercase;">
 																Welcome to SunShine Ho Chi Minh
 															</a>
-															
+
 
 															<!--
 
@@ -690,7 +690,7 @@
 																											<div
 																												class="mkdf-post-image">
 																												<a itemprop="url"
-																													href="moving-trough-the-everyday-urban-jungle-of-your-city/index.html"
+																													href="{{route('blog.blog_dentail',['id'=>1])}}"
 																													title="Moving trough: the everyday urban jungle of your city">
 																													<img loading="lazy"
 																														decoding="async"
@@ -781,7 +781,7 @@
 																											<h5 itemprop="name"
 																												class="entry-title mkdf-post-title">
 																												<a itemprop="url"
-																													href="moving-trough-the-everyday-urban-jungle-of-your-city/index.html"
+																													href="{{route('blog.blog_dentail',['id'=>1])}}"
 																													title="Moving trough: the everyday urban jungle of your city">
 																													Moving
 																													trough:
@@ -830,7 +830,7 @@
 																												<div
 																													class="mkdf-post-read-more-button">
 																													<a itemprop="url"
-																														href="moving-trough-the-everyday-urban-jungle-of-your-city/index.html"
+																														href="{{route('blog.blog_dentail',['id'=>1])}}"
 																														target="_self"
 																														class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-svg-icon mkdf-blog-list-button">
 																														<span
@@ -956,7 +956,7 @@
 																											<div
 																												class="mkdf-post-image">
 																												<a itemprop="url"
-																													href="top-hiking-trails-in-the-peruvian-amazon-rain-forest-2/index.html"
+																													href="{{route('blog.blog_dentail',['id'=>1])}}"
 																													title="Top Hiking Trails in the Peruvian Amazon Rain Forest">
 																													<img loading="lazy"
 																														decoding="async"
@@ -1046,7 +1046,7 @@
 																											<h5 itemprop="name"
 																												class="entry-title mkdf-post-title">
 																												<a itemprop="url"
-																													href="top-hiking-trails-in-the-peruvian-amazon-rain-forest-2/index.html"
+																													href="{{route('blog.blog_dentail',['id'=>1])}}"
 																													title="Top Hiking Trails in the Peruvian Amazon Rain Forest">
 																													Top
 																													Hiking
@@ -1095,7 +1095,7 @@
 																												<div
 																													class="mkdf-post-read-more-button">
 																													<a itemprop="url"
-																														href="top-hiking-trails-in-the-peruvian-amazon-rain-forest-2/index.html"
+																														href="{{route('blog.blog_dentail',['id'=>1])}}"
 																														target="_self"
 																														class="mkdf-btn mkdf-btn-medium mkdf-btn-simple mkdf-btn-svg-icon mkdf-blog-list-button">
 																														<span
@@ -1427,7 +1427,7 @@
 															<div class="vc_column-inner">
 																<div class="wpb_wrapper">
 																	<div class="mkdf-blog-slider-holder mkdf-bs-slider">
-																		<ul  class="px-3 mkdf-blog-slider mkdf-owl-slider"
+																		<ul class="px-3 mkdf-blog-slider mkdf-owl-slider"
 																			data-number-of-items="3"
 																			data-slider-margin="22"
 																			data-enable-pagination="no">
@@ -1476,24 +1476,26 @@
 																					</div>
 																				</div>
 																			</li> -->
+																			@if(isset($tours))
+																			@foreach ($tours as $tour )
 																			<li class="mkdf-blog-slider-item">
 																				<div
 																					class="mkdf-blog-slider-item-inner">
 																					<div class="mkdf-item-image">
 																						<a itemprop="url"
-																							href="the-ultimate-grand-canyon-travel-guide-for-alpinists/index.html">
+																							href="{{route('tour_detail',['id'=>$tour->id])}}">
 																							<img loading="lazy"
 																								decoding="async"
 																								width="1300"
 																								height="1551"
-																								src="{{asset('frontend/img/3x4/tourist.jpg')}}"
+																								src="{{ $tour->images->first()->thumbnail }}"
 																								class="attachment-full size-full wp-post-image"
 																								alt="s" />
 																						</a>
 																						<div
 																							class="mkdf-post-info-category mkdf-st-highlight">
-																							<a href="{{route('tour_detail')}}"
-																								rel="category tag">Adventure</a>
+																							<a href="{{route('tour_detail',['id'=>$tour->id])}}"
+																								rel="category tag">Service</a>
 																							<span
 																								class="mkdf-st-highlight">
 																								<svg version="1.1"
@@ -1565,342 +1567,23 @@
 																								<h5 itemprop="name"
 																									class="entry-title mkdf-post-title">
 																									<a itemprop="url"
-																										href="the-ultimate-grand-canyon-travel-guide-for-alpinists/index.html"
+																										href="{{route('tour_detail',['id'=>$tour->id])}}"
 																										title="The Ultimate Grand Canyon Travel Guide for alpinists">
-																										The
-																										Ultimate
-																										Grand
-																										Canyon
-																										Travel
-																										Guide
-																										for
-																										alpinists
+																										{{ $tour->title }}
 																									</a>
 																								</h5>
+																								<p itemprop="description" class="mkdf-post-excerpt" style ="font-weight:400">
+																									{{ Str::limit(strip_tags($tour->description), 80, '...') }}
+																													</p>
 																							</div>
 																						</div>
 																					</div>
 																				</div>
 																			</li>
-																			<li class="mkdf-blog-slider-item">
-																				<div
-																					class="mkdf-blog-slider-item-inner">
-																					<div class="mkdf-item-image">
-																						<a itemprop="url"
-																							href="the-ultimate-grand-canyon-travel-guide-for-alpinists/index.html">
-																							<img loading="lazy"
-																								decoding="async"
-																								width="1300"
-																								height="1551"
-																								src="{{asset('frontend/img/3x4/smile.jpg')}}"
-																								class="attachment-full size-full wp-post-image"
-																								alt="s" />
-																						</a>
-																						<div
-																							class="mkdf-post-info-category mkdf-st-highlight">
-																							<a href="{{route('tour_detail')}}"
-																								rel="category tag">Adventure</a>
-																							<span
-																								class="mkdf-st-highlight">
-																								<svg version="1.1"
-																									xmlns="http://www.w3.org/2000/svg"
-																									xmlns:xlink="http://www.w3.org/1999/xlink"
-																									x="0px" y="0px"
-																									viewBox="0 0 15.7 30"
-																									style="enable-background:new 0 0 15.7 30;"
-																									xml:space="preserve"
-																									class="mkdf-active-hover-left">
-																									<polygon class="st0"
-																										points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 " />
-																								</svg> <span
-																									class="mkdf-active-hover-middle"></span>
-																								<svg version="1.1"
-																									xmlns="http://www.w3.org/2000/svg"
-																									xmlns:xlink="http://www.w3.org/1999/xlink"
-																									x="0px" y="0px"
-																									viewBox="0 0 13.3 30"
-																									style="enable-background:new 0 0 13.3 30;"
-																									xml:space="preserve"
-																									class="mkdf-active-hover-right">
-																									<polygon class="st0"
-																										points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 " />
-																								</svg>
-																							</span>
-																						</div>
-																					</div>
-																					<div class="mkdf-item-text-wrapper">
-																						<div
-																							class="mkdf-item-text-holder">
-																							<div
-																								class="mkdf-item-text-holder-inner">
-																								<div
-																									class="mkdf-item-info-section">
-																									<div itemprop="dateCreated"
-																										class="mkdf-post-info-date entry-date published updated">
-																										<span
-																											aria-hidden="true"
-																											class="mkdf-icon-font-elegant icon_calendar "></span>
-																										<a itemprop="url"
-																											href="2019/10/index.html">
-																											October
-																											8,
-																											2019
-																										</a>
-																										<meta
-																											itemprop="interactionCount"
-																											content="UserComments: 0" />
-																									</div>
-																									<div
-																										class="mkdf-post-info-author">
-																										<span
-																											aria-hidden="true"
-																											class="mkdf-icon-font-elegant icon_pencil "></span>
-																										<a itemprop="author"
-																											class="mkdf-post-info-author-link"
-																											href="author/alisa-michaels/index.html">
-																											<span
-																												class="mkdf-post-info-author-text">
-																												by
-																											</span>
-																											Alisa
-																											Michaels
-																										</a>
-																									</div>
-																								</div>
-
-																								<h5 itemprop="name"
-																									class="entry-title mkdf-post-title">
-																									<a itemprop="url"
-																										href="the-ultimate-grand-canyon-travel-guide-for-alpinists/index.html"
-																										title="The Ultimate Grand Canyon Travel Guide for alpinists">
-																										The
-																										Ultimate
-																										Grand
-																										Canyon
-																										Travel
-																										Guide
-																										for
-																										alpinists
-																									</a>
-																								</h5>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</li>
-																			<li class="mkdf-blog-slider-item">
-																				<div
-																					class="mkdf-blog-slider-item-inner">
-																					<div class="mkdf-item-image">
-																						<a itemprop="url"
-																							href="guided-hikes-in-iceland-rhyolite-mountain-trail/index.html"
-																							class="d-block text-decoration-none">
-																							<img loading="lazy"
-																								decoding="async"
-																								src="{{asset('frontend/img/3x4/pexels.jpg')}}"
-																								alt="Guided Hikes in Iceland Rhyolite Mountain Trail"
-																								class="img-fluid rounded"
-																								width="1300"
-																								height="1551" />
-																						</a>
+																			@endforeach
+																			@endif
 
 
-																						<div
-																							class="mkdf-post-info-category mkdf-st-highlight">
-																							<a href="category/adventure/index.html"
-																								rel="category tag">Adventure</a>
-																							<span
-																								class="mkdf-st-highlight">
-																								<svg version="1.1"
-																									xmlns="http://www.w3.org/2000/svg"
-																									xmlns:xlink="http://www.w3.org/1999/xlink"
-																									x="0px" y="0px"
-																									viewBox="0 0 15.7 30"
-																									style="enable-background:new 0 0 15.7 30;"
-																									xml:space="preserve"
-																									class="mkdf-active-hover-left">
-																									<polygon class="st0"
-																										points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 " />
-																								</svg> <span
-																									class="mkdf-active-hover-middle"></span>
-																								<svg version="1.1"
-																									xmlns="http://www.w3.org/2000/svg"
-																									xmlns:xlink="http://www.w3.org/1999/xlink"
-																									x="0px" y="0px"
-																									viewBox="0 0 13.3 30"
-																									style="enable-background:new 0 0 13.3 30;"
-																									xml:space="preserve"
-																									class="mkdf-active-hover-right">
-																									<polygon class="st0"
-																										points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 " />
-																								</svg>
-																							</span>
-																						</div>
-																					</div>
-																					<div class="mkdf-item-text-wrapper">
-																						<div
-																							class="mkdf-item-text-holder">
-																							<div
-																								class="mkdf-item-text-holder-inner">
-																								<div
-																									class="mkdf-item-info-section">
-																									<div itemprop="dateCreated"
-																										class="mkdf-post-info-date entry-date published updated">
-																										<span
-																											aria-hidden="true"
-																											class="mkdf-icon-font-elegant icon_calendar "></span>
-																										<a itemprop="url"
-																											href="{{route('tour_detail')}}">
-																											October
-																											8,
-																											2019
-																										</a>
-																										<meta
-																											itemprop="interactionCount"
-																											content="UserComments: 0" />
-																									</div>
-																									<div
-																										class="mkdf-post-info-author">
-																										<span
-																											aria-hidden="true"
-																											class="mkdf-icon-font-elegant icon_pencil "></span>
-																										<a itemprop="author"
-																											class="mkdf-post-info-author-link"
-																											href="{{route('tour_detail')}}">
-																											<span
-																												class="mkdf-post-info-author-text">
-																												by
-																											</span>
-																											Alisa
-																											Michaels
-																										</a>
-																									</div>
-																								</div>
-
-																								<h5 itemprop="name"
-																									class="entry-title mkdf-post-title">
-																									<a itemprop="url"
-																										href="{{route('tour_detail')}}"
-																										title="Guided Hikes in Iceland &#8211; Rhyolite mountain Trail">
-																										Guided
-																										Hikes
-																										in
-																										Iceland
-																										&#8211;
-																										Rhyolite
-																										mountain
-																										Trail
-																									</a>
-																								</h5>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</li>
-																			<li class="mkdf-blog-slider-item">
-																				<div
-																					class="mkdf-blog-slider-item-inner">
-																					<div class="mkdf-item-image">
-																						<a itemprop="url"
-																							href="{{route('tour_detail')}}">
-																							<img loading="lazy"
-																								decoding="async"
-																								width="1300"
-																								height="1551"
-																								src="{{asset('frontend/img/3x4/cho.jpg')}}"
-																								class="attachment-full size-full wp-post-image"
-																								alt="k" />
-																						</a>
-																						<div
-																							class="mkdf-post-info-category mkdf-st-highlight">
-																							<a href="{{route('tour_detail')}}"
-																								rel="category tag">Adventure</a>
-																							<span
-																								class="mkdf-st-highlight">
-																								<svg version="1.1"
-																									xmlns="http://www.w3.org/2000/svg"
-																									xmlns:xlink="http://www.w3.org/1999/xlink"
-																									x="0px" y="0px"
-																									viewBox="0 0 15.7 30"
-																									style="enable-background:new 0 0 15.7 30;"
-																									xml:space="preserve"
-																									class="mkdf-active-hover-left">
-																									<polygon class="st0"
-																										points="2.6,1 0.7,3.3 2,5.8 2.3,7.6 2.9,8.7 4.4,10.5 3.9,10.8 4.4,11.9 4.4,12.8 4.1,13.8 3.3,14.7 3.9,15.8 4.4,16.8 4,17.5 3.5,18.1 2.2,20.2 3.4,21.5 4.2,24.1 3.4,25.4 2.5,27.4 2.5,27.8 3.2,28.3 4.1,28.5 4.9,29 14.8,29 14.8,1 " />
-																								</svg> <span
-																									class="mkdf-active-hover-middle"></span>
-																								<svg version="1.1"
-																									xmlns="http://www.w3.org/2000/svg"
-																									xmlns:xlink="http://www.w3.org/1999/xlink"
-																									x="0px" y="0px"
-																									viewBox="0 0 13.3 30"
-																									style="enable-background:new 0 0 13.3 30;"
-																									xml:space="preserve"
-																									class="mkdf-active-hover-right">
-																									<polygon class="st0"
-																										points="10,1 10.2,2.1 10.6,2.9 10.6,3.3 10.8,3.7 10.8,4.3 11,5 11,5.7 11,6.3 10.5,6.7 10.8,7.3 11,7.8 	11.6,8.3 11.6,8.6 11.5,8.9 11.6,9.9 11.6,10.5 12.4,11.6 12.1,12 12.4,12.2 11.8,12.8 11.4,13.5 11.6,13.7 11.9,13.7 12,13.9 11.5,15.1 10.8,16 9.1,17.7 9.7,18.2 9.3,19 9.7,19.8 9.6,20.6 9.7,21.5 9.6,21.9 9.6,22.3 10.1,22.8 9.6,23.6 9.7,24 9.7,24.2 9.9,24.4 9.5,24.7 9.3,25.4 9.3,25.9 8.8,26.2 8.5,27.1 8.8,27.8 9.4,28.6 7.8,29 0.9,29 0.9,1 " />
-																								</svg>
-																							</span>
-																						</div>
-																					</div>
-																					<div class="mkdf-item-text-wrapper">
-																						<div
-																							class="mkdf-item-text-holder">
-																							<div
-																								class="mkdf-item-text-holder-inner">
-																								<div
-																									class="mkdf-item-info-section">
-																									<div itemprop="dateCreated"
-																										class="mkdf-post-info-date entry-date published updated">
-																										<span
-																											aria-hidden="true"
-																											class="mkdf-icon-font-elegant icon_calendar "></span>
-																										<a itemprop="url"
-																											href="2019/10/index.html">
-																											October
-																											10,
-																											2019
-																										</a>
-																										<meta
-																											itemprop="interactionCount"
-																											content="UserComments: 0" />
-																									</div>
-																									<div
-																										class="mkdf-post-info-author">
-																										<span
-																											aria-hidden="true"
-																											class="mkdf-icon-font-elegant icon_pencil "></span>
-																										<a itemprop="author"
-																											class="mkdf-post-info-author-link"
-																											href="{{route('tour_detail')}}">
-																											<span
-																												class="mkdf-post-info-author-text">
-																												by
-																											</span>
-																											Alisa
-																											Michaels
-																										</a>
-																									</div>
-																								</div>
-
-																								<h5 itemprop="name"
-																									class="entry-title mkdf-post-title">
-																									<a itemprop="url"
-																										href="{{route('tour_detail')}}"
-																										title="My Favorite Hiking Trails Around Reykjavík">
-																										My
-																										Favorite
-																										Hiking
-																										Trails
-																										Around
-																										Reykjavík
-																									</a>
-																								</h5>
-																							</div>
-																						</div>
-																					</div>
-																				</div>
-																			</li>
 																		</ul>
 																	</div>
 																</div>
@@ -2409,18 +2092,18 @@
 																										<div
 																											class="mkdf-dli-image d-flex justify-content-center">
 																											<div class="col-12 col-md-7 col-lg-8">
-																											<img loading="lazy"
-																												decoding="async"
-																												width="1299"
-																												height="714"
-																												
-																												src="{{asset('frontend\img\feedback\feedback_01.jpg')}}"
-																												class="rounded attachment-full size-full wp-post-image"
-																												alt="a"
-																												srcset="{{asset('frontend\img\feedback\feedback_01.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 600w"
-																												sizes="(max-width: 1299px) 100vw, 1299px" />
-																										</div>
+																												<img loading="lazy"
+																													decoding="async"
+																													width="1299"
+																													height="714"
+
+																													src="{{asset('frontend\img\feedback\feedback_01.jpg')}}"
+																													class="rounded attachment-full size-full wp-post-image"
+																													alt="a"
+																													srcset="{{asset('frontend\img\feedback\feedback_01.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_01.jpg')}} 600w"
+																													sizes="(max-width: 1299px) 100vw, 1299px" />
 																											</div>
+																										</div>
 																										<div
 																											class="mkdf-dli-text-holder">
 																											<div
@@ -2586,18 +2269,18 @@
 																										<div
 																											class="mkdf-dli-image d-flex justify-content-center">
 																											<div class="col-12 col-md-7 col-lg-8">
-																											<img loading="lazy"
-																												decoding="async"
-																												width="1299"
-																												height="714"
-																												
-																												src="{{asset('frontend\img\feedback\feedback_02.jpg')}}"
-																												class="rounded attachment-full size-full wp-post-image"
-																												alt="a"
-																												srcset="{{asset('frontend\img\feedback\feedback_02.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 600w"
-																												sizes="(max-width: 1299px) 100vw, 1299px" />
-																										</div>
+																												<img loading="lazy"
+																													decoding="async"
+																													width="1299"
+																													height="714"
+
+																													src="{{asset('frontend\img\feedback\feedback_02.jpg')}}"
+																													class="rounded attachment-full size-full wp-post-image"
+																													alt="a"
+																													srcset="{{asset('frontend\img\feedback\feedback_02.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_02.jpg')}} 600w"
+																													sizes="(max-width: 1299px) 100vw, 1299px" />
 																											</div>
+																										</div>
 																										<div
 																											class="mkdf-dli-text-holder">
 																											<div
@@ -2763,18 +2446,18 @@
 																										<div
 																											class="mkdf-dli-image d-flex justify-content-center">
 																											<div class="col-12 col-md-7 col-lg-8">
-																											<img loading="lazy"
-																												decoding="async"
-																												width="1299"
-																												height="714"
-																												
-																												src="{{asset('frontend\img\feedback\feedback_03.JPG')}}"
-																												class="rounded attachment-full size-full wp-post-image"
-																												alt="a"
-																												srcset="{{asset('frontend\img\feedback\feedback_03.JPG')}} 1299w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 300w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 768w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 1024w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 600w"
-																												sizes="(max-width: 1299px) 100vw, 1299px" />
-																										</div>
+																												<img loading="lazy"
+																													decoding="async"
+																													width="1299"
+																													height="714"
+
+																													src="{{asset('frontend\img\feedback\feedback_03.JPG')}}"
+																													class="rounded attachment-full size-full wp-post-image"
+																													alt="a"
+																													srcset="{{asset('frontend\img\feedback\feedback_03.JPG')}} 1299w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 300w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 768w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 1024w, {{asset('frontend\img\feedback\feedback_03.JPG')}} 600w"
+																													sizes="(max-width: 1299px) 100vw, 1299px" />
 																											</div>
+																										</div>
 																										<div
 																											class="mkdf-dli-text-holder">
 																											<div
@@ -2940,18 +2623,18 @@
 																										<div
 																											class="mkdf-dli-image d-flex justify-content-center">
 																											<div class="col-12 col-md-7 col-lg-8">
-																											<img loading="lazy"
-																												decoding="async"
-																												width="1299"
-																												height="714"
-																												
-																												src="{{asset('frontend\img\feedback\feedback_04.jpg')}}"
-																												class="rounded attachment-full size-full wp-post-image"
-																												alt="a"
-																												srcset="{{asset('frontend\img\feedback\feedback_04.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 600w"
-																												sizes="(max-width: 1299px) 100vw, 1299px" />
-																										</div>
+																												<img loading="lazy"
+																													decoding="async"
+																													width="1299"
+																													height="714"
+
+																													src="{{asset('frontend\img\feedback\feedback_04.jpg')}}"
+																													class="rounded attachment-full size-full wp-post-image"
+																													alt="a"
+																													srcset="{{asset('frontend\img\feedback\feedback_04.jpg')}} 1299w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 300w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 768w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 1024w, {{asset('frontend\img\feedback\feedback_04.jpg')}} 600w"
+																													sizes="(max-width: 1299px) 100vw, 1299px" />
 																											</div>
+																										</div>
 																										<div
 																											class="mkdf-dli-text-holder">
 																											<div

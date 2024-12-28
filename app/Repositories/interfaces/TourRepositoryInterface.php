@@ -9,4 +9,5 @@ namespace App\Repositories\Interfaces;
 interface TourRepositoryInterface extends BaseRepositoryInterface
 {
     public function getAllPaginate();
+    public function allImage();
 }

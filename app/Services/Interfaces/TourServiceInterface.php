@@ -8,10 +8,8 @@ namespace App\Services\Interfaces;
  */
 interface TourServiceInterface
 {
-    public function paginate();
     public function create($request);
+    public function paginate();
     public function update($id,$request);
-    public function destroy($id);
-
-
+    public function delete($id);
 }

@@ -95,7 +95,7 @@ class ContentService implements ContentServiceInterface
             // Loại bỏ các yếu tố không cần thiết trong request
             
             $payload = $request->except(['_token', 'send','re_password']);
-            
+       
            
            
             $user = $this->contentRepository->update($id,$payload);

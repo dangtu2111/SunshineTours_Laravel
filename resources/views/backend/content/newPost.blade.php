@@ -27,11 +27,11 @@ $textButton= $config['method'] == 'create'?"Create": "Update";
     <div class="alert alert-danger">
         <ul>
             @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
+            <li>{{ $error }}</li>
             @endforeach
         </ul>
     </div>
-@endif
+    @endif
 
 
     <div class="my-2 d-block">
@@ -75,10 +75,10 @@ $textButton= $config['method'] == 'create'?"Create": "Update";
         </p>
         <select name="category_id" class="select2_demo_3 form-control">
             @foreach ($categories as $cat)
-                <option value="{{ $cat->id }}"
-                    {{ old('category_id', isset($post->category_id) ? $post->category_id : '') == $cat->id ? 'selected' : '' }}>
-                    {{ $cat->name }}
-                </option>
+            <option value="{{ $cat->id }}"
+                {{ old('category_id', isset($post->category_id) ? $post->category_id : '') == $cat->id ? 'selected' : '' }}>
+                {{ $cat->name }}
+            </option>
             @endforeach
         </select>
     </div>
@@ -99,7 +99,7 @@ $textButton= $config['method'] == 'create'?"Create": "Update";
 
 <script>
     $(document).ready(function() {
-        $('#lfm').filemanager('image'); // Mở CKFinder để chọn hình ảnh
+        $('#lfm').filemanager('image'); 
         // Khi người dùng chọn hình ảnh từ CKFinder
 
     });

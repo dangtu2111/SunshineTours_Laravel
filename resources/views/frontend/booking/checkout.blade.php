@@ -89,15 +89,14 @@
                                             </div>
                                             <div class="box-inner-1 pb-3 mb-3 ">
                                                 <div class="d-flex justify-content-between mb-3 userdetails">
-                                                    <p class="fw-bold">Minimal Icons by Oliur</p>
-                                                    <p class="fw-lighter"><span class="fas fa-dollar-sign"></span>19.00</p>
+                                                    <p class="fw-bold">{{$tour->title}}</p>
+                                                    <p class="fw-lighter"><span class="fas fa-dollar-sign"></span>${{$tour->price}}</p>
                                                 </div>
                                                 <div id="my" class="carousel slide carousel-fade img-details" data-bs-ride="carousel" data-bs-interval="2000">
                                                     <div class="carousel-indicators"> <button type="button" data-bs-target="#my" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#my" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#my" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
                                                     <div class="carousel-inner">
-                                                        <div class="carousel-item active"> <img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="d-block w-100"> </div>
-                                                        <div class="carousel-item"> <img src="https://images.pexels.com/photos/270694/pexels-photo-270694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="d-block w-100"> </div>
-                                                        <div class="carousel-item"> <img src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="d-block w-100"> </div>
+                                                    <iframe width="560" height="315" src="{{$tour->youtube}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                                                     </div> <button class="carousel-control-prev" type="button" data-bs-target="#my" data-bs-slide="prev">
                                                         <div class="icon"> <span class="fas fa-arrow-left"></span> </div> <span class="visually-hidden">Previous</span>
                                                     </button> <button class="carousel-control-next" type="button" data-bs-target="#my" data-bs-slide="next">

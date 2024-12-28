@@ -5,10 +5,11 @@ namespace App\Http\Controllers\Backend;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Services\Interfaces\UserServiceInterface as UserService;
+
 use App\Http\Requests\StoreUserRequest;
 use App\Http\Requests\UpdateUserRequest;
 use App\Repositories\Interfaces\UserRepositoryInterface as UserRepository;
+use App\Services\Interfaces\UserServiceInterface as UserService;
 
 class UserController extends Controller
 {   protected $userService;

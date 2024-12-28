@@ -107,10 +107,30 @@
     border: 1px solid #e7eaec;
 }
 .oder-content {
-    max-height: 230px; /* Giới hạn chiều cao đoạn văn bản */
+    max-height: 80vh; /* Giới hạn chiều cao đoạn văn bản */
     overflow: hidden; /* Ẩn phần thừa */
     text-overflow: ellipsis; /* Hiển thị "..." khi văn bản bị cắt */
     margin-bottom: 10px;
+}
+
+
+/* For smaller screens, adjust the max-height */
+@media (max-width: 768px) {
+    .oder-content {
+        max-height: 60vh; /* Reduce the height on smaller screens */
+    }
+}
+
+@media (max-width: 900px) {
+    .height-auto-md {
+        height: auto !important; /* Đặt chiều cao là auto khi màn hình nhỏ hơn 900px */
+    }
+}
+/* For very small screens, further reduce the max-height */
+@media (max-width: 480px) {
+    .oder-content {
+        max-height: 20vh; /* Further reduce for mobile screens */
+    }
 }
 .btn-show-more {
     background-color: #007bff;
@@ -135,7 +155,7 @@
     cursor: pointer;
 }
 #disabled{
-   display:none;
+    background: transparent;
 }
 #oder-content p{
     font-size: 1.3rem;

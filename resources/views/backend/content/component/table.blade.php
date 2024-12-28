@@ -13,7 +13,7 @@
                     @foreach($posts as $post)
                         <tr>
                             <td>
-                                <div class="info-user name">ID</div>
+                                <div class="info-user name">{{$post->id}}</div>
                                 
                             </td>
                             <td>

@@ -23,7 +23,15 @@ Route::group(['prefix' => 'admin', 'middleware' => AuthenticateMiddleware::class
     Route::get('/', [HomeController::class, 'index'])->name('admin.home');
 
     // Các route con của admin
-    Route::get('/Tour', [TourController::class, 'index'])->name('admin.tour');
+    Route::group(['prefix' => 'Tour'], function () {
+        Route::get('/', [TourController::class, 'index'])->name('admin.tour');
+        Route::get('/addTour', [TourController::class, 'addTour'])->name('admin.tour.addTour');
+        Route::post('/create', [TourController::class, 'create'])->name('admin.tour.create');
+        Route::get('/edit/{id}', [TourController::class, 'edit'])->name('admin.tour.edit');
+        Route::post('/update/{id}', [TourController::class, 'update'])->name('admin.tour.update');
+        Route::post('/delete/{id}', [TourController::class, 'delete'])->name('admin.tour.delete');
+    });
+
     Route::get('/user', [UserController::class, 'index'])->name('admin.user');
 
     Route::group(['prefix' => 'user'], function () {
@@ -55,9 +63,14 @@ Route::group(['prefix' => 'admin', 'middleware' => AuthenticateMiddleware::class
 Route::get('/', [App\Http\Controllers\Frontend\UserController::class, 'index'])->name('index');
 Route::get('/about', [App\Http\Controllers\Frontend\AboutUsController::class, 'index'])->name('about');
 Route::get('/gallery', [App\Http\Controllers\Frontend\GalleryController::class, 'index'])->name('gallery');
-Route::get('/booking', [App\Http\Controllers\Frontend\BookingController::class, 'index'])->name('booking');
 Route::get('/FAQ', [App\Http\Controllers\Frontend\FAQController::class, 'index'])->name('FAQ');
-Route::get('/blog', [App\Http\Controllers\Frontend\BlogController::class, 'index'])->name('blog');
-Route::get('/booking/tour_detail', [App\Http\Controllers\Frontend\BookingController::class, 'tour_detail'])->name('tour_detail');
-Route::get('/booking/order', [App\Http\Controllers\Frontend\BookingController::class, 'order'])->name('order');
-Route::get('/booking/checkout', [App\Http\Controllers\Frontend\BookingController::class, 'checkout'])->name('checkout');
+Route::group(['prefix' => 'blog'], function () {
+    Route::get('/', [App\Http\Controllers\Frontend\BlogController::class, 'index'])->name('blog');
+    Route::get('/blog_dentail/{id}', [App\Http\Controllers\Frontend\BlogController::class, 'blog_dentail'])->name('blog.blog_dentail');
+});
+Route::group(['prefix' => 'booking'], function () {
+    Route::get('/order/{id}', [App\Http\Controllers\Frontend\BookingController::class, 'order'])->name('order');
+    Route::post('/checkout/{id}', [App\Http\Controllers\Frontend\BookingController::class, 'checkout'])->name('checkout');
+    Route::get('/', [App\Http\Controllers\Frontend\BookingController::class, 'index'])->name('booking');
+});
+Route::get('/tour_detail/{id}', [App\Http\Controllers\Frontend\BookingController::class, 'tour_detail'])->name('tour_detail');

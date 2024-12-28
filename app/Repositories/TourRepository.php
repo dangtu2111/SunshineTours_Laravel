@@ -13,13 +13,18 @@ class TourRepository extends BaseRepository implements TourRepositoryInterface
         $this->model=$model;
     }
     public function getAllPaginate(){
-        $users = Tour::paginate(10);
-        return $users;
+        $tours = Tour::with(['images' => function ($query) {
+            $query->take(1); // Lấy chỉ một hình ảnh đầu tiên
+        }])->paginate(8);
+    
+        return $tours;
     }
-    // public function findById($id, array $column = ['*'], $relation = []){
-    //     // Tìm người dùng theo id, nếu không tìm thấy sẽ ném lỗi 404
-    //     $user = User::findOrFail($id);
-    //     return $user;
-    // }
+    public function allImage(){
+        $tours = Tour::with(['images' => function ($query) {
+            $query->take(1); // Lấy chỉ một hình ảnh đầu tiên
+        }])->paginate(8);
+    
+        return $tours;
+    }
     
 }

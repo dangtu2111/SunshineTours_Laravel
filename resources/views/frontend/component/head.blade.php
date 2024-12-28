@@ -1,4 +1,4 @@
-<meta property="og:url" content="{{route('home')}}" />
+<meta property="og:url" content="{{route('index')}}" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="SunShine Tour" />
 <meta property="og:description" content="Travel Blog" />

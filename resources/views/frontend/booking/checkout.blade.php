@@ -93,15 +93,10 @@
                                                     <p class="fw-lighter"><span class="fas fa-dollar-sign"></span>${{$tour->price}}</p>
                                                 </div>
                                                 <div id="my" class="carousel slide carousel-fade img-details" data-bs-ride="carousel" data-bs-interval="2000">
-                                                    <div class="carousel-indicators"> <button type="button" data-bs-target="#my" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#my" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#my" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
-                                                    <div class="carousel-inner">
+                                                    
                                                     <iframe width="560" height="315" src="{{$tour->youtube}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                                                    </div> <button class="carousel-control-prev" type="button" data-bs-target="#my" data-bs-slide="prev">
-                                                        <div class="icon"> <span class="fas fa-arrow-left"></span> </div> <span class="visually-hidden">Previous</span>
-                                                    </button> <button class="carousel-control-next" type="button" data-bs-target="#my" data-bs-slide="next">
-                                                        <div class="icon"> <span class="fas fa-arrow-right"></span> </div> <span class="visually-hidden">Next</span>
-                                                    </button>
+                                                    
                                                 </div>
                                                 <p class="dis my-3 info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quos ipsa sed officiis odio libero consectetur placeat dignissimos et ab dolorum, nemo id provident quidem modi, dolorem dolores quas quasi. </p>
                                                 <p class="dis mb-3 updates">Free updates forever</p>

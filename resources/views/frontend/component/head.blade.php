@@ -23,9 +23,7 @@
 <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
 <link rel='dns-prefetch' href='http://static.zdassets.com/' />
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-<link rel="alternate" type="application/rss+xml" title="Wanderland &raquo; Feed" href="feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="Wanderland &raquo; Comments Feed"
-	href="comments/feed/index.html" />
+
 <link rel='stylesheet' id='wp-block-library-css'
 	href='{{asset("frontend/wp-includes/css/dist/block-library/style.min75e4.css?ver=6.4.5")}}' type='text/css' media='all' />
 
@@ -201,11 +199,11 @@
 </script>
 
 
-<link rel="icon" href="{{asset('frontend/wp-content/uploads/2019/12/cropped-favicon-img-32x32.jpg')}}" sizes="32x32" />
-<link rel="icon" href="{{asset('frontend/wp-content/uploads/2019/12/cropped-favicon-img-192x192.jpg')}}" sizes="192x192" />
-<link rel="apple-touch-icon" href="{{asset('frontend/wp-content/uploads/2019/12/cropped-favicon-img-180x180.jpg')}}" />
+<link rel="icon" href="{{asset('frontend\img\logo\logo04.png')}}" sizes="32x32" />
+<link rel="icon" href="{{asset('frontend\img\logo\logo04.png')}}" sizes="192x192" />
+<link rel="apple-touch-icon" href="{{asset('frontend\img\logo\logo04.png')}}" />
 <meta name="msapplication-TileImage"
-	content="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/12/cropped-favicon-img-270x270.jpg" />
+	content="frontend\img\logo\logo04.png" />
 <link rel="stylesheet" href="{{ asset('frontend/css/customize.css') }}">
 <!-- Font Awesome via CDN -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">

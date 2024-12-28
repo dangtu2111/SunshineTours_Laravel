@@ -1,8 +1,8 @@
 <meta property="og:url" content="index.html" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Wanderland" />
+<meta property="og:title" content="SunShine Tour" />
 <meta property="og:description" content="Travel Blog" />
-<meta property="og:image" content="{{asset('frontend/wp-content/themes/wanderland/assets/img/open_graph.jpg')}}" />
+<meta property="og:image" content="{{asset('frontend\img\logo\logo04.png')}}" />
 
 
 <meta charset="UTF-8" />

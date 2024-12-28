@@ -2,7 +2,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="SunShine Tour" />
 <meta property="og:description" content="Travel Blog" />
-<meta property="og:image" content="{{asset('frontend\img\logo\logo04.png')}}" />
+<meta property="og:image" content="{{asset('frontend/img/logo/logo04.png')}}" />
 
 
 <meta charset="UTF-8" />

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Slider Example</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Bootstrap Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Bootstrap Slider Example</h1>
+        <div class="mt-4">
+            <label for="ex1">Example Slider:</label>
+            <input id="ex1" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="50" />
+        </div>
+        <p class="mt-3">Current Value: <span id="slider-value">50</span></p>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js"></script>
+    <script>
+        // Initialize the slider
+        $(document).ready(function () {
+            // Using jQuery
+            $('#ex1').slider({
+                formatter: function (value) {
+                    return 'Current value: ' + value;
+                }
+            });
+
+            // Update the value display
+            $('#ex1').on('slide', function (slideEvt) {
+                $('#slider-value').text(slideEvt.value);
+            });
+        });
+    </script>
+</body>
+</html>

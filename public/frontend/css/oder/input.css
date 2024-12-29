@@ -106,8 +106,14 @@
     background: white;
     border: 1px solid #e7eaec;
 }
+.slider-selection,.slider-track-high{
+    border:none;
+}
+.slider-selection{
+    height:0;
+}
 .oder-content {
-    max-height: 80vh; /* Giới hạn chiều cao đoạn văn bản */
+    max-height: 65vh; /* Giới hạn chiều cao đoạn văn bản */
     overflow: hidden; /* Ẩn phần thừa */
     text-overflow: ellipsis; /* Hiển thị "..." khi văn bản bị cắt */
     margin-bottom: 10px;

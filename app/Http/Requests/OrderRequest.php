@@ -36,7 +36,7 @@ class OrderRequest extends FormRequest
             "car-bus" => 'nullable|in:0,1',
 
             // time should be an array with at least 1 element
-            "time" => 'required|array|min:1',
+            "time" => 'required|min:1',
         ];
     }
 
@@ -65,7 +65,6 @@ class OrderRequest extends FormRequest
             'car-bus.in' => 'Car/Bus option must be either 0 or 1.',
 
             'time.required' => 'The time is required.',
-            'time.array' => 'The time must be an array.',
             'time.min' => 'The time must contain at least one value.',
         ];
     }

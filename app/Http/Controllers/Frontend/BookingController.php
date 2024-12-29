@@ -110,7 +110,7 @@ class BookingController extends Controller
         return view('frontend.layout.layout', compact('template','config','tour'));
     }
     public function checkout($id,OrderRequest $request){
-    
+        dd($request->all());
         $config = [
             "css"=>[
                 'frontend/css/checkout.css'

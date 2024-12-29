@@ -113,7 +113,7 @@
     height:0;
 }
 .oder-content {
-    max-height: 65vh; /* Giới hạn chiều cao đoạn văn bản */
+    max-height: 80vh; /* Giới hạn chiều cao đoạn văn bản */
     overflow: hidden; /* Ẩn phần thừa */
     text-overflow: ellipsis; /* Hiển thị "..." khi văn bản bị cắt */
     margin-bottom: 10px;
@@ -164,6 +164,6 @@
     background: transparent;
 }
 #oder-content p{
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
 }

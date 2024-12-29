@@ -1,5 +1,16 @@
-<!-- GTM Container placement set to footer -->
-<!-- Google Tag Manager (noscript) -->
+
+
+<!-- Thêm jQuery UI (nếu cần) -->
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script> <!-- jQuery UI -->
+
+<!-- Thêm đúng Bootstrap JS (chỉ cần một trong các tệp Bootstrap JS) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Các file JS nội bộ nếu cần thiết -->
+<script type="text/javascript" src="{{ asset('frontend/wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1') }}" id="jquery-core-js"></script>
+<script type="text/javascript" src="{{ asset('frontend/wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1') }}" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="{{ asset('frontend/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.minac72.js?ver=2.7.0-wc.8.6.1') }}" id="jquery-blockui-js" data-wp-strategy="defer"></script>
+
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTQ2BTD" height="0" width="0"
 		style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
@@ -495,8 +506,79 @@
 </script>
 <script src="{{asset('frontend/js/library.js')}}"></script>
 
-<!-- Bootstrap JS (nếu cần cho giao diện) -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{asset('frontend/wp-content/plugins/revslider/public/assets/js/rbtools.minec8f.js?ver=6.6.20')}}"
+	async id="tp-tools-js"></script>
+<script type="text/javascript" src="{{asset('frontend/wp-content/plugins/revslider/public/assets/js/rs6.minec8f.js?ver=6.6.20')}}" async
+	id="revmin-js"></script>
 
-<!-- Bootstrap Slider JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js"></script>
+<script type="text/javascript')}}" id="wc-add-to-cart-js-extra">
+	/* <![CDATA[ */
+	var wc_add_to_cart_params = {
+		"ajax_url": "\/wp-admin\/admin-ajax.php",
+		"wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+		"i18n_view_cart": "View cart",
+		"cart_url": "https:\/\/wanderland.qodeinteractive.com\/product-list\/cart\/",
+		"is_cart": "",
+		"cart_redirect_after_add": "no"
+	};
+	/* ]]> */
+</script>
+<script type="text/javascript"
+	src="{{asset('frontend/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min9b80.js?ver=8.6.1')}}" id="wc-add-to-cart-js"
+	data-wp-strategy="defer"></script>
+<script type="text/javascript"
+	src="{{asset('frontend/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.minde0b.js?ver=2.1.4-wc.8.6.1')}}"
+	id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript')}}" id="woocommerce-js-extra">
+	/* <![CDATA[ */
+	var woocommerce_params = {
+		"ajax_url": "\/wp-admin\/admin-ajax.php",
+		"wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+	};
+	/* ]]> */
+</script>
+<script type="text/javascript"
+	src="{{asset('frontend/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min9b80.js?ver=8.6.1')}}" id="woocommerce-js"
+	defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript"
+	src="{{asset('frontend/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min6e6b.js?ver=4.15.3')}}"
+	id="ppress-flatpickr-js"></script>
+<script type="text/javascript" src="{{asset('frontend/wp-content/plugins/wp-user-avatar/assets/select2/select2.min6e6b.js?ver=4.15.3')}}"
+	id="ppress-select2-js"></script>
+<script type="text/javascript"
+	src="{{asset('frontend/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-carteba7.js?ver=7.5')}}"
+	id="vc_woocommerce-add-to-cart-js-js"></script>
+<script type="text/javascript"
+	src="{{asset('frontend/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min2a60.js?ver=4.0.3-wc.8.6.1')}}"
+	id="select2-js" defer="defer" data-wp-strategy="defer"></script>
+<script></script>
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var dataLayer_content = {
+		"pagePostType": "frontpage",
+		"pagePostType2": "single-page",
+		"pagePostAuthor": "admin"
+	};
+	dataLayer.push(dataLayer_content);
+	(function(w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start': new Date().getTime(),
+			event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s),
+			dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src =
+			'{{asset("googletagmanager/gtm5445.html?id=")}}' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-KTQ2BTD');
+</script>
+<!-- Thêm CSS của Bootstrap Slider -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css" />
+
+<!-- Thêm jQuery (nếu chưa có) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Thêm thư viện Bootstrap Slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>

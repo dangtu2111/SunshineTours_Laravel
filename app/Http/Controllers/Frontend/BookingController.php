@@ -52,7 +52,7 @@ class BookingController extends Controller
             ],
             "js"=>[
                 'frontend/js/tour_detail/jquery-1.11.0.min.js',
-                'frontend/js/tour_detail/jquery-ui.min.js',
+                
                 'frontend/js/tour_detail/bootstrap.min.js',
                 'frontend/js/tour_detail/owl.carousel.min.js',
                 'frontend/js/tour_detail/parallax.min.js',
@@ -86,17 +86,12 @@ class BookingController extends Controller
         $config = [
             "css"=>[
                 'frontend/css/tour_detail/font-awesome.min.css',
-                'frontend/css/tour_detail/bootstrap.min.css',
-                'frontend/css/tour_detail/jquery-ui.min.css',
                 'frontend/css/tour_detail/owl.carousel.css',
-                'frontend/css/tour_detail/jquery.mb.YTPlayer.min.css',
                 'frontend/css/oder/style.css',
                 'frontend/css/oder/input.css',
             ],
             "js"=>[
-                'frontend/js/oder/js/jquery.min.js',
                 'frontend/js/oder/popper.js',
-                'frontend/js/oder/bootstrap.min.js',
                 'frontend/js/oder/main.js',
               
 

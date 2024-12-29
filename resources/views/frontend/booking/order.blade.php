@@ -85,123 +85,125 @@
                     <div class="mkdf-page-content-holder mkdf-grid-col-12">
                         <div class="wpb-content-wrapper">
                             <div class="container py-4">
-                            @if ($errors->any())
-                                    <div class="alert alert-danger">
-                                        <ul>
-                                            @foreach ($errors->all() as $error)
-                                            <li>{{ $error }}</li>
-                                            @endforeach
-                                        </ul>
-                                    </div>
-                                    @endif
-                                    <form action="{{route('checkout',['id'=>$tour->id])}}" method="POST" id="selectedDateForm">
-                                        @csrf
-                                <div class="row g-4 d-flex justify-content-center">
-                                    
-                                        <div class="col-md-6">
-                                            <div class="row" style="height: 300px;">
-                                                <iframe style="height: 300px;" title="The XO Foodie" class="embed-responsive-item d-block w-100" src="{{$tour->youtube}}"></iframe>
+                                @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                                @endif
+                                <form action="{{route('checkout',['id'=>$tour->id])}}" method="POST" id="selectedDateForm">
+                                    @csrf
+                                    <div class="row g-4 d-flex justify-content-center">
 
-                                            </div>
-                                            <div class="mkdf-post-content oder-content" id="oder-content">
-                                                <div class="mkdf-post-text">
-                                                    <div class="mkdf-post-text-inner">
-                                                        <div class="mkdf-post-info-top">
-                                                            <div itemprop="dateCreated" class="mkdf-post-info-date entry-date published updated">
-                                                                <span aria-hidden="true" class="mkdf-icon-font-elegant icon_calendar "></span> <a itemprop="url" href="../2019/10/index.html">
-                                                                    October 11, 2019 </a>
-                                                                <meta itemprop="interactionCount" content="UserComments: 0">
+                                        <div class="col-md-6  d-flex">
+                                            <div class="container">
+                                                <div class="row" style="height: 300px;">
+                                                    <iframe style="height: 300px;" title="The XO Foodie" class="embed-responsive-item d-block w-100" src="{{$tour->youtube}}"></iframe>
+
+                                                </div>
+                                                <div class="mkdf-post-content oder-content" id="oder-content">
+                                                    <div class="mkdf-post-text">
+                                                        <div class="mkdf-post-text-inner">
+                                                            <div class="mkdf-post-info-top">
+                                                                <div itemprop="dateCreated" class="mkdf-post-info-date entry-date published updated">
+                                                                    <span aria-hidden="true" class="mkdf-icon-font-elegant icon_calendar "></span> <a itemprop="url" href="../2019/10/index.html">
+                                                                        October 11, 2019 </a>
+                                                                    <meta itemprop="interactionCount" content="UserComments: 0">
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="mkdf-post-text-main">
+                                                            <div class="mkdf-post-text-main">
 
-                                                            <h2 itemprop="name" class="entry-title mkdf-post-title">
-                                                                Amazon Rainforest Experience </h2>
-                                                            <div class="wpb-content-wrapper">
-                                                                <div class="vc_row wpb_row vc_row-fluid">
-                                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                                        <div class="vc_column-inner">
-                                                                            <div class="wpb_wrapper">
-                                                                                <div class="wpb_text_column wpb_content_element ">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Excep teur sint occaecat non proident, sunt in culpa qui officia deserunt mollit anim idlaborum. Sed ut persp iciatis unde omnis iste natus error sit. voluptatem accusantium doloremque laudantium, totam rem aperiam. Architecto beatae vitae dicta sunt explicabo.Eu fugiat nulla pariatur.</p>
+                                                                <h2 itemprop="name" class="entry-title mkdf-post-title">
+                                                                    Amazon Rainforest Experience </h2>
+                                                                <div class="wpb-content-wrapper">
+                                                                    <div class="vc_row wpb_row vc_row-fluid">
+                                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                                            <div class="vc_column-inner">
+                                                                                <div class="wpb_wrapper">
+                                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Excep teur sint occaecat non proident, sunt in culpa qui officia deserunt mollit anim idlaborum. Sed ut persp iciatis unde omnis iste natus error sit. voluptatem accusantium doloremque laudantium, totam rem aperiam. Architecto beatae vitae dicta sunt explicabo.Eu fugiat nulla pariatur.</p>
 
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
 
-                                                                                <div class="wpb_text_column wpb_content_element  vc_custom_1579272656318">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
+                                                                                    <div class="wpb_text_column wpb_content_element  vc_custom_1579272656318">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
 
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                                <div class="mkdf-elements-holder   mkdf-one-column  mkdf-responsive-mode-768 ">
-                                                                                    <div class="mkdf-eh-item    " data-item-class="mkdf-eh-custom-1939" data-1400-1600="0 13%" data-1025-1399="0 9%" data-769-1024="0 7%" data-681-768="0 5%" data-680="0 0 0 0">
-                                                                                        <div class="mkdf-eh-item-inner">
-                                                                                            <div class="mkdf-eh-item-content mkdf-eh-custom-1939" style="padding: 0 13%">
+                                                                                    <div class="mkdf-elements-holder   mkdf-one-column  mkdf-responsive-mode-768 ">
+                                                                                        <div class="mkdf-eh-item    " data-item-class="mkdf-eh-custom-1939" data-1400-1600="0 13%" data-1025-1399="0 9%" data-769-1024="0 7%" data-681-768="0 5%" data-680="0 0 0 0">
+                                                                                            <div class="mkdf-eh-item-inner">
+                                                                                                <div class="mkdf-eh-item-content mkdf-eh-custom-1939" style="padding: 0 13%">
 
-                                                                                                <div class="wpb_text_column wpb_content_element  vc_custom_1579248121332">
-                                                                                                    <div class="wpb_wrapper">
-                                                                                                        <blockquote>
-                                                                                                            <h3 style="text-align: center;">BUILD A LIFESTYLE AROUND YOUR BRAND, AND THE AUDIENCE WILL FOLLOW.</h3>
-                                                                                                        </blockquote>
+                                                                                                    <div class="wpb_text_column wpb_content_element  vc_custom_1579248121332">
+                                                                                                        <div class="wpb_wrapper">
+                                                                                                            <blockquote>
+                                                                                                                <h3 style="text-align: center;">BUILD A LIFESTYLE AROUND YOUR BRAND, AND THE AUDIENCE WILL FOLLOW.</h3>
+                                                                                                            </blockquote>
 
+                                                                                                        </div>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
-                                                                                </div>
-                                                                                <div class="wpb_text_column wpb_content_element ">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit qui dolorem ipsum quia dolor sit.</p>
+                                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit qui dolorem ipsum quia dolor sit.</p>
 
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
 
-                                                                                <div class="wpb_text_column wpb_content_element  vc_custom_1579272650022">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
+                                                                                    <div class="wpb_text_column wpb_content_element  vc_custom_1579272650022">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
 
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1579272619552">
-                                                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                                                        <div class="vc_column-inner">
-                                                                                            <div class="wpb_wrapper">
-                                                                                                <div class="mkdf-single-image-holder   ">
-                                                                                                    <div class="mkdf-si-inner">
-                                                                                                        <img loading="lazy" decoding="async" width="800" height="936" src="../wp-content/uploads/2019/10/blog-post-img-06.jpg" class="attachment-full size-full" alt="s" srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06.jpg 800w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06-600x702.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06-256x300.jpg 256w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06-768x899.jpg 768w" sizes="(max-width: 800px) 100vw, 800px">
+                                                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1579272619552">
+                                                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                                                            <div class="vc_column-inner">
+                                                                                                <div class="wpb_wrapper">
+                                                                                                    <div class="mkdf-single-image-holder   ">
+                                                                                                        <div class="mkdf-si-inner">
+                                                                                                            <img loading="lazy" decoding="async" width="800" height="936" src="../wp-content/uploads/2019/10/blog-post-img-06.jpg" class="attachment-full size-full" alt="s" srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06.jpg 800w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06-600x702.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06-256x300.jpg 256w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06-768x899.jpg 768w" sizes="(max-width: 800px) 100vw, 800px">
+                                                                                                        </div>
                                                                                                     </div>
+                                                                                                    <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
                                                                                                 </div>
-                                                                                                <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                                                            <div class="vc_column-inner">
+                                                                                                <div class="wpb_wrapper">
+                                                                                                    <div class="mkdf-single-image-holder   ">
+                                                                                                        <div class="mkdf-si-inner">
+                                                                                                            <img loading="lazy" decoding="async" width="800" height="938" src="../wp-content/uploads/2019/10/blog-post-img-07.jpg" class="attachment-full size-full" alt="s" srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07.jpg 800w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07-600x704.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07-256x300.jpg 256w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07-768x900.jpg 768w" sizes="(max-width: 800px) 100vw, 800px">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+                                                                                                </div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
-                                                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                                                        <div class="vc_column-inner">
-                                                                                            <div class="wpb_wrapper">
-                                                                                                <div class="mkdf-single-image-holder   ">
-                                                                                                    <div class="mkdf-si-inner">
-                                                                                                        <img loading="lazy" decoding="async" width="800" height="938" src="../wp-content/uploads/2019/10/blog-post-img-07.jpg" class="attachment-full size-full" alt="s" srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07.jpg 800w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07-600x704.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07-256x300.jpg 256w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07-768x900.jpg 768w" sizes="(max-width: 800px) 100vw, 800px">
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
-                                                                                            </div>
+                                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
+
                                                                                         </div>
                                                                                     </div>
-                                                                                </div>
-                                                                                <div class="wpb_text_column wpb_content_element ">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
 
-                                                                                    </div>
-                                                                                </div>
+                                                                                    <div class="wpb_text_column wpb_content_element  vc_custom_1579272667847">
+                                                                                        <div class="wpb_wrapper">
+                                                                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
 
-                                                                                <div class="wpb_text_column wpb_content_element  vc_custom_1579272667847">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
-
+                                                                                        </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -209,75 +211,76 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="mkdf-post-info-bottom clearfix">
-                                                            <div class="mkdf-post-info-bottom-left">
-                                                                <div class="mkdf-tags-holder">
-                                                                    <div class="mkdf-tags">
-                                                                        <a href="../tag/adventure/index.html" rel="tag">Adventure</a>, <a href="../tag/explore/index.html" rel="tag">Explore</a>, <a href="../tag/guides/index.html" rel="tag">Guides</a>
+                                                            <div class="mkdf-post-info-bottom clearfix">
+                                                                <div class="mkdf-post-info-bottom-left">
+                                                                    <div class="mkdf-tags-holder">
+                                                                        <div class="mkdf-tags">
+                                                                            <a href="../tag/adventure/index.html" rel="tag">Adventure</a>, <a href="../tag/explore/index.html" rel="tag">Explore</a>, <a href="../tag/guides/index.html" rel="tag">Guides</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mkdf-post-info-bottom-right">
+                                                                    <div class="mkdf-blog-share">
+                                                                        <div class="mkdf-social-share-holder mkdf-list">
+                                                                            <ul>
+                                                                                <li class="mkdf-facebook-share">
+                                                                                    <a itemprop="url" class="mkdf-share-link" href="#" onclick="window.open('https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwanderland.qodeinteractive.com%2Famazon-rainforest-experience%2F', 'sharer', 'toolbar=0,status=0,width=620,height=280');">
+                                                                                        <span class="mkdf-social-network-icon social_facebook"></span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="mkdf-twitter-share">
+                                                                                    <a itemprop="url" class="mkdf-share-link" href="#" onclick="window.open('https://twitter.com/intent/tweet?text=Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipisic+ing+elit%2C+sed+do+eiusmod+tempor+incididu+nt+ut+labore+et+do+dolore+ https://wanderland.qodeinteractive.com/amazon-rainforest-experience/', 'popupwindow', 'scrollbars=yes,width=800,height=400');">
+                                                                                        <span class="mkdf-social-network-icon social_twitter"></span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="mkdf-tumblr-share">
+                                                                                    <a itemprop="url" class="mkdf-share-link" href="#" onclick="popUp=window.open('https://www.tumblr.com/share/link?url=https%3A%2F%2Fwanderland.qodeinteractive.com%2Famazon-rainforest-experience%2F&amp;name=Amazon+Rainforest+Experience&amp;description=Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipisic+ing+elit%2C+sed+do+eiusmod+tempor+incididu+nt+ut+labore+et+do+dolore+magna+aliqua.+Ut+enim+ad+minim+veniam%2C+quis+nostrud+exerc+itation+ullamco+laboris+nisi.ut+aliquip+ex+ea+commodo+consequat.+Duis+aute+irure+dolr+inreprehen+eiusmod+tempor+incididu+nt+ut+labore+et++dolore+magna+aliqua', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;">
+                                                                                        <span class="mkdf-social-network-icon social_tumblr"></span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="mkdf-pinterest-share">
+                                                                                    <a itemprop="url" class="mkdf-share-link" href="#" onclick="popUp=window.open('https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwanderland.qodeinteractive.com%2Famazon-rainforest-experience%2F&amp;description=Amazon+Rainforest+Experience&amp;media=https%3A%2F%2Fwanderland.qodeinteractive.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fblog-post-img-02.jpg', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;">
+                                                                                        <span class="mkdf-social-network-icon social_pinterest"></span>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                            <p class="mkdf-social-title">Share</p>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="mkdf-post-info-bottom-right">
-                                                                <div class="mkdf-blog-share">
-                                                                    <div class="mkdf-social-share-holder mkdf-list">
-                                                                        <ul>
-                                                                            <li class="mkdf-facebook-share">
-                                                                                <a itemprop="url" class="mkdf-share-link" href="#" onclick="window.open('https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwanderland.qodeinteractive.com%2Famazon-rainforest-experience%2F', 'sharer', 'toolbar=0,status=0,width=620,height=280');">
-                                                                                    <span class="mkdf-social-network-icon social_facebook"></span>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li class="mkdf-twitter-share">
-                                                                                <a itemprop="url" class="mkdf-share-link" href="#" onclick="window.open('https://twitter.com/intent/tweet?text=Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipisic+ing+elit%2C+sed+do+eiusmod+tempor+incididu+nt+ut+labore+et+do+dolore+ https://wanderland.qodeinteractive.com/amazon-rainforest-experience/', 'popupwindow', 'scrollbars=yes,width=800,height=400');">
-                                                                                    <span class="mkdf-social-network-icon social_twitter"></span>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li class="mkdf-tumblr-share">
-                                                                                <a itemprop="url" class="mkdf-share-link" href="#" onclick="popUp=window.open('https://www.tumblr.com/share/link?url=https%3A%2F%2Fwanderland.qodeinteractive.com%2Famazon-rainforest-experience%2F&amp;name=Amazon+Rainforest+Experience&amp;description=Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipisic+ing+elit%2C+sed+do+eiusmod+tempor+incididu+nt+ut+labore+et+do+dolore+magna+aliqua.+Ut+enim+ad+minim+veniam%2C+quis+nostrud+exerc+itation+ullamco+laboris+nisi.ut+aliquip+ex+ea+commodo+consequat.+Duis+aute+irure+dolr+inreprehen+eiusmod+tempor+incididu+nt+ut+labore+et++dolore+magna+aliqua', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;">
-                                                                                    <span class="mkdf-social-network-icon social_tumblr"></span>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li class="mkdf-pinterest-share">
-                                                                                <a itemprop="url" class="mkdf-share-link" href="#" onclick="popUp=window.open('https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwanderland.qodeinteractive.com%2Famazon-rainforest-experience%2F&amp;description=Amazon+Rainforest+Experience&amp;media=https%3A%2F%2Fwanderland.qodeinteractive.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fblog-post-img-02.jpg', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;">
-                                                                                    <span class="mkdf-social-network-icon social_pinterest"></span>
-                                                                                </a>
-                                                                            </li>
-                                                                        </ul>
-                                                                        <p class="mkdf-social-title">Share</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+
+
+
                                                         </div>
-
-
-
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <button class="btn btn-show-more" id="showMoreBtn" onclick="toggleContent()" type="button">Show More</button>
-                                            <div class="container" style="background:rgba(58, 58, 58, .05);">
-                                                <div class="text-center">
-                                                    <p class="fw-bold fs-3 mt-3">Payment Details</p>
-                                                    <p class="dis mb-3">Complete your purchase by providing your payment details</p>
-                                                </div>
+                                                <button class="btn btn-show-more" id="showMoreBtn" onclick="toggleContent()" type="button">Show More</button>
+                                                <div class="container" style="background:rgba(58, 58, 58, .05);">
+                                                    <div class="text-center">
+                                                        <p class="fw-bold fs-3 mt-3">Payment Details</p>
+                                                        <p class="dis mb-3">Complete your purchase by providing your payment details</p>
+                                                    </div>
 
-                                                <div class="mb-3">
-                                                    <p class="dis fw-bold mb-1">Email address</p> <input class="form-control m-0" type="email" name="email" placeholder="luke@skywalker.com" required>
-                                                </div>
-                                                <div class="mb-3">
-                                                    <p class="dis fw-bold mb-1">Full name</p> <input class="form-control m-0" type="text" name="fullname" placeholder="Enter your fullname" required>
-                                                </div>
-                                                <div class="mb-3">
-                                                    <p class="dis fw-bold mb-1"> Phone number</p> <input class="form-control m-0" type="text" name="phone" placeholder="Enter your phone number" required> 
-                                                </div>
-                                                <div class="mb-3">
-                                                    <p class="dis fw-bold mb-1"> Note</p> <input class="form-control m-0" type="text" name="note" placeholder="Note">
-                                                </div>
+                                                    <div class="mb-3">
+                                                        <p class="dis fw-bold mb-1">Email address</p> <input class="form-control m-0" type="email" name="email" placeholder="luke@skywalker.com" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <p class="dis fw-bold mb-1">Full name</p> <input class="form-control m-0" type="text" name="fullname" placeholder="Enter your fullname" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <p class="dis fw-bold mb-1"> Phone number</p> <input class="form-control m-0" type="text" name="phone" placeholder="Enter your phone number" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <p class="dis fw-bold mb-1"> Note</p> <input class="form-control m-0" type="text" name="note" placeholder="Note">
+                                                    </div>
 
+                                                </div>
                                             </div>
+
                                         </div>
-                                        <div class="col-md-6">
-
+                                        <div class="col-md-6  d-flex">
+                                            <div class="container">
                                             <div class="elegant-calencar d-md-flex">\
                                                 @php
                                                 $bg01=asset('frontend/images/bg.jpg');
@@ -467,41 +470,44 @@
                                                 </div>
                                                 <span id="ex6CurrentSliderValLabel" class="fs-4">Down payment: $<span id="ex6SliderVal">0</span></span>
                                             </div>
-
-
-
-                                        </div>
-                                   
-                                </div>
-                                <div class="mr-3 ml-3 row justify-content-center align-items-center mt-1 p-5" style="background:rgba(58, 58, 58, .05)"> <!-- style để đặt chiều cao -->
-                                    <div class="d-flex flex-column dis col-lg-6">
-                                        <div class="d-flex align-items-center justify-content-between mb-2">
-                                            <p class="fs-4">Subtotal</p>
-                                            <p class="fs-4" id="total-cost"><span class="fas fa-dollar-sign fs-5"></span>0.00</p>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between mb-2">
-                                            <div class="d-flex align-items-center">
-                                                <p class="pe-2 fs-4">Discount <span class="d-inline-flex align-items-center justify-content-between bg-light px-2 couponCode"> </p>
                                             </div>
-                                            <p class=" fs-4"><span class="fas fa-dollar-sign"></span>0.00</p>
+
+                                            
+
+
+
                                         </div>
-                                        <div class="d-flex align-items-center justify-content-between mb-2">
-                                            <p class=" fs-4">VAT<span>(10%)</span></p>
-                                            <p class=" fs-4"><span class="fas fa-dollar-sign"></span>0.00</p>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between mb-2">
-                                            <p class="fw-bold fs-4">Total</p>
-                                            <p class="fw-bold fs-4" id="total"><span class="fas fa-dollar-sign"></span>0.00</p>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between mb-2">
-                                            <p class="fw-bold fs-4">Down payment</p>
-                                            <p class="fw-bold fs-4" id="downPayment"><span class="fas fa-dollar-sign"></span>0.00</p>
-                                        </div>
-                                        <input type="hidden" id="total_money"  name="total_money">
-                                        <input type="hidden" id="down_payment" name="down_payment">
-                                        <button class="btn btn-primary mt-2 fs-4" type="submit" id="downPayment1">Pay<span class="fas fa-dollar-sign px-1 fs-4"  id="downPayment1" ></span>0.00 </button>
+
                                     </div>
-                                </div>
+                                    <div class="mr-3 ml-3 row justify-content-center align-items-center mt-1 p-5" style="background:rgba(58, 58, 58, .05)"> <!-- style để đặt chiều cao -->
+                                        <div class="d-flex flex-column dis col-lg-6">
+                                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                                <p class="fs-4">Subtotal</p>
+                                                <p class="fs-4" id="total-cost"><span class="fas fa-dollar-sign fs-5"></span>0.00</p>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                                <div class="d-flex align-items-center">
+                                                    <p class="pe-2 fs-4">Discount <span class="d-inline-flex align-items-center justify-content-between bg-light px-2 couponCode"> </p>
+                                                </div>
+                                                <p class=" fs-4"><span class="fas fa-dollar-sign"></span>0.00</p>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                                <p class=" fs-4">VAT<span>(10%)</span></p>
+                                                <p class=" fs-4"><span class="fas fa-dollar-sign"></span>0.00</p>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                                <p class="fw-bold fs-4">Total</p>
+                                                <p class="fw-bold fs-4" id="total"><span class="fas fa-dollar-sign"></span>0.00</p>
+                                            </div>
+                                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                                <p class="fw-bold fs-4">Down payment</p>
+                                                <p class="fw-bold fs-4" id="downPayment"><span class="fas fa-dollar-sign"></span>0.00</p>
+                                            </div>
+                                            <input type="hidden" id="total_money" name="total_money">
+                                            <input type="hidden" id="down_payment" name="down_payment">
+                                            <button class="btn btn-primary mt-2 fs-4" type="submit" id="downPayment1">Pay<span class="fas fa-dollar-sign px-1 fs-4" id="downPayment1"></span>0.00 </button>
+                                        </div>
+                                    </div>
                                 </form>
                             </div>
                             <div class="mkdf-row-grid-section-wrapper">
@@ -680,7 +686,7 @@
             $("#ex6SliderVal").text(result); // Cập nhật vào giao diện
             $('#downPayment').text('$' + result);
             $('#downPayment1').text('$' + result);
-            $('#down_payment').val( result);
+            $('#down_payment').val(result);
         }
         // Hàm tính toán tổng chi phí
         function updateTotalCost() {
@@ -725,8 +731,8 @@
             const result = (totalCost / 100 * sliderValue).toFixed(2);
             $('#downPayment').text('$' + result);
             $('#downPayment1').text('$' + result);
-            $('#total_money').val( totalCost);
-            $('#down_payment').val( result);
+            $('#total_money').val(totalCost);
+            $('#down_payment').val(result);
             updateSliderVal();
         }
 

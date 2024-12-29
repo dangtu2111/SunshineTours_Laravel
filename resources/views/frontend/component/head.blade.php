@@ -87,7 +87,7 @@
 	href='{{asset("frontend/wp-content/themes/wanderland/assets/css/woocommerce.min75e4.css?ver=6.4.5")}}' type='text/css' media='all' />
 <link id='wanderland-mikado-woo-inline-css' type='text/css' rel='stylesheet' link="{{asset('frontend/css/wanderland-mikado-woo-inline.css')}}">
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <link rel='stylesheet' id='wanderland-mikado-woo-responsive-css'
 	href='{{asset("frontend/wp-content/themes/wanderland/assets/css/woocommerce-responsive.min75e4.css?ver=6.4.5")}}' type='text/css'
 	media='all' />

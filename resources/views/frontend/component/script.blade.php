@@ -494,7 +494,6 @@
 	};
 </script>
 <script src="{{asset('frontend/js/library.js')}}"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <!-- Bootstrap JS (nếu cần cho giao diện) -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

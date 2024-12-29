@@ -440,9 +440,7 @@
 													<rs-static-layers><!--
 		--></rs-static-layers>
 												</rs-module>
-												<script data-cfasync="false"
-													src="{{asset('frontend/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js')}}"></script>
-
+												
 											</rs-module-wrap>
 											<!-- END REVOLUTION SLIDER -->
 										</div>
@@ -466,122 +464,6 @@
 									</div>
 								</div>
 							</div>
-							<!-- <div class="mkdf-row-grid-section-wrapper ">
-								<div class="mkdf-row-grid-section">
-									<div class="vc_row wpb_row vc_row-fluid">
-										<div class="wpb_column vc_column_container vc_col-sm-12">
-											<div class="vc_column-inner">
-												<div class="wpb_wrapper">
-													<div
-														class="mkdf-elements-holder   mkdf-one-column  mkdf-responsive-mode-768 ">
-														<div class="mkdf-eh-item   mkdf-horizontal-alignment-center "
-															data-item-class="mkdf-eh-custom-6176"
-															data-1400-1600="30px 0 0 0" data-1025-1399="20px 0 0 0"
-															data-769-1024="70px 0 0 0" data-681-768="70px 0 0 0"
-															data-680="80px 0 0 0">
-															<div class="mkdf-eh-item-inner">
-																<div class="mkdf-eh-item-content mkdf-eh-custom-6176"
-																	style="padding: 0 0 0 0">
-																	<div
-																		class="mkdf-clients-grid-holder mkdf-grid-list mkdf-disable-bottom-space mkdf-five-columns mkdf-huge-space  mkdf-cc-hover-switch-images">
-																		<div class="mkdf-cg-inner mkdf-outer-space">
-																			<div
-																				class="mkdf-cc-item mkdf-item-space mkdf-cci-has-link">
-																				<a itemprop="url"
-																					class="mkdf-cc-link mkdf-block-drag-link"
-																					href="#" target="_self">
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/10/h1-clients-img-05.png')}}"
-																						alt="a" />
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-hover-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/12/h1-clients-img-05-hover.png')}}"
-																						alt="a" />
-																				</a>
-																			</div>
-																			<div
-																				class="mkdf-cc-item mkdf-item-space mkdf-cci-has-link">
-																				<a itemprop="url"
-																					class="mkdf-cc-link mkdf-block-drag-link"
-																					href="#" target="_self">
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/10/h1-clients-img-01.png')}}"
-																						alt="a" />
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-hover-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/12/h1-clients-img-01-hover.png')}}"
-																						alt="a" />
-																				</a>
-																			</div>
-																			<div
-																				class="mkdf-cc-item mkdf-item-space mkdf-cci-has-link">
-																				<a itemprop="url"
-																					class="mkdf-cc-link mkdf-block-drag-link"
-																					href="#" target="_self">
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/10/h1-clients-img-02.png')}}"
-																						alt="a" />
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-hover-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/12/h1-clients-img-02-hover.png')}}"
-																						alt="a" />
-																				</a>
-																			</div>
-																			<div
-																				class="mkdf-cc-item mkdf-item-space mkdf-cci-has-link">
-																				<a itemprop="url"
-																					class="mkdf-cc-link mkdf-block-drag-link"
-																					href="#" target="_self">
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/10/h1-clients-img-03.png')}}"
-																						alt="a" />
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-hover-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/12/h1-clients-img-03-hover.png')}}"
-																						alt="a" />
-																				</a>
-																			</div>
-																			<div
-																				class="mkdf-cc-item mkdf-item-space mkdf-cci-has-link">
-																				<a itemprop="url"
-																					class="mkdf-cc-link mkdf-block-drag-link"
-																					href="#" target="_self">
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/10/h1-clients-img-04.png')}}"
-																						alt="a" />
-																					<img decoding="async"
-																						itemprop="image"
-																						class="mkdf-cc-hover-image"
-																						src="{{asset('frontend/wp-content/uploads/2019/12/h1-clients-img-04-hover.png')}}"
-																						alt="a" />
-																				</a>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div> -->
 							<div class="vc_row wpb_row vc_row-fluid vc_custom_1572593905416 vc_row-has-fill">
 								<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0">
 									<div class="vc_column-inner">

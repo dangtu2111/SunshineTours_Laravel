@@ -49,7 +49,7 @@
             class="mkdf-title-holder mkdf-standard-type mkdf-title-va-header-bottom mkdf-preload-background mkdf-has-bg-image mkdf-bg-responsive-disabled"
             style="
     height: 452px;
-    background-image: url(frontend/img/background_booking.jpg);
+    background-image: url(frontend/img/background_booking1.jpg);
     background-position: center;
   "
             data-height="452">

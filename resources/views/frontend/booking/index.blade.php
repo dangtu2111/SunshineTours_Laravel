@@ -50,7 +50,6 @@
             style="
     height: 452px;
     background-image: url(frontend/img/background_booking.jpg);
-    background-size: cover;
     background-position: center;
   "
             data-height="452">

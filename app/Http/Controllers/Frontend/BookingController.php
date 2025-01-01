@@ -137,7 +137,6 @@ class BookingController extends Controller
             $randomCode = Str::random(15);
             $isValid = $this->bookingService->isCodeValid($randomCode);
         }
-
         // Đặt tên template cho view
         $template = 'frontend.booking.checkout';
         $tour = $this->tourRepository->findById($id);

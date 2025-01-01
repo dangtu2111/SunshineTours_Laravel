@@ -89,7 +89,6 @@
         @endforeach
     @endif
 @endif
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css" />
 
 <!-- Thêm jQuery (nếu chưa có) -->

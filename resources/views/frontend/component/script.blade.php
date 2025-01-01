@@ -1,21 +1,6 @@
 
 
-<!-- Thêm jQuery (nếu chưa có) -->
-<script>
-  if (typeof jQuery === 'undefined') {
-    var script = document.createElement('script');
-    script.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
-    script.onload = function() {
-      console.log('jQuery đã được tải thành công!');
-    };
-    script.onerror = function() {
-      console.log('Có lỗi khi tải jQuery!');
-    };
-    document.head.appendChild(script); // Thêm script vào thẻ <head>
-  } else {
-    console.log('jQuery đã được tải rồi!');
-  }
-</script>
+
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTQ2BTD" height="0" width="0"
 		style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->

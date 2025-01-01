@@ -1,18 +1,14 @@
-<!-- GTM Container placement set to footer -->
-<!-- Google Tag Manager (noscript) -->
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css" />
 
 <!-- Thêm jQuery (nếu chưa có) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 <!-- Thêm thư viện Bootstrap Slider -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTQ2BTD" height="0" width="0"
 		style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<script type="text/html" id="wpb-modifications">
-	window.wpbCustomElement = 1;
-</script>
+
 <link href="https://fonts.googleapis.com/css?family=Roboto:400%7CCrimson+Text:600%7COswald:700&amp;display=swap"
 	rel="stylesheet" property="stylesheet" media="all" type="text/css">
 
@@ -37,10 +33,11 @@
             <script src="{{ asset($val) }}"></script>
         @endforeach
     @endif
+	
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/contact-form-7/includes/js/index6dcf.js?ver=5.9.2')}}"
 	id="contact-form-7-js"></script>
-<script type="text/javascript" src="{{asset('qodethemes/_toolbar/assets/js/rbt-modules75e4.js?ver=6.4.5')}}"
-	id="rabbit_js-js"></script>
+<!-- <script type="text/javascript" src="{{asset('qodethemes/_toolbar/assets/js/rbt-modules75e4.js?ver=6.4.5')}}"
+	id="rabbit_js-js"></script> -->
 <script type="text/javascript"
 	src="{{asset('frontend/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min9b80.js?ver=8.6.1')}}"
 	id="sourcebuster-js-js"></script>
@@ -248,6 +245,7 @@
 <script type="text/javascript"
 	src="{{asset('frontend/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.mineba7.js?ver=7.5')}}"
 	id="isotope-js"></script>
+
 <script type="text/javascript"
 	src="{{asset('frontend/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min75e4.js?ver=6.4.5')}}"
 	id="packery-js"></script>
@@ -501,4 +499,4 @@
 	};
 </script>
 <script src="{{asset('frontend/js/library.js')}}"></script>
-<!-- Thêm CSS của Bootstrap Slider -->
+>

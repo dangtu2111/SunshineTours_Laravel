@@ -88,14 +88,14 @@ return new class extends Migration
         // Migration for orders table
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
+            // $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
             $table->string('fullname');
             $table->string('email');
             $table->string('phone_number');
-            $table->string('address');
             $table->text('note')->nullable();
             $table->date('order_date');
             $table->integer('status')->default(0);
+            $table->decimal('down_payment', 10, 2);
             $table->decimal('total_money', 10, 2);
             $table->timestamps();
         });
@@ -113,9 +113,15 @@ return new class extends Migration
             $table->id();
             $table->foreignId('order_id')->constrained('orders')->onDelete('cascade');
             $table->foreignId('tour_id')->constrained('tours')->onDelete('cascade');
-            $table->decimal('price', 10, 2);
-            $table->integer('num');
-            $table->decimal('total_money', 10, 2);
+            $table->date('date_booking');
+            $table->time('time');
+            $table->integer('guest_08');
+            $table->integer('guest_812');
+            $table->integer('guest_12');
+            $table->integer('vip');
+            $table->integer('video');
+            $table->integer('car_bus');
+            $table->integer('total_money');
             $table->timestamps();
         });
         Schema::create('sessions', function (Blueprint $table) {
@@ -146,7 +152,6 @@ return new class extends Migration
             $table->id(); // id int [pk, increment]
             $table->unsignedBigInteger('order_id'); // order_id int
             $table->string('code', 50); // code varchar(50)
-            $table->integer('price'); // price int
             $table->integer('total_money'); // total_money int
             $table->timestamps(); // created_at, updated_at
 

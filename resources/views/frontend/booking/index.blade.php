@@ -59,6 +59,8 @@
                 <img
                     itemprop="image"
                     src="{{asset('frontend/img/background_booking.jpg')}}"
+                    style="background-size: cover;
+                    background-position: center;"
                     alt="s" />
             </div>
             <div

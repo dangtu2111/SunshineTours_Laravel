@@ -22,50 +22,52 @@ class OrderRequest extends FormRequest
     public function rules(): array
     {
         return [
-            "datetime" => 'required|date_format:Y-m-d',
-
-            // numberOfPeople should be an array with at least 1 element
-            "numberOfPeople" => 'required|array|min:1',
-
-            // guest-type should be an array with at least 1 element
-            "guest-type" => 'required|array|min:1',
-
-            // vip, video, and car-bus should be numeric (either 0 or 1), nullable
-            "vip" => 'nullable|in:0,1',
-            "video" => 'nullable|in:0,1',
-            "car-bus" => 'nullable|in:0,1',
-
-            // time should be an array with at least 1 element
-            "time" => 'required|min:1',
+            'email' => 'required|email',
+            'fullname' => 'required|string|max:255',
+            'phone' => 'required|regex:/^[0-9]{10,15}$/',
+            'note' => 'nullable|string|max:500',
+            'order_date' => 'required|date|after_or_equal:today',
+            'numberOfPeople' => 'required|array|min:1',
+            'guest-type' => 'required|array|min:1',
+            'time' => 'required|date_format:h:i A',
+            'payment' => 'required|string|in:option1,option2,option3',
+            'total_money' => 'required|numeric|min:0',
+            'down_payment' => 'required|numeric|min:0',
         ];
     }
 
     public function messages(): array
     {
         return [
-            // Custom messages for each validation rule
-            'datetime.required' => 'The date is required.',
-            'datetime.date_format' => 'The date format must be YYYY-MM-DD.',
-
-            'numberOfPeople.required' => 'The number of people is required.',
-            'numberOfPeople.array' => 'The number of people must be an array.',
-            'numberOfPeople.min' => 'The number of people must contain at least one value.',
-
-            'guest-type.required' => 'The guest type is required.',
-            'guest-type.array' => 'The guest type must be an array.',
-            'guest-type.min' => 'The guest type must contain at least one value.',
-
-            'vip.nullable' => 'VIP status is optional.',
-            'vip.in' => 'VIP status must be either 0 or 1.',
-
-            'video.nullable' => 'Video option is optional.',
-            'video.in' => 'Video option must be either 0 or 1.',
-
-            'car-bus.nullable' => 'Car/Bus option is optional.',
-            'car-bus.in' => 'Car/Bus option must be either 0 or 1.',
-
-            'time.required' => 'The time is required.',
-            'time.min' => 'The time must contain at least one value.',
+            'email.required' => 'Vui lòng nhập email.',
+            'email.email' => 'Email không đúng định dạng.',
+            'fullname.required' => 'Vui lòng nhập họ và tên.',
+            'fullname.string' => 'Họ và tên phải là chuỗi ký tự.',
+            'fullname.max' => 'Họ và tên không được vượt quá 255 ký tự.',
+            'phone.required' => 'Vui lòng nhập số điện thoại.',
+            'phone.regex' => 'Số điện thoại không hợp lệ, chỉ được chứa từ 10 đến 15 chữ số.',
+            'note.string' => 'Ghi chú phải là chuỗi ký tự.',
+            'note.max' => 'Ghi chú không được vượt quá 500 ký tự.',
+            'order_date.required' => 'Vui lòng chọn ngày.',
+            'order_date.date' => 'Ngày không hợp lệ.',
+            'order_date.after_or_equal' => 'Ngày phải từ hôm nay trở đi.',
+            'numberOfPeople.required' => 'Vui lòng nhập số lượng người.',
+            'numberOfPeople.array' => 'Số lượng người phải là một mảng.',
+            'numberOfPeople.min' => 'Phải có ít nhất 1 người.',
+            'guest-type.required' => 'Vui lòng chọn loại khách.',
+            'guest-type.array' => 'Loại khách phải là một mảng.',
+            'guest-type.min' => 'Phải có ít nhất một loại khách.',
+            'time.required' => 'Vui lòng chọn giờ.',
+            'time.date_format' => 'Thời gian không đúng định dạng. Định dạng hợp lệ là giờ:phút AM/PM (ví dụ: 10:00 AM).',
+            'payment.required' => 'Vui lòng chọn phương thức thanh toán.',
+            'payment.string' => 'Phương thức thanh toán phải là chuỗi ký tự.',
+            'payment.in' => 'Phương thức thanh toán không hợp lệ.',
+            'total_money.required' => 'Vui lòng nhập tổng số tiền.',
+            'total_money.numeric' => 'Tổng số tiền phải là số.',
+            'total_money.min' => 'Tổng số tiền không được nhỏ hơn 0.',
+            'down_payment.required' => 'Vui lòng nhập số tiền đặt cọc.',
+            'down_payment.numeric' => 'Số tiền đặt cọc phải là số.',
+            'down_payment.min' => 'Số tiền đặt cọc không được nhỏ hơn 0.',
         ];
     }
 }

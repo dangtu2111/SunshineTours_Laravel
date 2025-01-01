@@ -12,6 +12,14 @@ use App\Http\Controllers\Backend\ReportController;
 use App\Http\Controllers\Backend\FeedbackController;
 use App\Http\Controllers\Backend\AuthController;
 use App\Http\Middleware\AuthenticateMiddleware;
+use App\Http\Controllers\Frontend\PayPalController;
+
+Route::get('create-transaction', [PayPalController::class, 'createTransaction'])->name('createTransaction');
+Route::get('process-transaction', [PayPalController::class, 'processTransaction'])->name('processTransaction');
+Route::get('success-transaction', [PayPalController::class, 'successTransaction'])->name('successTransaction');
+Route::get('cancel-transaction', [PayPalController::class, 'cancelTransaction'])->name('cancelTransaction');
+Route::get('process-paypal', [PayPalController::class, 'processPaypPal'])->name('processPaypal');
+Route::get('paymentSuccess', [App\Http\Controllers\Frontend\BookingController::class, 'paymentSuccess'])->name('paymentSuccess');
 
 Route::get('/loginAdmin', [AuthController::class, 'index'])->name('auth.admin');
 Route::get('/logoutAdmin', [AuthController::class, 'logout'])->name('auth.logout');

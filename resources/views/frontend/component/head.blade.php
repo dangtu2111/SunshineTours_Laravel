@@ -6,7 +6,9 @@
 <meta property="og:title" content="SunShine Tour">
 <meta property="og:description" content="Travel Blog">
 <meta property="og:image" content="{{asset('frontend/img/logo/logo04.png')}}">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <title>Sunshine Tours</title>
+
 <link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
 <link rel="dns-prefetch" href="http://export.qodethemes.com/">
@@ -50,27 +52,9 @@
 <link rel="stylesheet" id="qode-zendesk-chat-css" href="{{asset('frontend/wp-content/plugins/qode-zendesk-chat/assets/main75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/revslider/public/assets/js/rbtools.minec8f.js?ver=6.6.20')}}" async id="tp-tools-js"></script>
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/revslider/public/assets/js/rs6.minec8f.js?ver=6.6.20')}}" async id="revmin-js"></script>
-<script type="text/javascript" id="wc-add-to-cart-js-extra">
-    /* <![CDATA[ */
-    var wc_add_to_cart_params = {
-        "ajax_url": "\/wp-admin\/admin-ajax.php",
-        "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
-        "i18n_view_cart": "View cart",
-        "cart_url": "https:\/\/wanderland.qodeinteractive.com\/product-list\/cart\/",
-        "is_cart": "",
-        "cart_redirect_after_add": "no"
-    };
-    /* ]]> */
-</script>
 
-<script type="text/javascript" id="woocommerce-js-extra">
-    /* <![CDATA[ */
-    var woocommerce_params = {
-        "ajax_url": "\/wp-admin\/admin-ajax.php",
-        "wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
-    };
-    /* ]]> */
-</script>
+
+
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min9b80.js?ver=8.6.1')}}" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min6e6b.js?ver=4.15.3')}}" id="ppress-flatpickr-js"></script>
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min2a60.js?ver=4.0.3-wc.8.6.1')}}" id="select2-js" defer="defer" data-wp-strategy="defer"></script>
@@ -87,27 +71,7 @@
 
 <!-- Google Tag Manager for WordPress by gtm4wp.com -->
 <!-- GTM Container placement set to footer -->
-<script data-cfasync="false" data-pagespeed-no-defer>
-    var dataLayer_content = {
-        "pagePostType": "frontpage",
-        "pagePostType2": "single-page",
-        "pagePostAuthor": "admin"
-    };
-    dataLayer.push(dataLayer_content);
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = '{{asset("googletagmanager/gtm5445.html?id=")}}' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KTQ2BTD');
-</script>
+
 
 <link rel="icon" href="{{asset('frontend/img/logo/logo04.png')}}" sizes="32x32">
 <link rel="icon" href="{{asset('frontend/img/logo/logo04.png')}}" sizes="192x192">
@@ -125,11 +89,9 @@
         @endforeach
     @endif
 @endif
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css" />
 
 <!-- Thêm jQuery (nếu chưa có) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 <!-- Thêm thư viện Bootstrap Slider -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>

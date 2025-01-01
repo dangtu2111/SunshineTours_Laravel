@@ -43,10 +43,10 @@
 </head>
 <body>
     <div class="payment-success">
-        <img src="C:\Users\anhtu\Documents\WORKPACE\SUNSHINE\public\frontend\img\payment_success.png" class="img-fluid " style="width: 80%; max-width: 500px; min-width: 230px; height: auto;" alt="Payment Success">
+        <img src="{{asset('frontend\img\payment_success.png')}}" class="img-fluid " style="width: 80%; max-width: 500px; min-width: 230px; height: auto;" alt="Payment Success">
         <h1>Your Payment is Successful!</h1>
         <p>Thank you for your payment. An automated payment receipt will be sent to your registered email.</p>
-        <a href="#">Back to Home</a>
+        <a href="{{route('index')}}">Back to Home</a>
     </div>
 </body>
 </html>

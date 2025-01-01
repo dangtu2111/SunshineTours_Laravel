@@ -24,8 +24,14 @@ class OrderDetail extends Model
     protected $fillable = [
         'order_id',
         'tour_id',
-        'price',
-        'num',
+        'date_booking',
+        'time',
+        'guest_08',
+        'guest_812',
+        'guest_12',
+        'vip',
+        'video',
+        'car_bus',
         'total_money',
     ];
 

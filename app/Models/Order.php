@@ -26,10 +26,10 @@ class Order extends Model
         'fullname',
         'email',
         'phone_number',
-        'address',
         'note',
         'order_date',
         'status',
+        'down_payment',
         'total_money',
     ];
 
@@ -38,10 +38,7 @@ class Order extends Model
      */
 
     // Liên kết tới người dùng (User)
-    public function user()
-    {
-        return $this->belongsTo(User::class);
-    }
+    
 
     // Liên kết tới bảng payments
     public function payments()

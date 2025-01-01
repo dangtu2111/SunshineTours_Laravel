@@ -6,21 +6,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css">
 
 
-@if(\Session::has('error'))
 
-<div class="alert alert-danger">{{ \Session::get('error') }}</div>
-
-{{ \Session:: forget('error') }}
-
-@endif
-
-@if(\Session::has('success'))
-
-<div class="alert alert-success">{{ \Session::get('success') }}</div>
-
-{{ \Session:: forget('success') }}
-
-@endif
 <a id="mkdf-back-to-top" href="#">
     <span class="mkdf-icon-stack">
         <svg
@@ -516,53 +502,7 @@
                                 </div>
                                 <input type="hidden" id="total_money" name="total_money">
                                 <input type="hidden" id="down_payment" name="down_payment">
-                                <!-- <a class="btn  m-3 d-flex align-items-center paypal-button"
-                                    href="{{ route('processPaypal', ['amount' => '__downPayment__']) }}"
-                                    id="paypal-link">
-                                    <img src="{{ asset('frontend/img/paypal_logo.png') }}" alt="PayPal Icon" class="icon">
-                                    <img src="{{ asset('frontend/img/backgroundPaypal.png') }}" alt="PayPal Icon" class="text">
-
-                                </a> -->
-
-                                <button class="btn  m-3 d-flex align-items-center paypal-button"
-                                   >
-                                    <img src="{{ asset('frontend/img/paypal_logo.png') }}" alt="PayPal Icon" class="icon">
-                                    <img src="{{ asset('frontend/img/backgroundPaypal.png') }}" alt="PayPal Icon" class="text">
-
-                                </button>
-                                <style>
-                                    .paypal-button {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        border: 1px solid #000;
-                                        border-radius: 5px;
-                                        padding: 10px 20px;
-                                        transition: background-color 0.3s;
-                                    }
-
-                                    .paypal-button:hover {
-                                        background-color: white;
-                                    }
-
-                                    .paypal-button img {
-                                        height: 30px;
-                                        margin-right: 8px;
-                                    }
-
-                                    .paypal-button .text {
-                                        width: 80px;
-                                        margin-right: 8px;
-                                    }
-
-                                    .paypal-button span {
-                                        font-size: 16px;
-                                        color: #0070ba;
-                                        font-weight: bold;
-                                    }
-                                </style>
-
-
+                                <button class="btn btn-primary mt-2 fs-6" type="submit" id="downPayment1">Pay<span class="fas fa-dollar-sign px-1 fs-6" id="downPayment1"></span>0.00 </button>
                             </div>
                         </div>
                     </form>
@@ -639,7 +579,7 @@
     <!-- close div.content_inner -->
 </div>
 <script>
-    jQuery(document).ready(function($) {
+    $(document).ready(function() {
         let totalCost = 0;
         let discount = 0;
         let vat = 0;
@@ -735,7 +675,7 @@
             $('.input-guest').each(function() {
                 const numberOfPeople = $(this).find('.numberOfPeople').val(); // Lấy số người
                 const pricePerPerson = $(this).find('.guest-type').val(); // Lấy giá cho loại khách
-
+                console.log(pricePerPerson);
                 // Kiểm tra nếu giá trị hợp lệ
                 if (numberOfPeople && pricePerPerson && !isNaN(numberOfPeople) && !isNaN(pricePerPerson)) {
                     const totalPrice = canculatorTotalPrice(numberOfPeople, pricePerPerson, tourPrice);
@@ -772,8 +712,6 @@
             $('#downPayment1').text('$' + result);
             $('#total_money').val(totalCost);
             $('#down_payment').val(result);
-            var newHref = "{{ route('processPaypal', ['amount' => '__downPayment__']) }}".replace('__downPayment__', result);
-            $('#paypal-link').attr('href', newHref); // Cập nhật href của thẻ <a>
             updateSliderVal();
         }
 
@@ -868,7 +806,9 @@
         });
         $("#ex6").on("slide", function(slideEvt) {
             updateSliderVal();
+
         });
+
 
 
     });

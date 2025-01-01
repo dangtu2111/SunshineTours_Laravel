@@ -9,6 +9,7 @@ namespace App\Services\Interfaces;
 interface BookingServiceInterface
 {
 
-    public function create($request);
+    public function create($id,$request,$code);
+    public function isCodeValid(string $code);
 
 }

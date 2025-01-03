@@ -83,4 +83,10 @@
         @endforeach
     @endif
 @endif
+<link rel="stylesheet" href="{{asset('frontend/css/bootstrap-slider.min.css')}}" />
 
+<!-- Thêm jQuery (nếu chưa có) -->
+<script src="{{asset('frontend/js/jquery-3.6.0.min.js')}}"></script>
+<!-- Thêm thư viện Bootstrap Slider -->
+<script src="{{asset('frontend/js/bootstrap-slider.min.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>

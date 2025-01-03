@@ -9,7 +9,7 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <title>Sunshine Tours</title>
 
-<link rel="profile" href="https://gmpg.org/xfn/11">
+
 <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
 
 <link rel="stylesheet" id="wp-block-library-css" href="{{asset('frontend/wp-includes/css/dist/block-library/style.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
@@ -38,7 +38,6 @@
 <link rel="stylesheet" id="wanderland-mikado-style-dynamic-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/style_dynamicc186.css?ver=1655125631')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-modules-responsive-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/modules-responsive.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-style-dynamic-responsive-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/style_dynamic_responsivec186.css?ver=1655125631')}}" type="text/css" media="all">
-<link rel="stylesheet" id="wanderland-mikado-google-fonts-css" href="https://fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C400i%2C600%7CMuli%3A300%2C400%2C400i%2C600%7CCrimson+Text%3A300%2C400%2C400i%2C600&amp;subset=latin-ext&amp;ver=1.0.0" type="text/css" media="all">
 <link rel="stylesheet" id="js_composer_front-css" href="{{asset('frontend/wp-content/plugins/js_composer/assets/css/js_composer.mineba7.css?ver=7.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="swiper-css" href="{{asset('frontend/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5')}}" type="text/css" media="all">
 <script data-cfasync="false" data-pagespeed-no-defer>
@@ -54,8 +53,7 @@
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min9b80.js?ver=8.6.1')}}" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min6e6b.js?ver=4.15.3')}}" id="ppress-flatpickr-js"></script>
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min2a60.js?ver=4.0.3-wc.8.6.1')}}" id="select2-js" defer="defer" data-wp-strategy="defer"></script>
-<script></script>
-<link rel="https://api.w.org/" href="wp-json/index.html">
+
 <link rel="alternate" type="application/json" href="{{asset('frontend/wp-json/wp/v2/pages/29.json')}}">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd">
 <meta name="generator" content="WordPress 6.4.5">
@@ -85,10 +83,4 @@
         @endforeach
     @endif
 @endif
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css" />
 
-<!-- Thêm jQuery (nếu chưa có) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- Thêm thư viện Bootstrap Slider -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>

@@ -8,5 +8,5 @@ namespace App\Repositories\Interfaces;
  */
 interface OrderDentailRepositoryInterface extends BaseRepositoryInterface
 {
-    
+    public function getAllPaginate();
 }

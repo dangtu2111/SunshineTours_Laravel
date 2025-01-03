@@ -41,8 +41,9 @@ class Order extends Model
     
 
     // Liên kết tới bảng payments
-    public function payments()
+    
+    public function orderDetail()
     {
-        return $this->hasMany(Payment::class);
+        return $this->hasMany(OrderDetail::class);
     }
 }

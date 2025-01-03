@@ -12,6 +12,13 @@ class OrderDentailRepository extends BaseRepository implements OrderDentailRepos
     public function __construct(OrderDetail $model){
         $this->model=$model;
     }
+    public function getAllPaginate()
+    {   
+    
+        // Lấy dữ liệu từ bảng orders với các quan hệ được tải trước
+        $orders = OrderDetail::with(['payments', 'order', 'tour'])->paginate(10);
+        return $orders;
+    }
     
     
 }

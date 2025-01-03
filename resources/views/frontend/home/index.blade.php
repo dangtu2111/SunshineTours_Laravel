@@ -2721,13 +2721,14 @@
 																				<div class="mkdf-hti-content-image">
 																					<img loading="lazy" decoding="async"
 																						width="108" height="65"
-																						src="{{asset('frontend/wp-content/uploads/2019/10/h1-img-25.png')}}"
+																						src="{{asset('frontend/img/food/banhmi.jpg')}}"
 																						class="attachment-full size-full"
+																						style="border-radius:20px"
 																						alt="s" />
 																				</div>
 																				<div class="mkdf-hti-content-value">
 																					<h6 class="mkdf-hti-title">
-																						Sweden</h6>
+																					Bread in Viet Nam</h6>
 																					<p class="mkdf-hti-label-one">
 																						47.1388422</p>
 																					<p class="mkdf-hti-label-two">
@@ -2745,13 +2746,14 @@
 																				<div class="mkdf-hti-content-image">
 																					<img loading="lazy" decoding="async"
 																						width="107" height="65"
-																						src="{{asset('frontend/wp-content/uploads/2019/10/h1-img-03.png')}}"
+																						src="{{asset('frontend/img/food/oc.jpg')}}"
 																						class="attachment-full size-full')}}"
+																						style="border-radius:20px"
 																						alt="a" />
 																				</div>
 																				<div class="mkdf-hti-content-value">
 																					<h6 class="mkdf-hti-title">
-																						USA</h6>
+																						The street food </h6>
 																					<p class="mkdf-hti-label-one">
 																						47.1388422</p>
 																					<p class="mkdf-hti-label-two">
@@ -2769,13 +2771,14 @@
 																				<div class="mkdf-hti-content-image">
 																					<img loading="lazy" decoding="async"
 																						width="108" height="65"
-																						src="{{asset('frontend/wp-content/uploads/2019/10/h1-img-04.png')}}"
+																						src="{{asset('frontend/img/food/banhmi01.jpg')}}"
+																						style="border-radius:20px"
 																						class="attachment-full size-full"
 																						alt="m" />
 																				</div>
 																				<div class="mkdf-hti-content-value">
 																					<h6 class="mkdf-hti-title">
-																						Spain</h6>
+																					Cook for yourself</h6>
 																					<p class="mkdf-hti-label-one">
 																						47.1388422</p>
 																					<p class="mkdf-hti-label-two">

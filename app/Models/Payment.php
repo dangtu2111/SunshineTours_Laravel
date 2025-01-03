@@ -12,7 +12,7 @@ class Payment extends Model
     protected $table = 'payments';
 
     protected $fillable = [
-        'order_id',
+        'orderDetail_id',
         'code',
         'total_money',
     ];
@@ -22,8 +22,9 @@ class Payment extends Model
      */
 
     // Liên kết tới bảng orders
-    public function order()
+    public function orderDetail()
     {
-        return $this->belongsTo(Order::class);
+        return $this->belongsTo(OrderDetail::class);
     }
 }
+

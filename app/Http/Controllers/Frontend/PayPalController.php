@@ -7,69 +7,69 @@ use Srmklive\PayPal\Services\PayPal as PayPalClient;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use App\CommonMethods;
-use App\Services\Interfaces\BookingServiceInterface as BookingService;
+use App\Services\Interfaces\PaymentServiceInterface as PaymentService;
 
 
 class PayPalController extends Controller
-{   
-    protected $bookingService;
+{
+    protected $paymentService;
     public function __construct(
-        BookingService $bookingService
+        PaymentService $bookingService
     ) {
-       
-        $this->bookingService = $bookingService;
+
+        $this->paymentService = $bookingService;
     }
     public function createTransaction()
     {
         return view('frontend.paypal.test');
     }
 
-   
-    public function processTransaction(Request $request)
-    {
-        $provider = new PayPalClient;
-        $provider->setApiCredentials(config('paypal'));
-        $paypalToken = $provider->getAccessToken();
 
-        $response = $provider->createOrder([
-            "intent" => "CAPTURE",
-            "application_context" => [
-                "return_url" => route('successTransaction'),
-                "cancel_url" => route('cancelTransaction'), // Fixed route name
-            ],
-            "purchase_units" => [
-                [
-                    "amount" => [
-                        "currency_code" => "USD",
-                        "value" => "5.00"
-                    ]
-                ]
-            ]
-        ]);
+    // public function processTransaction(Request $request)
+    // {
+    //     $provider = new PayPalClient;
+    //     $provider->setApiCredentials(config('paypal'));
+    //     $paypalToken = $provider->getAccessToken();
 
-        if (isset($response['id']) && $response['id'] != null) {
-            // Redirect to approval link
-            foreach ($response['links'] as $link) {
-                if ($link['rel'] === 'approve') {
-                    return redirect()->away($link['href']);
-                }
-            }
+    //     $response = $provider->createOrder([
+    //         "intent" => "CAPTURE",
+    //         "application_context" => [
+    //             "return_url" => route('successTransaction'),
+    //             "cancel_url" => route('cancelTransaction'), // Fixed route name
+    //         ],
+    //         "purchase_units" => [
+    //             [
+    //                 "amount" => [
+    //                     "currency_code" => "USD",
+    //                     "value" => "5.00"
+    //                 ]
+    //             ]
+    //         ]
+    //     ]);
 
-            return redirect()
-                ->route('order',['id'=>1])
-                ->with('error', 'Something went wrong.');
-        } else {
-            return redirect()
-                ->route('order',['id'=>1])
-                ->with('error', 'Something went wrong.');
-        }
-    }
+    //     if (isset($response['id']) && $response['id'] != null) {
+    //         // Redirect to approval link
+    //         foreach ($response['links'] as $link) {
+    //             if ($link['rel'] === 'approve') {
+    //                 return redirect()->away($link['href']);
+    //             }
+    //         }
+
+    //         return redirect()
+    //             ->route('order', ['id' => 1])
+    //             ->with('error', 'Something went wrong.');
+    //     } else {
+    //         return redirect()
+    //             ->route('order', ['id' => 1])
+    //             ->with('error', 'Something went wrong.');
+    //     }
+    // }
     public function processPaypPal(Request $request)
-    {      
-     
+    {
+
         $data = session('checkout_data');
-        $amount=$data['down_payment'];
-        
+        $amount = $data['down_payment'];
+
         $provider = new PayPalClient;
         $provider->setApiCredentials(config('paypal'));
         $paypalToken = $provider->getAccessToken();
@@ -78,7 +78,7 @@ class PayPalController extends Controller
                 ->route('order', ['id' => 1])
                 ->with('error', 'Invalid amount.');
         }
-        
+
         $response = $provider->createOrder([
             "intent" => "CAPTURE",
             "application_context" => [
@@ -104,17 +104,17 @@ class PayPalController extends Controller
             }
             session()->flush();
             return redirect()
-                ->route('order',['id'=>session('id')])
+                ->route('order', ['id' => session('id')])
                 ->with('error', 'Something went wrong.');
         } else {
 
             session()->flush();
             return redirect()
-                ->route('order',['id'=>session('id')])
+                ->route('order', ['id' => session('id')])
                 ->with('error', 'Something went wrong.');
         }
     }
-   
+
     public function successTransaction(Request $request)
     {
         $provider = new PayPalClient;
@@ -124,40 +124,25 @@ class PayPalController extends Controller
         $response = $provider->capturePaymentOrder($request['token']);
 
         if (isset($response['status']) && $response['status'] === 'COMPLETED') {
-            if($this->createOrder()){
-                session()->flush();
-                return redirect()
+            $this->paymentService->setStatusById(session('id'),1);
+            session()->flush();
+            return redirect()
                 ->route('paymentSuccess')
                 ->with('success', 'Transaction complete.');
-            }else{
-                session()->flush();
-                return redirect()
-                ->route('order',['id'=>session('id')])
-                ->with('error', $response['message'] ?? 'Something went wrong.');
-            }
-           
         } else {
             session()->flush();
             return redirect()
-                ->route('order',['id'=>session('id')])
+                ->route('order', ['id' => session('id')])
                 ->with('error', $response['message'] ?? 'Something went wrong.');
         }
     }
 
-    
+
     public function cancelTransaction(Request $request)
     {
+        $this->paymentService->setStatusById(session('id'),2);
+
         session()->flush();
-        return redirect()->route('order',['id'=>1])->with('error', 'You have canceled the transaction.');
-    }
-    public function createOrder(){
-        $data = session('checkout_data');
-        $id = session('id');
-        $randomCode = session('randomCode');
-        if ($this->bookingService->create($id, $data, $randomCode)) {
-            return true;
-        }else{
-            return false;
-        }
+        return redirect()->route('order', ['id' => 1])->with('error', 'You have canceled the transaction.');
     }
 }

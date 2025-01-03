@@ -150,13 +150,14 @@ return new class extends Migration
         });
         Schema::create('payments', function (Blueprint $table) {
             $table->id(); // id int [pk, increment]
-            $table->unsignedBigInteger('order_id'); // order_id int
             $table->string('code', 50); // code varchar(50)
             $table->integer('total_money'); // total_money int
             $table->timestamps(); // created_at, updated_at
+            $table->unsignedBigInteger('orderDetail_id');
+            $table->integer('status')->default(0);
 
             // Khóa ngoại tham chiếu đến bảng "orders"
-            $table->foreign('order_id')->references('id')->on('orders')->onDelete('cascade');
+            $table->foreign('orderDetail_id')->references('id')->on('order_details')->onDelete('cascade');
         });
     }
 

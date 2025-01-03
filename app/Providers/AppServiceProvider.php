@@ -21,6 +21,7 @@ class AppServiceProvider extends ServiceProvider
         'App\Repositories\Interfaces\OrderRepositoryInterface'=>'App\Repositories\OrderRepository',
         'App\Repositories\Interfaces\PaymentRepositoryInterface'=>'App\Repositories\PaymentRepository',
         'App\Services\Interfaces\BookingServiceInterface'=>'App\Services\BookingService',
+        'App\Services\Interfaces\PaymentServiceInterface'=>'App\Services\PaymentService',
 
 
 

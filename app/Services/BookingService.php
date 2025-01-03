@@ -35,6 +35,7 @@ class BookingService implements BookingServiceInterface
         try {
             // Loại bỏ các yếu tố không cần thiết trong request
             $orderDate = now()->toDateString(); 
+           
             $payload = Arr::except($request, ['_token']);
             $payload['order_date']??$payload['order_date']=$this->coverBirthDate( $payload['order_date']);
             $payload['time']=$this->getTimeAttribute( $payload['time']);
@@ -84,14 +85,14 @@ class BookingService implements BookingServiceInterface
             $orderDentail= $this->orderDentailRepository->create($bookingInfo);
             
             $paymentInfo = [
-                'order_id' => $order->id,
+                'orderDetail_id' => $orderDentail->id,
                 'code'=>$code,
                 'total_money' => $payload['down_payment'] ?? null,
                 
             ];
-            
+
             $payment=$this->paymentRepository->create($paymentInfo);
-          
+            
             DB::commit();
             return true;
         } catch (\Exception $e) {
@@ -114,6 +115,10 @@ class BookingService implements BookingServiceInterface
         $carbonDate = Carbon::createFromFormat('Y-m-d',$birthday);
         $birthday=$carbonDate->format('Y-m-d H:i:s');
         return $birthday;
+    }
+    public function paginateOrder(){
+        
+        return $this->orderRepository->getAllPaginate();
     }
     public function getTimeAttribute($value)
     {

@@ -8,5 +8,7 @@ namespace App\Repositories\Interfaces;
  */
 interface PaymentRepositoryInterface extends BaseRepositoryInterface
 {
+    public function getAllPaginate();
+    public function updateStatus($id, $status);
     
 }

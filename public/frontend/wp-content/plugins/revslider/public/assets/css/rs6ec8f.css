@@ -654,7 +654,7 @@ rs-bgvideo 			{	position: absolute;top:0px;left:0px; width:100%;height:100%;z-in
 .rs-layer-video .html5vid.hidefullscreen video::-webkit-media-controls-fullscreen-button  { display: none; }
 
 
-@supports not (-ms-high-contrast:none) {
+@supports not (forced-colors:none) {
    /* Non-IE styles here */
 	.rs-fsv .fullcoveredvideo audio 		{	object-fit:cover !important;}
 	.rs-fsv .fullcoveredvideo video 		{	object-fit:cover !important;}

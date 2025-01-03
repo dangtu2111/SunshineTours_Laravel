@@ -11,10 +11,6 @@
 
 <link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
-<link rel="dns-prefetch" href="http://export.qodethemes.com/">
-<link rel="dns-prefetch" href="http://maps.googleapis.com/">
-<link rel="dns-prefetch" href="http://static.zdassets.com/">
-<link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 
 <link rel="stylesheet" id="wp-block-library-css" href="{{asset('frontend/wp-includes/css/dist/block-library/style.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="global-styles-inline-css" href="{{asset('frontend/css/global-styles-inline.css')}}" type="text/css">
@@ -64,8 +60,8 @@
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd">
 <meta name="generator" content="WordPress 6.4.5">
 <meta name="generator" content="WooCommerce 8.6.1">
-<link rel="canonical" href="index.html">
-<link rel="shortlink" href="index.html">
+<link rel="canonical" href="{{route('index')}}">
+<link rel="shortlink" href="{{route('index')}}">
 <link rel="alternate" type="application/json+oembed" href="{{asset('frontend/wp-json/oembed/1.0/embed71f9.json?url=https%3A%2F%2Fwanderland.qodeinteractive.com%2F')}}">
 <link rel="alternate" type="text/xml+oembed" href="{{asset('frontend/wp-json/oembed/1.0/embed1b9d?url=https%3A%2F%2Fwanderland.qodeinteractive.com%2F&amp;format=xml')}}">
 
@@ -95,3 +91,4 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!-- Thêm thư viện Bootstrap Slider -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>

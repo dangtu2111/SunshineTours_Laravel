@@ -144,8 +144,13 @@ class BookingController extends Controller
         session(['checkout_data' => $request->all()]);
         session(['id' => $id]);
         session(['randomCode' => $randomCode]);
-       
-        return redirect()-> route('processPaypal', ['amount' =>$request->input('down_payment') ]) ;
+        if ($this->bookingService->create($id, session('checkout_data'), $randomCode)) {
+            return redirect()-> route('processPaypal', ['amount' =>$request->input('down_payment') ]) ;
+        }else{
+            return redirect()
+                ->route('order',['id'=>session('id')])
+                ->with('error', $response['message'] ?? 'Something went wrong.');
+        }
         
     }
 }

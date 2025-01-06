@@ -10,6 +10,9 @@ use App\Services\Interfaces\TourServiceInterface as TourService;
 use App\Services\Interfaces\BookingServiceInterface as BookingService;
 use App\Http\Requests\OrderRequest;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\DemoMail;
+
 
 class BookingController extends Controller
 {
@@ -43,6 +46,9 @@ class BookingController extends Controller
         return view('frontend.layout.layout', compact('template', 'config', 'tours'));
     }
     public function paymentSuccess(){
+        $mailData=session('checkout_data');
+        Mail::to('anhtuhanam1@gmail.com')->send(new DemoMail($mailData));
+        session()->flush();
         return view('frontend.payment.paymentSuccess');
     }
     public function tour_detail($id,)

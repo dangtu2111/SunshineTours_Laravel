@@ -10,7 +10,8 @@ use App\Http\Requests\StoreUserRequest;
 use App\Http\Requests\UpdateUserRequest;
 use App\Repositories\Interfaces\UserRepositoryInterface as UserRepository;
 use App\Services\Interfaces\UserServiceInterface as UserService;
-
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Log;
 class UserController extends Controller
 {   protected $userService;
     protected $userRepository;
@@ -98,6 +99,7 @@ class UserController extends Controller
             ]
         ];
     }
+    
     
    
 }

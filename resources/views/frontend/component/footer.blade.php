@@ -64,7 +64,7 @@
 										<h6 class="mkdf-widget-title"><a href="{{route('about')}}">About the blog</a></h6>
 									</div>
 									<div class="textwidget">
-										<p style="line-height: 23px; max-width: 90%;">At Sunshine Tours, we’re more than just a tour company—we’re your gateway to experiencing the vibrant soul of Saigon...
+										<p style="line-height: 23px; max-width: 90%;">At Sunshine Tours, we’re more than just a tour company—we’re your gateway to experiencing the vibrant soul of Saigon<a href="{{route('about')}}">...</a>
 										</p>
 									</div>
 								</div>
@@ -195,6 +195,61 @@
 									class="widget mkdf-footer-column-4 widget_mkdf_instagram_widget">
 									<div class="mkdf-widget-title-holder">
 										<h6 class="mkdf-widget-title">Instagram feed</h6>
+									</div>
+									<div class="mkdf-blog-list-holder mkdf-grid-list mkdf-bl-minimal mkdf-one-columns mkdf-disable-bottom-space mkdf-normal-space mkdf-bl-pag-no-pagination "
+										data-type=minimal data-number-of-posts=3 data-number-of-columns=one
+										data-space-between-items=normal data-category=visiting data-orderby=date
+										data-order=ASC data-image-size=thumbnail data-title-tag=p data-excerpt-length=0
+										data-post-info-section=yes data-post-info-image=yes data-post-info-author=no
+										data-post-info-date=yes data-post-info-category=yes data-post-info-comments=no
+										data-post-info-like=no data-post-info-share=no
+										data-pagination-type=no-pagination data-max-num-pages=1 data-next-page=2>
+										<div class="mkdf-bl-wrapper mkdf-outer-space">
+											<ul class="mkdf-blog-list">
+												<li class="mkdf-bl-item mkdf-item-space clearfix">
+													<div class="mkdf-bli-inner">
+														<div class="mkdf-bli-content">
+															<div itemprop="dateCreated"
+																class="mkdf-post-info-date entry-date published updated">
+																<span aria-hidden="true"
+																	class="mkdf-icon-font-elegant icon_calendar "></span>
+																<a itemprop="url" href="https://www.instagram.com/reel/DDGRMo6S_3x/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+																December 3, 2024</a>
+																<meta itemprop="interactionCount"
+																	content="UserComments: 0" />
+															</div>
+															<p itemprop="name" class="entry-title mkdf-post-title">
+																<a itemprop="url" href="https://www.instagram.com/reel/DDGRMo6S_3x/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+																	title="Trip to Iceland">
+																	If you have any questions on your next visit, please don’t hesitate to message us 😊 </a>
+															</p>
+														</div>
+													</div>
+												</li>
+												<li class="mkdf-bl-item mkdf-item-space clearfix">
+													<div class="mkdf-bli-inner">
+														<div class="mkdf-bli-content">
+															<div itemprop="dateCreated"
+																class="mkdf-post-info-date entry-date published updated">
+																<span aria-hidden="true"
+																	class="mkdf-icon-font-elegant icon_calendar "></span>
+																<a itemprop="url" href="https://www.instagram.com/reel/DCdC8CWSyJc/?utm_source=ig_web_copy_link">
+																November 17, 2024</a>
+																<meta itemprop="interactionCount"
+																	content="UserComments: 0" />
+															</div>
+															<p itemprop="name" class="entry-title mkdf-post-title">
+																<a itemprop="url"
+																	href="https://www.instagram.com/reel/DCdC8CWSyJc/?utm_source=ig_web_copy_link"
+																	title="Rain or shine, the tour continues 😊">
+																	Rain or shine, the tour continues 😊</a>
+															</p>
+														</div>
+													</div>
+												</li>
+												
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>

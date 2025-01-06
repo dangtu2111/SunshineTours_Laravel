@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,47 +9,57 @@
             background-color: #f7fafc;
             font-family: Arial, sans-serif;
         }
+
         .container {
             max-width: 600px;
             margin: 20px auto;
             background-color: white;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
         .header {
             background-color: #38b2ac;
             color: white;
             text-align: center;
             padding: 20px 0;
         }
+
         .header h1 {
             margin: 0;
             font-size: 24px;
             font-weight: bold;
         }
+
         .content {
             padding: 20px;
         }
+
         .content p {
             margin-bottom: 16px;
         }
+
         .content h2 {
             font-size: 20px;
             font-weight: bold;
             margin-bottom: 8px;
         }
+
         .content h3 {
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 8px;
         }
+
         .details {
             margin-bottom: 16px;
         }
+
         .details div {
             display: flex;
             justify-content: space-between;
             margin-bottom: 8px;
         }
+
         .footer {
             background-color: #38b2ac;
             color: white;
@@ -57,6 +68,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -69,36 +81,23 @@
             <p>[booking_details]</p>
             <h3>Billing Details</h3>
             <div class="details">
+                @foreach($mailData as $key => $value)
                 <div>
-                    <span>Name</span>
-                    <span>[fullname]</span>
+                    <span><strong>{{ ucfirst(str_replace('_', ' ', $key)) }}:</strong></span>
+                    @if(is_array($value))
+                    <span>{{ implode(', ', $value) }}</span>
+                    @else
+                    <span>{{ $value }}</span>
+                    @endif
                 </div>
-                <div>
-                    <span>Email Address</span>
-                    <span>[user_email]</span>
-                </div>
-                <div>
-                    <span>Billing Address</span>
-                    <span>[billing_address]</span>
-                </div>
-                <div>
-                    <span>City</span>
-                    <span>[city]</span>
-                </div>
-                <div>
-                    <span>Country</span>
-                    <span>[country]</span>
-                </div>
+                @endforeach
             </div>
-            <h3>Bank Details</h3>
-            <p>[bank_details]</p>
-            <h3>Check Payment</h3>
-            <p>[check_payment_instruction]</p>
-            <p class="text-center">[sitename]</p>
+            
         </div>
         <div class="footer">
             <p>Powered by WP Travel Engine</p>
         </div>
     </div>
 </body>
+
 </html>

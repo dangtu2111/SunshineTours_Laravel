@@ -13,6 +13,7 @@ use App\Http\Controllers\Backend\FeedbackController;
 use App\Http\Controllers\Backend\AuthController;
 use App\Http\Middleware\AuthenticateMiddleware;
 use App\Http\Controllers\Frontend\PayPalController;
+use App\Http\Controllers\MailController;
 
 Route::get('create-transaction', [PayPalController::class, 'createTransaction'])->name('createTransaction');
 Route::get('process-transaction', [PayPalController::class, 'processTransaction'])->name('processTransaction');
@@ -82,3 +83,4 @@ Route::group(['prefix' => 'booking'], function () {
     Route::get('/', [App\Http\Controllers\Frontend\BookingController::class, 'index'])->name('booking');
 });
 Route::get('/tour_detail/{id}', [App\Http\Controllers\Frontend\BookingController::class, 'tour_detail'])->name('tour_detail');
+Route::get('/testMail', [MailController::class, 'index'])->name('testMail');

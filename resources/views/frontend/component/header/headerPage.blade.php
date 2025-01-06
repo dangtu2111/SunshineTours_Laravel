@@ -141,7 +141,7 @@
 					<div class="mkdf-logo-wrapper">
 						<a
 							itemprop="url"
-							href="index.html"
+							href="{{route('index')}}"
 							style="height: 76px">
 							<img
 								itemprop="image"

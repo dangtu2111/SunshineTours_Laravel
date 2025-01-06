@@ -42,7 +42,7 @@ class BookingService implements BookingServiceInterface
             
             
             // Giả sử guest-type = 1 là người lớn (0-8 tuổi), và guest-type = 2 là trẻ em (8-12 tuổi)
-            
+  
             $personalInfo = [
                 'email' => $payload['email'] ?? null,
                 'fullname' => $payload['fullname'] ?? null,

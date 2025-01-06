@@ -1311,51 +1311,7 @@
 																			data-number-of-items="3"
 																			data-slider-margin="22"
 																			data-enable-pagination="no">
-																			<!-- <li class="mkdf-blog-slider-item">
-																				<div class="mkdf-blog-slider-item-inner">
-																					<div class="card border-0 shadow-sm">
-																						<img src="https://moliva.themenix.com/assets/img/tours/t1.jpg" class="card-img-top" alt="Castle">
-																						<div class="card-body">
-																							<h5 class="card-title fw-bold">Explore the castle and ancient village in Karda</h5>
-																							<p class="card-text text-muted" style="
-    font-weight: 400;
-">
-																								<svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																									<path d="M4 10H20V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-																									<path d="M5.77778 5H4V10H20V5H18.2222M11.1111 5H12.8889" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-																									<line x1="8" y1="4" x2="8" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-																									<line x1="16" y1="4" x2="16" y2="6" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-																									<path d="M7 13H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-																									<path d="M7 16H7.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-																									<path d="M10 13H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-																									<path d="M10 16H10.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-																									<path d="M13 13H13.01" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-																								</svg> 3 days &nbsp;
-																								<svg style="width: 1.55rem; height: 1.55rem;" xmlns="http://www.w3.org/2000/svg" id="i-location" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-																									<circle cx="16" cy="11" r="4" />
-																									<path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15 Z" />
-																								</svg>3 Destinations
-																							</p>
-																							<p class="mb-2">
-																								<strong>4.9</strong>
-																								<span class="text-warning">★★★★★</span>
-																								<small class="text-muted">(231 reviews)</small>
-																							</p>
-																							<p class="price">
-																								<span class="fs-4 fw-bold text-success">$195.80</span>
-																								<del class="text-muted">$230.00</del>
-																							</p>
-																							<div class="container text-center
-                                                ">
-																								<a href="#" class="btn btn-success ">
-																									Booking Now <i class="fa-solid fa-arrow-right"></i>
-																								</a>
-																							</div>
-
-																						</div>
-																					</div>
-																				</div>
-																			</li> -->
+																			
 																			@if(isset($tours))
 																			@foreach ($tours as $tour )
 																			<li class="mkdf-blog-slider-item">

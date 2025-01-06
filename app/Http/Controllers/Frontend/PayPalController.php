@@ -125,7 +125,6 @@ class PayPalController extends Controller
 
         if (isset($response['status']) && $response['status'] === 'COMPLETED') {
             $this->paymentService->setStatusById(session('id'),1);
-            session()->flush();
             return redirect()
                 ->route('paymentSuccess')
                 ->with('success', 'Transaction complete.');

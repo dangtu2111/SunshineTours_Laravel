@@ -323,36 +323,6 @@
 
 
                                         <div class="container mt-3">
-
-                                            <h5 class="mb-3">Chọn các tùy chọn</h5>
-                                            <div class="form-check m-md-3">
-                                                <input id="checkvipcheckvip" name="vip" class="form-check-input" style="width:15px;height:15px; " type="checkbox" {{old('vip')}} value="1" id="checkbox1">
-                                                <label class="form-check-label fs-6 ml-3" for="checkbox1">
-                                                    VIP Private Tour
-                                                </label>
-                                            </div>
-                                            <div class="note">
-                                                <span>Additional <span class="notranslate">$30.00</span> per Guests (8 years and older), minimum of 2</span>
-                                            </div>
-
-                                            <div class="form-check m-md-3">
-                                                <input id="video" name="video" class="form-check-input" style="width:15px;height:15px; " type="checkbox" value="1" {{ old('video') == '1' ? 'checked' : '' }}>
-                                                <label class="form-check-label fs-6 ml-3" for="checkbox2">
-                                                    Tour video (+$50.00)
-                                                </label>
-                                            </div>
-                                            <div class="note "><span>We can film your ride (for an extra 50USD) and create a special video of your Vietnam Adventure! We can also mix in a custom music track in your video upon request.</span></div>
-                                            <div class="form-check m-md-3">
-                                                <input id="car-bus" name="car-bus" class="form-check-input" style="width:15px;height:15px;" type="checkbox" value="1" {{ old('car-bus') == '1' ? 'checked' : '' }}>
-                                                <label class="form-check-label fs-6 ml-3" for="checkbox2">
-                                                    Car/Bus (+$60.00)
-                                                </label>
-                                            </div>
-                                            <div class="note "><span>We can film your ride (for an extra 50USD) and create a special video of your Vietnam Adventure! We can also mix in a custom music track in your video upon request.</span></div>
-
-
-                                        </div>
-                                        <div class="container mt-3">
                                             <h4><strong class="fs-6">Select Time</strong></h4>
                                             <hr>
                                             <div class="btn-group row" style="width:100% ; " role="group" aria-label="Thời gian">
@@ -370,38 +340,11 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="container mt-3">
-                                            <h4><strong class="fs-6">Payment method</strong></h4>
-                                            <hr>
-                                            <div class="btn-group row" style="width:100% ; " role="group" aria-label="Thời gian">
-                                                <label class="col-md-4 fs-6" style="font-weight:400">
-                                                    <input type="radio" name="payment" value="option1" />
-                                                    Paypal
-                                                </label><br>
-
-                                                <label class="col-md-4 fs-6" style="font-weight:400">
-                                                    <input type="radio" name="payment" value="option2" />
-                                                    Credit card
-                                                </label><br>
-
-                                                <label class="col-md-4 fs-6" style="font-weight:400">
-                                                    <input type="radio" name="payment" value="option3" checked />
-                                                    Online transfer
-                                                </label><br>
-
-
-                                            </div>
-                                        </div>
+                                        
                                         <br>
-                                        <div class=" my-3">
-                                            <p class="dis fw-bold mb-2 fs-6">VAT Number</p>
-                                            <div class="inputWithcheck"> <input class="form-control mb-0" type="text" placeholder="GB012345B9"> </div>
-                                        </div>
+                                        
                                         <div class="my-3">
-                                            <p class="dis fw-bold mb-2 fs-6">Discount Code</p> <input class="mb-0 form-control text-uppercase" type="text" placeholder="BLACKFRIDAY" id="discount">
-                                        </div>
-                                        <div class="my-3">
-                                            <p class="dis fw-bold mb-2 fs-6">Amount you can deposit</p> <input id="ex6" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1" data-slider-value="10" />
+                                            <p class="dis fw-bold mb-2 fs-6">Amount you can deposit</p> <input id="ex6" type="text" data-slider-min="20" data-slider-max="100" data-slider-step="1" data-slider-value="10" />
                                         </div>
                                         <span id="ex6CurrentSliderValLabel" class="fs-6">Down payment: $<span id="ex6SliderVal">0</span></span>
                                     </div>
@@ -420,16 +363,7 @@
                                     <p class="fs-6">Subtotal</p>
                                     <p class="fs-6" id="total-cost"><span class="fas fa-dollar-sign fs-6"></span>0.00</p>
                                 </div>
-                                <div class="d-flex align-items-center justify-content-between mb-2">
-                                    <div class="d-flex align-items-center">
-                                        <p class="pe-2 fs-6">Discount <span class="d-inline-flex align-items-center justify-content-between bg-light px-2 couponCode"> </p>
-                                    </div>
-                                    <p class=" fs-6"><span class="fas fa-dollar-sign"></span>0.00</p>
-                                </div>
-                                <div class="d-flex align-items-center justify-content-between mb-2">
-                                    <p class=" fs-6">VAT<span>(10%)</span></p>
-                                    <p class=" fs-6"><span class="fas fa-dollar-sign"></span>0.00</p>
-                                </div>
+                                
                                 <div class="d-flex align-items-center justify-content-between mb-2">
                                     <p class="fw-bold fs-6">Total</p>
                                     <p class="fw-bold fs-6" id="total"><span class="fas fa-dollar-sign"></span>0.00</p>

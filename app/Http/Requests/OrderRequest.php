@@ -30,7 +30,6 @@ class OrderRequest extends FormRequest
             'numberOfPeople' => 'required|array|min:1',
             'guest-type' => 'required|array|min:1',
             'time' => 'required|date_format:h:i A',
-            'payment' => 'required|string|in:option1,option2,option3',
             'total_money' => 'required|numeric|min:0',
             'down_payment' => 'required|numeric|min:0',
         ];
@@ -59,9 +58,7 @@ class OrderRequest extends FormRequest
             'guest-type.min' => 'Phải có ít nhất một loại khách.',
             'time.required' => 'Vui lòng chọn giờ.',
             'time.date_format' => 'Thời gian không đúng định dạng. Định dạng hợp lệ là giờ:phút AM/PM (ví dụ: 10:00 AM).',
-            'payment.required' => 'Vui lòng chọn phương thức thanh toán.',
-            'payment.string' => 'Phương thức thanh toán phải là chuỗi ký tự.',
-            'payment.in' => 'Phương thức thanh toán không hợp lệ.',
+        
             'total_money.required' => 'Vui lòng nhập tổng số tiền.',
             'total_money.numeric' => 'Tổng số tiền phải là số.',
             'total_money.min' => 'Tổng số tiền không được nhỏ hơn 0.',

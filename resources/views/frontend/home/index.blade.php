@@ -1246,9 +1246,7 @@
 																						style="text-align: center">
 																						<div class="mkdf-st-inner">
 																							<span
-																								class="mkdf-st-tagline">Lorem
-																								ipsum
-																								dolore</span>
+																								class="mkdf-st-tagline">Service packages</span>
 																							<h2 class="mkdf-st-title">
 																								SunShine <span
 																									class="mkdf-st-highlight-title-holder"

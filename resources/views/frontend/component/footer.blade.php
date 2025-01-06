@@ -6,8 +6,8 @@
 								<div id="custom_html-3"
 									class="widget_text widget mkdf-footer-column-1 widget_custom_html">
 									<div class="textwidget custom-html-widget"><a href="index.html"
-											style="max-width: 144px;display: inline-block"><img
-												src="{{asset('frontend/wp-content/uploads/2019/12/logo-footer.png')}}"
+											style="max-width: 200px;display: inline-block"><img
+												src="{{asset('frontend/img/logo/logo04.png')}}"
 												alt="logo_footer" /></a></div>
 								</div>
 							</div>
@@ -20,10 +20,10 @@
 											<div class="mkdf-st-inner">
 												<p class="mkdf-st-text mkdf-text-highlight"
 													style="font-family: Crimson text;font-style: italic;font-size: 25px;line-height: 30px;font-weight: 400;">
-													Based in Utah, USA, Wanderland is a blog by Markus <span
+													Welcome to  Uncover the Heartbeat of Saigon<span
 														class="mkdf-st-highlight-title-holder" style="color: #ecebe1">
 														<span class="mkdf-st-highlight-title"
-															style="color: #59815b">Thompson.</span>
+															style="color: #59815b">Sunshine Tours:</span>
 														<span class="mkdf-st-highlight">
 															<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
 																xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -45,8 +45,7 @@
 																</polygon>
 															</svg>
 														</span>
-													</span> His posts <br />explore outdoor experiences through photos
-													and diaries with tips &amp; tricks.
+													</span> <br>Uncover  the Heartbeat of Saigon
 												</p>
 											</div>
 										</div>
@@ -62,11 +61,11 @@
 							<div class="mkdf-column-content mkdf-grid-col-3">
 								<div id="text-4" class="widget mkdf-footer-column-1 widget_text">
 									<div class="mkdf-widget-title-holder">
-										<h6 class="mkdf-widget-title">About the blog</h6>
+										<h6 class="mkdf-widget-title"><a href="{{route('about')}}">About the blog</a></h6>
 									</div>
 									<div class="textwidget">
-										<p style="line-height: 23px; max-width: 90%;">Lorem ipsum dolor sit amet, conse
-											ctetur adipisicing elit, sed do eiusmod mas.</p>
+										<p style="line-height: 23px; max-width: 90%;">At Sunshine Tours, we’re more than just a tour company—we’re your gateway to experiencing the vibrant soul of Saigon...
+										</p>
 									</div>
 								</div>
 							</div>
@@ -113,7 +112,7 @@
 							<div class="mkdf-column-content mkdf-grid-col-3">
 								<div class="widget mkdf-blog-list-widget">
 									<div class="mkdf-widget-title-holder">
-										<h6 class="mkdf-widget-title" style="margin-bottom: 16px">Recent news</h6>
+										<h6 class="mkdf-widget-title" style="margin-bottom: 16px">Blog</h6>
 									</div>
 									<div class="mkdf-blog-list-holder mkdf-grid-list mkdf-bl-minimal mkdf-one-columns mkdf-disable-bottom-space mkdf-normal-space mkdf-bl-pag-no-pagination "
 										data-type=minimal data-number-of-posts=3 data-number-of-columns=one

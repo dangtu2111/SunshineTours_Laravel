@@ -531,7 +531,7 @@
           <div class="mkdf-page-content-holder mkdf-grid-col-12">
             <div class="wpb-content-wrapper">
               <div data-elementor-type="wp-page" data-elementor-id="5092" class="elementor elementor-5092">
-                <section style="    padding: 50px 0px 50px 0px;" class="elementor-section elementor-top-section elementor-element elementor-element-38cd4de elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="38cd4de" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <section style="       border-bottom: 1px solid #bcbcbc; padding: 50px 0px 50px 0px;" class="elementor-section elementor-top-section elementor-element elementor-element-38cd4de elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="38cd4de" data-element_type="section" data-settings="{" background_background":"classic"}"="">
                   <div class="elementor-background-overlay"></div>
                   <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3caea9f" data-id="3caea9f" data-element_type="column">
@@ -679,7 +679,8 @@
                     </div>
                   </div>
                 </section>
-                <div class="mkdf-row-grid-section-wrapper">
+                <hr>
+                <div style="  padding:2rem 0;  border-bottom: 1px solid #bcbcbc;" class="mkdf-row-grid-section-wrapper">
                   <div class="mkdf-row-grid-section">
                     <div
                       class="vc_row wpb_row vc_row-fluid vc_custom_1574948316589 vc_row-has-fill">
@@ -760,6 +761,7 @@
                     </div>
                   </div>
                 </div>
+                <hr>
 
                 <section style="    padding: 100px 0px 100px 0px;" class="elementor-section elementor-top-section elementor-element elementor-element-38cd4de elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="38cd4de" data-element_type="section" data-settings="{" background_background":"classic"}"="">
                   <div class="elementor-background-overlay"></div>

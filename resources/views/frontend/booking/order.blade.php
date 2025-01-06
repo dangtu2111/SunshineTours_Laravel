@@ -136,7 +136,8 @@
                                                                     <div class="wpb_wrapper">
                                                                         <div class="wpb_text_column wpb_content_element ">
                                                                             <div class="wpb_wrapper">
-                                                                                <p>{{$tour->description}}</p>
+                                                                                <p>{!! $tour->description !!}
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>

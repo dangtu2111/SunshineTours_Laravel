@@ -90,3 +90,17 @@
 <!-- Thêm thư viện Bootstrap Slider -->
 <script src="{{asset('frontend/js/bootstrap-slider.min.js')}}"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+<link
+      href="https://fonts.googleapis.com/css?family=Roboto:400%7CCrimson+Text:600%7COswald:700&amp;display=swap"
+      rel="stylesheet"
+      property="stylesheet"
+      media="all"
+      type="text/css"
+    />
+	<link
+      rel="stylesheet"
+      id="wanderland-mikado-google-fonts-css"
+      href="https://fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C400i%2C600%7CMuli%3A300%2C400%2C400i%2C600%7CCrimson+Text%3A300%2C400%2C400i%2C600&amp;subset=latin-ext&amp;ver=1.0.0"
+      type="text/css"
+      media="all"
+    />

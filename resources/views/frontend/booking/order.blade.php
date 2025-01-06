@@ -128,7 +128,7 @@
                                                 <div class="mkdf-post-text-main">
 
                                                     <h2 itemprop="name" class="entry-title mkdf-post-title">
-                                                        Amazon Rainforest Experience </h2>
+                                                        {{$tour->title}} </h2>
                                                     <div class="wpb-content-wrapper">
                                                         <div class="vc_row wpb_row vc_row-fluid">
                                                             <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -136,84 +136,7 @@
                                                                     <div class="wpb_wrapper">
                                                                         <div class="wpb_text_column wpb_content_element ">
                                                                             <div class="wpb_wrapper">
-                                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur. Excep teur sint occaecat non proident, sunt in culpa qui officia deserunt mollit anim idlaborum. Sed ut persp iciatis unde omnis iste natus error sit. voluptatem accusantium doloremque laudantium, totam rem aperiam. Architecto beatae vitae dicta sunt explicabo.Eu fugiat nulla pariatur.</p>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="wpb_text_column wpb_content_element  vc_custom_1579272656318">
-                                                                            <div class="wpb_wrapper">
-                                                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
-
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="mkdf-elements-holder   mkdf-one-column  mkdf-responsive-mode-768 ">
-                                                                            <div class="mkdf-eh-item    " data-item-class="mkdf-eh-custom-1939" data-1400-1600="0 13%" data-1025-1399="0 9%" data-769-1024="0 7%" data-681-768="0 5%" data-680="0 0 0 0">
-                                                                                <div class="mkdf-eh-item-inner">
-                                                                                    <div class="mkdf-eh-item-content mkdf-eh-custom-1939" style="padding: 0 13%">
-
-                                                                                        <div class="wpb_text_column wpb_content_element  vc_custom_1579248121332">
-                                                                                            <div class="wpb_wrapper">
-                                                                                                <blockquote>
-                                                                                                    <h3 style="text-align: center;">BUILD A LIFESTYLE AROUND YOUR BRAND, AND THE AUDIENCE WILL FOLLOW.</h3>
-                                                                                                </blockquote>
-
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="wpb_text_column wpb_content_element ">
-                                                                            <div class="wpb_wrapper">
-                                                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit qui dolorem ipsum quia dolor sit.</p>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="wpb_text_column wpb_content_element  vc_custom_1579272650022">
-                                                                            <div class="wpb_wrapper">
-                                                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
-
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1579272619552">
-                                                                            <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                                                <div class="vc_column-inner">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <div class="mkdf-single-image-holder   ">
-                                                                                            <div class="mkdf-si-inner">
-                                                                                                <img loading="lazy" decoding="async" width="800" height="936" src="../wp-content/uploads/2019/10/blog-post-img-06.jpg" class="attachment-full size-full" alt="s" srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06.jpg 800w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06-600x702.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06-256x300.jpg 256w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-06-768x899.jpg 768w" sizes="(max-width: 800px) 100vw, 800px">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="wpb_column vc_column_container vc_col-sm-6">
-                                                                                <div class="vc_column-inner">
-                                                                                    <div class="wpb_wrapper">
-                                                                                        <div class="mkdf-single-image-holder   ">
-                                                                                            <div class="mkdf-si-inner">
-                                                                                                <img loading="lazy" decoding="async" width="800" height="938" src="../wp-content/uploads/2019/10/blog-post-img-07.jpg" class="attachment-full size-full" alt="s" srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07.jpg 800w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07-600x704.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07-256x300.jpg 256w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/blog-post-img-07-768x900.jpg 768w" sizes="(max-width: 800px) 100vw, 800px">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="wpb_text_column wpb_content_element ">
-                                                                            <div class="wpb_wrapper">
-                                                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="wpb_text_column wpb_content_element  vc_custom_1579272667847">
-                                                                            <div class="wpb_wrapper">
-                                                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit sed. Eiusmod tempor. incididu nt ut labore et dolore magna aliqua. Ut enim. ad minim veniam, uis nostrud exerc itation ullamco. Laboris nisi. ut aliquip ex ea commodo consequat. Duis aute irure dolr. inreprehen derit in voluptate velit esse cillum dolore. Eu fugiat nulla pariatur qui dolorem ipsum quia dolor sit.</p>
-
+                                                                                <p>{{$tour->description}}</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>

@@ -98,7 +98,7 @@
                                     </div>
                                     <div class="col-sm-5 text-right">
                                         <p class="price-book">
-                                            From-<span>$345</span>/night
+                                            From-<span>${{$tour->price}}</span>/tour
                                             <a href="{{route('order',['id'=>$tour->id])}}" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
                                         </p>
                                     </div>
@@ -515,7 +515,7 @@
                                 <div class="col-lg-3"></div>
                                 <div class="col-lg-9 detail-footer-cn text-right">
                                     <p class="price-book">
-                                        From-<span>$345</span>/night
+                                        From-<span>${{$tour->price}}</span>/tour
                                         <a href="{{route('order',['id'=>$tour->id])}}" title="" class="awe-btn awe-btn-1 awe-btn-lager">Book Now</a>
                                     </p>
                                 </div>

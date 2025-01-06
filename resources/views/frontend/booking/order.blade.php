@@ -308,7 +308,7 @@
                                         </div>
                                     </div>
 
-                                    <input type="hidden" name="order_date" value="{{old('order_date')}}" id="dateInput">
+                                    <input type="hidden" name="order_date" value="{{old('order_date')}}" id="dateInput" required>
                                     <div class="container p-3 rounded-bottom-3" style="background:rgba(58, 58, 58, .05);">
 
 
@@ -344,7 +344,7 @@
                                         <br>
                                         
                                         <div class="my-3">
-                                            <p class="dis fw-bold mb-2 fs-6">Amount you can deposit</p> <input id="ex6" type="text" data-slider-min="20" data-slider-max="100" data-slider-step="1" data-slider-value="10" />
+                                            <p class="dis fw-bold mb-2 fs-6">Amount you can deposit</p> <input id="ex6" type="text" data-slider-min="20" data-slider-max="100" data-slider-step="1" data-slider-value="20" value="20" />
                                         </div>
                                         <span id="ex6CurrentSliderValLabel" class="fs-6">Down payment: $<span id="ex6SliderVal">0</span></span>
                                     </div>
@@ -372,8 +372,8 @@
                                     <p class="fw-bold fs-6">Down payment</p>
                                     <p class="fw-bold fs-6" id="downPayment"><span class="fas fa-dollar-sign"></span>0.00</p>
                                 </div>
-                                <input type="hidden" id="total_money" name="total_money">
-                                <input type="hidden" id="down_payment" name="down_payment">
+                                <input type="hidden" id="total_money" name="total_money" required>
+                                <input type="hidden" id="down_payment" name="down_payment" required>
                                 <!-- <a class="btn  m-3 d-flex align-items-center paypal-button"
                                     href="{{ route('processPaypal', ['amount' => '__downPayment__']) }}"
                                     id="paypal-link">
@@ -520,8 +520,8 @@
         const newInputGroup = $(`
         <div class="input-guest input-group mb-3">
             <div class="input-group-prepend" style="width:20%">
-                <select name='numberOfPeople[]' class="numberOfPeople fs-6 custom-select">
-                    <option selected>Select number of people</option>
+                <select name='numberOfPeople[]' class="numberOfPeople fs-6 custom-select " placeholder="luke@skywalker.com">
+                  
                 </select>
             </div>
             <select name='guest-type[]' class="guest-type custom-select text-center fs-6"  style="width:55%">
@@ -673,7 +673,7 @@
         <div class="input-guest input-group mb-3">
             <div class="input-group-prepend" style="width:20%">
                 <select name='numberOfPeople[]' class="numberOfPeople fs-6 custom-select">
-                    <option selected>Select number of people</option>
+                  
                 </select>
             </div>
             <select  name='guest-type[]' class="guest-type custom-select text-center fs-6"  style="width:55%">
@@ -721,6 +721,8 @@
 
     }
     create();
+    updateTotalCost();
+    
     // With JQuery
     $("#ex6").slider({
         formatter: function(value) {

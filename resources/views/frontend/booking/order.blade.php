@@ -127,7 +127,7 @@
                                                 </div>
                                                 <div class="mkdf-post-text-main">
 
-                                                    <h2 itemprop="name" class="entry-title mkdf-post-title">
+                                                    <h2 itemprop="name" class="entry-title mkdf-post-title" style="font-size: clamp(14px, 2vw, 24px);">
                                                         {{$tour->title}} </h2>
                                                     <div class="wpb-content-wrapper">
                                                         <div class="vc_row wpb_row vc_row-fluid">
@@ -136,7 +136,8 @@
                                                                     <div class="wpb_wrapper">
                                                                         <div class="wpb_text_column wpb_content_element ">
                                                                             <div class="wpb_wrapper">
-                                                                                <p>{!! $tour->description !!}
+                                                                                <p>{{ strip_tags($tour->description) }}
+
                                                                                 </p>
                                                                             </div>
                                                                         </div>
@@ -147,36 +148,35 @@
                                                     </div>
                                                 </div>
                                                 <div class="mkdf-post-info-bottom clearfix">
-                                                    <div class="mkdf-post-info-bottom-left">
-                                                        <div class="mkdf-tags-holder">
-                                                            <div class="mkdf-tags">
-                                                                <a href="../tag/adventure/index.html" rel="tag">Adventure</a>, <a href="../tag/explore/index.html" rel="tag">Explore</a>, <a href="../tag/guides/index.html" rel="tag">Guides</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                    
                                                     <div class="mkdf-post-info-bottom-right">
                                                         <div class="mkdf-blog-share">
                                                             <div class="mkdf-social-share-holder mkdf-list">
                                                                 <ul>
+                                                                    
                                                                     <li class="mkdf-facebook-share">
-                                                                        <a itemprop="url" class="mkdf-share-link" href="#" onclick="window.open('https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwanderland.qodeinteractive.com%2Famazon-rainforest-experience%2F', 'sharer', 'toolbar=0,status=0,width=620,height=280');">
-                                                                            <span class="mkdf-social-network-icon social_facebook"></span>
-                                                                        </a>
+                                                                    <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+									style="color: #878787;;font-size: 14px"
+									href="https://www.instagram.com/sunshinetours.vn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+									<span class="mkdf-social-icon-widget ion-social-instagram"></span> </a>
                                                                     </li>
                                                                     <li class="mkdf-twitter-share">
-                                                                        <a itemprop="url" class="mkdf-share-link" href="#" onclick="window.open('https://twitter.com/intent/tweet?text=Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipisic+ing+elit%2C+sed+do+eiusmod+tempor+incididu+nt+ut+labore+et+do+dolore+ https://wanderland.qodeinteractive.com/amazon-rainforest-experience/', 'popupwindow', 'scrollbars=yes,width=800,height=400');">
-                                                                            <span class="mkdf-social-network-icon social_twitter"></span>
-                                                                        </a>
+                                                                    <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+									style="color: #878787;;font-size: 14px" href="https://www.tiktok.com/@sunshinetours.vn"
+									target="_blank">
+									<span class="fa-brands fa-tiktok"></span> </a>
                                                                     </li>
                                                                     <li class="mkdf-tumblr-share">
-                                                                        <a itemprop="url" class="mkdf-share-link" href="#" onclick="popUp=window.open('https://www.tumblr.com/share/link?url=https%3A%2F%2Fwanderland.qodeinteractive.com%2Famazon-rainforest-experience%2F&amp;name=Amazon+Rainforest+Experience&amp;description=Lorem+ipsum+dolor+sit+amet%2C+consectetur+adipisic+ing+elit%2C+sed+do+eiusmod+tempor+incididu+nt+ut+labore+et+do+dolore+magna+aliqua.+Ut+enim+ad+minim+veniam%2C+quis+nostrud+exerc+itation+ullamco+laboris+nisi.ut+aliquip+ex+ea+commodo+consequat.+Duis+aute+irure+dolr+inreprehen+eiusmod+tempor+incididu+nt+ut+labore+et++dolore+magna+aliqua', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;">
-                                                                            <span class="mkdf-social-network-icon social_tumblr"></span>
-                                                                        </a>
+                                                                    <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+									style="color: #878787;;font-size: 14px"
+									href="https://www.facebook.com/SunshineTours.vn?mibextid=LQQJ4d" target="_blank">
+									<span class="mkdf-social-icon-widget ion-social-facebook"></span> </a>
                                                                     </li>
                                                                     <li class="mkdf-pinterest-share">
-                                                                        <a itemprop="url" class="mkdf-share-link" href="#" onclick="popUp=window.open('https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwanderland.qodeinteractive.com%2Famazon-rainforest-experience%2F&amp;description=Amazon+Rainforest+Experience&amp;media=https%3A%2F%2Fwanderland.qodeinteractive.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fblog-post-img-02.jpg', 'popupwindow', 'scrollbars=yes,width=800,height=400');popUp.focus();return false;">
-                                                                            <span class="mkdf-social-network-icon social_pinterest"></span>
-                                                                        </a>
+                                                                    <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+									style="color: #878787;;font-size: 14px"
+									href="https://www.youtube.com/@SunshineToursVietnam" target="_blank">
+									<span class="mkdf-social-icon-widget ion-social-youtube"></span> </a>
                                                                     </li>
                                                                 </ul>
                                                                 <p class="mkdf-social-title">Share</p>

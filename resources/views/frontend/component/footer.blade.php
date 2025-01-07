@@ -263,26 +263,23 @@
 								<div class="widget mkdf-social-icons-group-widget mkdf-light-skin text-align-left">
 									<div class="mkdf-widget-title-holder">
 										<h6 class="mkdf-widget-title">Socials</h6>
-									</div> <a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
-										href="https://www.instagram.com/qodeinteractive/" target="_blank">
-										<span class="mkdf-social-icon-widget ion-social-instagram"></span> </a>
+									</div> 
 									<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
-										href="https://twitter.com/qodeinteractive/" target="_blank">
-										<span class="mkdf-social-icon-widget ion-social-twitter"></span> </a>
-									<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
-										href="https://www.facebook.com/QodeInteractive/" target="_blank">
-										<span class="mkdf-social-icon-widget ion-social-facebook"></span> </a>
-									<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
-										href="https://www.youtube.com/QodeInteractiveVideos" target="_blank">
-										<span class="mkdf-social-icon-widget ion-social-youtube"></span> </a>
-								</div>
-							</div>
-							<div class="mkdf-grid-col-6">
-								<div id="text-5" class="widget mkdf-footer-bottom-column-2 widget_text">
-									<div class="textwidget">
-										<p>© 2020 <a href="https://qodeinteractive.com/">Qode Interactive</a><span
-												style="color: #999999;">, All Rights Reserved</span></p>
-									</div>
+									style="color: #878787;;font-size: 14px"
+									href="https://www.instagram.com/sunshinetours.vn?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+									<span class="mkdf-social-icon-widget ion-social-instagram"></span> </a>
+								<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+									style="color: #878787;;font-size: 14px" href="https://www.tiktok.com/@sunshinetours.vn"
+									target="_blank">
+									<span class="fa-brands fa-tiktok"></span> </a>
+								<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+									style="color: #878787;;font-size: 14px"
+									href="https://www.facebook.com/SunshineTours.vn?mibextid=LQQJ4d" target="_blank">
+									<span class="mkdf-social-icon-widget ion-social-facebook"></span> </a>
+								<a class="mkdf-social-icon-widget-holder mkdf-icon-has-hover"
+									style="color: #878787;;font-size: 14px"
+									href="https://www.youtube.com/@SunshineToursVietnam" target="_blank">
+									<span class="mkdf-social-icon-widget ion-social-youtube"></span> </a>
 								</div>
 							</div>
 						</div>

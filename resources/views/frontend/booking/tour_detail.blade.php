@@ -64,7 +64,7 @@
                 style="height: 302px; padding-top: 150px">
                 <div class="mkdf-title-inner">
                     <div class="mkdf-grid">
-                        <h2 class="mkdf-page-title entry-title">Product List</h2>
+                        <h2 class="mkdf-page-title entry-title">Tour Detail </h2>
                     </div>
                 </div>
             </div>
@@ -79,12 +79,12 @@
                         <section class="breakcrumb-sc">
                             <ul class="breadcrumb arrow">
                                 <li><a href="index.html"><i class="fa fa-home"></i></a></li>
-                                <li><a href="hotel.html" title="">Hotels</a></li>
-                                <li><a href="#" title="">Europe </a></li>
-                                <li>Netherlands</li>
+                                <li><a href="hotel.html" title="">Booking</a></li>
+                                <li><a href="{{route('tour_detail',['id'=>$tour->id])}}" title="">Tour Detail </a></li>
+                              
                             </ul>
                             <div class="support float-right">
-                                <small>Got a question?</small> 123-123-1234
+                                <small>Got a question?</small> +84 76 5622268
                             </div>
                         </section>
                         <!-- End Breakcrumb -->

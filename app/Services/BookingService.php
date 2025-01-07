@@ -92,6 +92,10 @@ class BookingService implements BookingServiceInterface
             ];
 
             $payment=$this->paymentRepository->create($paymentInfo);
+            session(['order' => $order->toArray()]);
+            session(['orderDentail' => $orderDentail->toArray()]);
+            session(['payment' => $payment->toArray()]);
+
             
             DB::commit();
             return true;

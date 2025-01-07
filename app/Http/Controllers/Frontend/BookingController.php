@@ -12,6 +12,7 @@ use App\Http\Requests\OrderRequest;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\DemoMail;
+use App\Mail\UserComfirmMail;
 
 
 class BookingController extends Controller
@@ -46,9 +47,17 @@ class BookingController extends Controller
         return view('frontend.layout.layout', compact('template', 'config', 'tours'));
     }
     public function paymentSuccess(){
-        $mailData=session('checkout_data');
-        Mail::to('anhtuhanam1@gmail.com')->send(new DemoMail($mailData));
-        session()->flush();
+        $mailData=[
+            'order' =>session('order'),
+            'orderDentail' => session('orderDentail'),
+            'payment' => session('payment'),
+        ];
+        if($mailData['order'] && $mailData['orderDentail'] && $mailData['payment']){
+            Mail::to('anhtuhanam1@gmail.com')->send(new DemoMail($mailData));
+            Mail::to($mailData['order']['email'])->send(new UserComfirmMail($mailData));
+            session()->flush();
+        }
+        
         return view('frontend.payment.paymentSuccess');
     }
     public function tour_detail($id,)
@@ -147,10 +156,11 @@ class BookingController extends Controller
         $template = 'frontend.booking.checkout';
         $tour = $this->tourRepository->findById($id);
         $tour->youtube = $this->convertYoutubeUrlToEmbed($tour->youtube);
-        session(['checkout_data' => $request->all()]);
+        // session(['checkout_data' => $request->all()]);
         session(['id' => $id]);
-        session(['randomCode' => $randomCode]);
-        if ($this->bookingService->create($id, session('checkout_data'), $randomCode)) {
+        // session(['randomCode' => $randomCode]);
+        if ($this->bookingService->create($id, $request->all(), $randomCode)) {
+            $tour = $this->tourRepository->findById($id);
             return redirect()-> route('processPaypal', ['amount' =>$request->input('down_payment') ]) ;
         }else{
             return redirect()

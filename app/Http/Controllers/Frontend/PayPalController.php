@@ -67,8 +67,8 @@ class PayPalController extends Controller
     public function processPaypPal(Request $request)
     {
 
-        $data = session('checkout_data');
-        $amount = $data['down_payment'];
+        $data = session('payment');
+        $amount = $data['total_money'];
 
         $provider = new PayPalClient;
         $provider->setApiCredentials(config('paypal'));

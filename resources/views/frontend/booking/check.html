@@ -1,104 +1,246 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking Confirmation</title>
-    <style>
-        body {
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Appointment Confirmation
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
             background-color: #f7fafc;
-            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Arial', sans-serif;
         }
+
         .container {
-            max-width: 600px;
-            margin: 20px auto;
-            background-color: white;
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 28rem;
+            margin: auto;
+            border-radius: 0.5rem;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
+
         .header {
             background-color: #38b2ac;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 24px;
-            font-weight: bold;
-        }
-        .content {
-            padding: 20px;
-        }
-        .content p {
-            margin-bottom: 16px;
-        }
-        .content h2 {
-            font-size: 20px;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-        .content h3 {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-        .details {
-            margin-bottom: 16px;
-        }
-        .details div {
+            padding: 1rem;
             display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
+            justify-content: center;
+            align-items: center;
         }
-        .footer {
-            background-color: #38b2ac;
-            color: white;
+
+        .header img {
+            height: 3rem;
+            width: 3rem;
+        }
+
+        .content {
+            padding: 1.5rem;
+        }
+
+        .content h1 {
             text-align: center;
-            padding: 10px 0;
+            font-size: 1.5rem;
+            font-weight: bold;
         }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Booking Confirmation</h1>
-        </div>
-        <div class="content">
-            <p>Dear, [name]</p>
-            <p>You have successfully made the trip booking. Your booking information is listed below.</p>
-            <h2>Booking Trips ([booking_trips_count])</h2>
-            <p>[booking_details]</p>
-            <h3>Billing Details</h3>
-            <div class="details">
-                <div>
-                    <span>Name</span>
-                    <span>[fullname]</span>
-                </div>
-                <div>
-                    <span>Email Address</span>
-                    <span>[user_email]</span>
-                </div>
-                <div>
-                    <span>Billing Address</span>
-                    <span>[billing_address]</span>
-                </div>
-                <div>
-                    <span>City</span>
-                    <span>[city]</span>
-                </div>
-                <div>
-                    <span>Country</span>
-                    <span>[country]</span>
-                </div>
-            </div>
-            <h3>Bank Details</h3>
-            <p>[bank_details]</p>
-            <h3>Check Payment</h3>
-            <p>[check_payment_instruction]</p>
-            <p class="text-center">[sitename]</p>
-        </div>
-        <div class="footer">
-            <p>Powered by WP Travel Engine</p>
-        </div>
+
+        .content p {
+            text-align: center;
+            color: #718096;
+        }
+
+        .confirmation {
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+
+        .confirmation h2 {
+            font-size: 1.25rem;
+            color: #38a169;
+            font-weight: bold;
+        }
+
+        .status {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+        }
+
+        .status span {
+            color: #a0aec0;
+        }
+
+        .status .divider {
+            margin: 0 0.5rem;
+            width: 2rem;
+            height: 0.25rem;
+            background-color: #a0aec0;
+        }
+
+        .status .confirmed {
+            color: #38a169;
+            font-weight: bold;
+        }
+
+        .details {
+            margin-top: 1.5rem;
+        }
+
+        .details p {
+            margin-bottom: 0.5rem;
+        }
+
+        .details .highlight {
+            background-color: #38b2ac;
+            color: #ffffff;
+            padding: 1rem;
+            border-radius: 0.25rem;
+            text-align: center;
+        }
+
+        .details .highlight p {
+            margin: 0;
+        }
+
+        .details .highlight .time {
+            font-size: 1.125rem;
+        }
+
+        .order-info {
+            margin-top: 1rem;
+            padding: 1rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.25rem;
+        }
+
+        .order-info p {
+            margin: 0.5rem 0;
+        }
+
+        .footer {
+            margin-top: 1.5rem;
+        }
+
+        .footer p {
+            color: #718096;
+        }
+
+        .footer a {
+            color: #38b2ac;
+            font-weight: bold;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <img alt="Logo of Blind Barber" height="50" src="https://storage.googleapis.com/a1aa/image/Of5soa8xn33QekeWnluC9Ge35tpbsiQIhx9qLryOYszfOQVgC.jpg" width="50"/>
+   </div>
+   <div class="content">
+    <h1>
+     Sunshine Tours
+    </h1>
+    <p>
+     144/16 Au Co, Ward 9, Tan Binh District
+     <br/>
+     Ho Chi Minh City, IL 70000
+     <br/>
+     +84 76 5622268
+    </p>
+    <div class="confirmation">
+     <h2>
+      Your Appointment has been Confirmed!
+     </h2>
+     <div class="status">
+      <span>
+       PENDING
+      </span>
+      <div class="divider">
+      </div>
+      <span class="confirmed">
+       CONFIRMED
+      </span>
+     </div>
     </div>
-</body>
+    <div class="details">
+     <p>
+      Hi Sir,
+     </p>
+     <p>
+      Appointment confirmed with Sir on Monday, January 1, 2023 at 10:00AM. Please find the details below:
+     </p>
+     <div class="highlight">
+      <p class="font-bold">
+       Confirmed Time:
+      </p>
+      <p class="time">
+       Monday, January 1, 2023 at 10:00AM
+      </p>
+     </div>
+     <div class="order-info">
+      <p>
+       <strong>
+        Order Info
+       </strong>
+      </p>
+      <p>
+       Full Name: Sir
+      </p>
+      <p>
+       Email: example@example.com
+      </p>
+      <p>
+       Phone Number: 123456789
+      </p>
+      <p>
+       Create at: January 1, 2023
+      </p>
+      <p>
+       Booking date: January 1, 2023
+      </p>
+      <p>
+       Guest 0-8: 2
+      </p>
+      <p>
+       Guest 8-12: 1
+      </p>
+      <p>
+       Guest over 12: 1
+      </p>
+      <p>
+       Total amount: $100
+      </p>
+      <p>
+       Down Payment: $50
+      </p>
+     </div>
+    </div>
+    <div class="footer">
+     <p>
+      Need to make changes to this appointment?
+     </p>
+     <a href="https://www.instagram.com/sunshinetours.vn?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==">
+      Contact me on Instagram
+     </a>
+     <p class="mt-4">
+      Appointment ID: SMLSDV0000
+     </p>
+     <p class="mt-4">
+      Stay Handsome,
+      <br/>
+      Sunshine Tour
+     </p>
+     <p class="mt-4">
+      P.S. Want to add this appointment to your calendar? Just open the attached file and save it!
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
 </html>

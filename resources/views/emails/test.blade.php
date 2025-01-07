@@ -84,15 +84,28 @@
                 @foreach($mailData as $key => $value)
                 <div>
                     <span><strong>{{ ucfirst(str_replace('_', ' ', $key)) }}:</strong></span>
-                    @if(is_array($value))
+
+                    @if(is_array($value) || is_object($value))
+                    <!-- Kiểm tra nếu giá trị là mảng hoặc đối tượng -->
+                    @if($value instanceof \Illuminate\Support\Collection || is_array($value))
                     <span>{{ implode(', ', $value) }}</span>
+                    @elseif($value instanceof \stdClass)
+                    <!-- Nếu là đối tượng, chúng ta có thể duyệt qua các thuộc tính của đối tượng -->
+                    <span>
+                        @foreach((array) $value as $subKey => $subValue)
+                        <strong>{{ ucfirst(str_replace('_', ' ', $subKey)) }}:</strong> {{ $subValue }}<br>
+                        @endforeach
+                    </span>
+                    @endif
                     @else
+                    <!-- Nếu giá trị không phải là mảng hoặc đối tượng, hiển thị trực tiếp -->
                     <span>{{ $value }}</span>
                     @endif
                 </div>
                 @endforeach
+
             </div>
-            
+
         </div>
         <div class="footer">
             <p>Powered by WP Travel Engine</p>

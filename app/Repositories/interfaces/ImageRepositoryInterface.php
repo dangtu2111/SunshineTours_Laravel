@@ -9,4 +9,5 @@ namespace App\Repositories\Interfaces;
 interface ImageRepositoryInterface extends BaseRepositoryInterface
 {
     public function getImagebyTourID($id);
+    public function deleteAllImgNotArr($arr,$tourid);
 }

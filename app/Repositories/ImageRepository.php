@@ -12,6 +12,19 @@ class ImageRepository extends BaseRepository implements ImageRepositoryInterface
     public function __construct(Image $model){
         $this->model=$model;
     }
+    public function deleteAllImgNotArr($arr, $tourid) {
+        $imgs = $this->model->where('tour_id', $tourid)->get(); // Fetch images
+    
+        foreach ($imgs as $img) {
+            if (!in_array($img->id, $arr)) { // If ID is NOT in the array
+                $img->delete(); // Delete the image
+            }
+        }
+    
+        return true;
+    }
+    
+
     public function getAllPaginate(){
         $users = Image::paginate(8);
         return $users;

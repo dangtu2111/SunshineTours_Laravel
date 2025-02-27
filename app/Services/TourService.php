@@ -80,7 +80,7 @@ class TourService implements TourServiceInterface
                     $img=$this->imageRepository->create($image);
                 }
             }
-            dd($$img);
+            $payload['thumbnails_id']=$img->id;
             $tour = $this->tourRepository->update($id, $payload);
 
             DB::commit();

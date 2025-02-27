@@ -80,6 +80,7 @@ class TourService implements TourServiceInterface
                     $img=$this->imageRepository->create($image);
                 }
             }
+            dd($img);
             $this->imageRepository->deleteAllImgNotArr($thumbnails_id,$id);
             $tour = $this->tourRepository->update($id, $payload);
 

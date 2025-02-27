@@ -75,7 +75,7 @@ class TourService implements TourServiceInterface
                         'tour_id' => $id,
                         'thumbnail' => $thumbnail
                     ];
-                    dd("awsedfasd");
+                   
                     // Cập nhật hình ảnh với ID tương ứng
                     $img=$this->imageRepository->create($image);
                 }

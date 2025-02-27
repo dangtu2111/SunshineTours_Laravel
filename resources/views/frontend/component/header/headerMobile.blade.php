@@ -58,12 +58,12 @@
 						<a href="{{route('booking')}}" class="mkdf-mobile-no-link"><span>Book Now</span></a><span class="mobile_arrow"><i class="mkdf-sub-arrow ion-ios-arrow-right"></i><i class="ion-ios-arrow-down"></i></span>
 						
 					</li>
-					<li
+					<!-- <li
 						id="mobile-menu-item-628"
 						class="{{ request()->routeIs('FAQ') ? 'mkdf-active-item current-menu-ancestor' : '' }} menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub">
 						<a href="{{route('FAQ')}}" class="mkdf-mobile-no-link"><span>FAQ</span></a><span class="mobile_arrow"><i class="mkdf-sub-arrow ion-ios-arrow-right"></i><i class="ion-ios-arrow-down"></i></span>
 						
-					</li>
+					</li> -->
 					<li
 						id="mobile-menu-item-629"
 						class="{{ request()->routeIs('gallery') ? 'mkdf-active-item current-menu-ancestor' : '' }} menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub">

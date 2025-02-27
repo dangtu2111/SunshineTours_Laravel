@@ -90,7 +90,7 @@
 												class="mkdf-menu-arrow fa fa-angle-down"></i></span></span></a>
 								
 							</li>
-							<li
+							<!-- <li
 								id="nav-menu-item-606"
 								class="{{ request()->routeIs('FAQ') ? 'mkdf-active-item current-menu-ancestor' : '' }} menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_sub narrow">
 								<a href="{{route('FAQ')}} " class=""><span class="mkdf-menu-item-holder"><span class="mkdf-active-hover"><svg
@@ -129,7 +129,7 @@
 											</svg></span><span class="item_outer"><span class="item_text">FAQ</span><i
 												class="mkdf-menu-arrow fa fa-angle-down"></i></span></span></a>
 								
-							</li>
+							</li> -->
 						</ul>
 					</nav>
 				</div>

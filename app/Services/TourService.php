@@ -75,11 +75,12 @@ class TourService implements TourServiceInterface
                         'tour_id' => $id,
                         'thumbnail' => $thumbnail
                     ];
+                    dd("awsedfasd"
                     // Cập nhật hình ảnh với ID tương ứng
-                    $this->imageRepository->create($image);
+                    $img=$this->imageRepository->create($image);
                 }
             }
-            dd($payload);
+            dd($$img);
             $tour = $this->tourRepository->update($id, $payload);
 
             DB::commit();

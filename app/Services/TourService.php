@@ -79,7 +79,8 @@ class TourService implements TourServiceInterface
 
 
                     // Cập nhật hình ảnh với ID tương ứng
-                    $this->imageRepository->update($thumbnails_id[$index], $image);
+                    $this->imageRepository->create($image);
+                    $this->imageRepository->delete($thumbnails_id[$index]);
                 }
             }
             DB::commit();

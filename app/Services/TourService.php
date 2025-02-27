@@ -63,24 +63,21 @@ class TourService implements TourServiceInterface
             $payload = $request->except(['_token', 'send', 'thumbnails']);
             $payload['category_id'] = 1;
             $thumbnails = $request->input('thumbnails', []);
-            dd($request->all());
             $thumbnails_id = $request->input('thumbnails_id', []);
 
             $tour = $this->tourRepository->update($id, $payload);
 
             $image = [];
-           dd(!empty($thumbnails) , $thumbnails_id);
             if (!empty($thumbnails) && !empty($thumbnails_id)) {
                 // Lặp qua tất cả các thumbnails và thumbnails_id để cập nhật
-                dd($thumbnails);
                 foreach ($thumbnails as $index => $thumbnail) {
-
+                    
                     $image = [
                         'tour_id' => $id,
                         'thumbnail' => $thumbnail
                     ];
 
-                   
+
                     // Cập nhật hình ảnh với ID tương ứng
                     $this->imageRepository->update($thumbnails_id[$index], $image);
                 }

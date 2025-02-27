@@ -70,6 +70,7 @@ class TourService implements TourServiceInterface
             $image = [];
             if (!empty($thumbnails) && !empty($thumbnails_id)) {
                 // Lặp qua tất cả các thumbnails và thumbnails_id để cập nhật
+            
                 foreach ($thumbnails as $index => $thumbnail) {
 
                     $image = [
@@ -77,7 +78,7 @@ class TourService implements TourServiceInterface
                         'thumbnail' => $thumbnail
                     ];
 
-
+                    dd($thumbnails_id[$index]);
                     // Cập nhật hình ảnh với ID tương ứng
                     $this->imageRepository->update($thumbnails_id[$index], $image);
                 }

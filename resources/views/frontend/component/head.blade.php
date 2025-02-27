@@ -22,20 +22,16 @@
 <link rel="stylesheet" id="qi-addons-for-elementor-grid-style-css" href="{{asset('frontend/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="qi-addons-for-elementor-helper-parts-style-css" href="{{asset('frontend/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="qi-addons-for-elementor-style-css" href="{{asset('frontend/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
-<link rel="stylesheet" id="wanderland-mikado-default-style-css" href="{{asset('frontend/wp-content/themes/wanderland/style75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-modules-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/modules.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-dripicons-css" href="{{asset('frontend/wp-content/themes/wanderland/framework/lib/icons-pack/dripicons/dripicons75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-font_elegant-css" href="{{asset('frontend/wp-content/themes/wanderland/framework/lib/icons-pack/elegant-icons/style.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-font_awesome-css" href="{{asset('frontend/wp-content/themes/wanderland/framework/lib/icons-pack/font-awesome/css/fontawesome-all.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-ion_icons-css" href="{{asset('frontend/wp-content/themes/wanderland/framework/lib/icons-pack/ion-icons/css/ionicons.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-linea_icons-css" href="{{asset('frontend/wp-content/themes/wanderland/framework/lib/icons-pack/linea-icons/style75e4.css?ver=6.4.5')}}" type="text/css" media="all">
-<link rel="stylesheet" id="wanderland-mikado-linear_icons-css" href="{{asset('frontend/wp-content/themes/wanderland/framework/lib/icons-pack/linear-icons/style75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-simple_line_icons-css" href="{{asset('frontend/wp-content/themes/wanderland/framework/lib/icons-pack/simple-line-icons/simple-line-icons75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="mediaelement-css" href="{{asset('frontend/wp-includes/js/mediaelement/mediaelementplayer-legacy.min1f61.css?ver=4.2.17')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wp-mediaelement-css" href="{{asset('frontend/wp-includes/js/mediaelement/wp-mediaelement.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-woo-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/woocommerce.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
-<link rel="stylesheet" id="wanderland-mikado-woo-responsive-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/woocommerce-responsive.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
-<link rel="stylesheet" id="wanderland-mikado-modules-responsive-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/modules-responsive.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="js_composer_front-css" href="{{asset('frontend/wp-content/plugins/js_composer/assets/css/js_composer.mineba7.css?ver=7.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="swiper-css" href="{{asset('frontend/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5')}}" type="text/css" media="all">
 <script data-cfasync="false" data-pagespeed-no-defer>

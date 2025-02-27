@@ -59,7 +59,7 @@ class TourController extends Controller
         return view('backend.layout.layout', compact('config','images','tour', 'template'));
     }
     public function update(TourRequest $request, $id){
-        dd($request->all());
+       
         if($this->tourService->update($id,$request)){
             return redirect()->route('admin.tour')->with('success', 'Insert successfull');
         }

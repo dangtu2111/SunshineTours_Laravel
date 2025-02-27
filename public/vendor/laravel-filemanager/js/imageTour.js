@@ -20,7 +20,7 @@
                                 <input type="text" class="form-control" name="thumbnails[]" readonly  value="${item.url}">
                             </td>
                             <td>
-                                <input type="text" class="form-control" thumbnails_id value="${maxValue + 1}">
+                                <input type="text" class="form-control" name="thumbnails_id[]" value="${maxValue + 1}">
                             </td>
                             <td>
                                 <button class="btn btn-white btn-delete-row">

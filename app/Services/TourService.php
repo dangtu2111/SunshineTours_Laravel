@@ -64,8 +64,7 @@ class TourService implements TourServiceInterface
             $payload['category_id'] = 1;
             $thumbnails = $request->input('thumbnails', []);
             $thumbnails_id = $request->input('thumbnails_id', []);
-
-            $tour = $this->tourRepository->update($id, $payload);
+            
 
             $image = [];
             if (!empty($thumbnails) && !empty($thumbnails_id)) {
@@ -76,13 +75,14 @@ class TourService implements TourServiceInterface
                         'tour_id' => $id,
                         'thumbnail' => $thumbnail
                     ];
-
-
+                    dd()
                     // Cập nhật hình ảnh với ID tương ứng
                     $this->imageRepository->create($image);
-                    $this->imageRepository->delete($thumbnails_id[$index]);
                 }
             }
+            dd($payload);
+            $tour = $this->tourRepository->update($id, $payload);
+
             DB::commit();
             return true;
         } catch (\Exception $e) {

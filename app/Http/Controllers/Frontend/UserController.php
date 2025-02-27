@@ -16,7 +16,6 @@ class UserController extends Controller
                 'frontend/css/booking.css',
             ]
             ];
-
         // Trả về view 'backend.layout.layout' và truyền biến 'config' và 'template'
         return view('frontend.layout.layout', compact('template','config','tours'));
     }

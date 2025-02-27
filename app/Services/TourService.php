@@ -68,10 +68,10 @@ class TourService implements TourServiceInterface
             $tour = $this->tourRepository->update($id, $payload);
 
             $image = [];
-            dd($thumbnails);
+           
             if (!empty($thumbnails) && !empty($thumbnails_id)) {
                 // Lặp qua tất cả các thumbnails và thumbnails_id để cập nhật
-            
+                dd($thumbnails);
                 foreach ($thumbnails as $index => $thumbnail) {
 
                     $image = [

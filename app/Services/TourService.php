@@ -63,6 +63,7 @@ class TourService implements TourServiceInterface
             $payload = $request->except(['_token', 'send', 'thumbnails']);
             $payload['category_id'] = 1;
             $thumbnails = $request->input('thumbnails', []);
+            dd($request->all());
             $thumbnails_id = $request->input('thumbnails_id', []);
 
             $tour = $this->tourRepository->update($id, $payload);

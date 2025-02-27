@@ -75,7 +75,6 @@ class TourService implements TourServiceInterface
                         'tour_id' => $id,
                         'thumbnail' => $thumbnail
                     ];
-                    dd()
                     // Cập nhật hình ảnh với ID tương ứng
                     $this->imageRepository->create($image);
                 }

@@ -1,8 +1,134 @@
+.zEWidget-webWidget.zEWidget-webWidget--active {
+    z-index: 99999999 !important;
+}
+.cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea {
+    height: -20px;
+}
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-text,
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-number,
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-date,
+.cf7_custom_style_2 textarea.wpcf7-form-control.wpcf7-textarea,
+.cf7_custom_style_2 select.wpcf7-form-control.wpcf7-select,
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-quiz {
+    background-color: rgba(241, 241, 231, 1);
+}
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-text,
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-number,
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-date,
+.cf7_custom_style_3 textarea.wpcf7-form-control.wpcf7-textarea,
+.cf7_custom_style_3 select.wpcf7-form-control.wpcf7-select,
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-quiz {
+    background-color: rgba(255, 255, 255, 1);
+}
+.error404 .mkdf-page-header .mkdf-menu-area {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.error404 .mkdf-page-header .mkdf-menu-area {
+    border-color: #ffffff;
+}
+.error404 .mkdf-content {
+    background-image: url(../../../../uploads/2019/10/error-page-bckg-01.jpg);
+    background-position: center 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.error404 .mkdf-page-not-found .mkdf-404-title {
+    color: #ffffff;
+}
+.error404 .mkdf-page-not-found .mkdf-404-text {
+    color: #ffffff;
+    font-family: Muli;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.mkdf-fullscreen-menu-holder {
+    background-image: url(https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/h4-bckg-img-03.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+.mkdf-fullscreen-menu-holder-inner {
+    background-color: rgba(255, 255, 255, 0.88);
+}
+.mkdf-page-header .mkdf-sticky-header {
+    height: 109px;
+}
+.mkdf-page-header .mkdf-sticky-header .mkdf-logo-wrapper a {
+    max-height: 109px;
+}
+.mkdf-header-box .mkdf-top-bar-background {
+    height: 95px;
+}
+.mkdf-header-box .mkdf-top-bar-background {
+    background-color: rgba(255, 255, 255, 0);
+}
+.mkdf-top-bar {
+    background-color: rgba(255, 255, 255, 0);
+}
+.mkdf-top-bar:after {
+    border-bottom: 1px solid rgba(255, 255, 255, 75%);
+}
+.mkdf-page-header .mkdf-menu-area {
+    background-color: rgba(255, 255, 255, 0);
+}
+.mkdf-page-header .mkdf-menu-area:after {
+    border-bottom: 1px solid rgba(255, 255, 255, 75%);
+}
+.mkdf-search-opener {
+    font-size: 26px;
+}
+.mkdf-side-menu-button-opener {
+    color: #ffffff;
+}
+.mkdf-side-menu {
+    text-align: center;
+}
+.mkdf-side-menu .widget img {
+    margin: 0 auto;
+}
+::after@media only screen and (max-width: 1024px) {
+}
 
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 681px) and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+        line-height: 52px;
+    }
+    h2 {
+        font-size: 42px;
+        line-height: 45px;
+    }
+    h3 {
+        font-size: 37px;
+        line-height: 41px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    h1 {
+        font-size: 45px;
+        line-height: 46px;
+    }
+    h2 {
+        font-size: 42px;
+        line-height: 44px;
+    }
+    h3 {
+        font-size: 35px;
+        line-height: 38px;
+    }
+    h4 {
+        font-size: 32px;
+        line-height: 33px;
+    }
+}
 .vc_custom_1572593905416 {
     padding-top: 14px !important;
     background-image: url(../wp-content/uploads/2019/10/h1-bckg-024c30.jpg?id=102) !important;
-                
+
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;

@@ -35,16 +35,14 @@
 <link rel="stylesheet" id="wp-mediaelement-css" href="{{asset('frontend/wp-includes/js/mediaelement/wp-mediaelement.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-woo-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/woocommerce.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-woo-responsive-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/woocommerce-responsive.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
-<link rel="stylesheet" id="wanderland-mikado-style-dynamic-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/style_dynamicc186.css?ver=1655125631')}}" type="text/css" media="all">
 <link rel="stylesheet" id="wanderland-mikado-modules-responsive-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/modules-responsive.min75e4.css?ver=6.4.5')}}" type="text/css" media="all">
-<link rel="stylesheet" id="wanderland-mikado-style-dynamic-responsive-css" href="{{asset('frontend/wp-content/themes/wanderland/assets/css/style_dynamic_responsivec186.css?ver=1655125631')}}" type="text/css" media="all">
 <link rel="stylesheet" id="js_composer_front-css" href="{{asset('frontend/wp-content/plugins/js_composer/assets/css/js_composer.mineba7.css?ver=7.5')}}" type="text/css" media="all">
 <link rel="stylesheet" id="swiper-css" href="{{asset('frontend/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5')}}" type="text/css" media="all">
 <script data-cfasync="false" data-pagespeed-no-defer>
 	var gtm4wp_datalayer_name = "dataLayer";
 	var dataLayer = dataLayer || [];
 </script>
-<link rel="stylesheet" id="qode-zendesk-chat-css" href="{{asset('frontend/wp-content/plugins/qode-zendesk-chat/assets/main75e4.css?ver=6.4.5')}}" type="text/css" media="all">
+
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/revslider/public/assets/js/rbtools.minec8f.js?ver=6.6.20')}}" async id="tp-tools-js"></script>
 <script type="text/javascript" src="{{asset('frontend/wp-content/plugins/revslider/public/assets/js/rs6.minec8f.js?ver=6.6.20')}}" async id="revmin-js"></script>
 

@@ -76,11 +76,11 @@
 						<a href="{{route('about')}}" class="mkdf-mobile-no-link"><span>About Us</span></a><span class="mobile_arrow"><i class="mkdf-sub-arrow ion-ios-arrow-right"></i><i class="ion-ios-arrow-down"></i></span>
 						
 					</li>
-					<li
+					<!-- <li
 						id="mobile-menu-item-1817"
 						class="{{ request()->routeIs('blog') ? 'mkdf-active-item current-menu-ancestor' : '' }} menu-item menu-item-type-post_type menu-item-object-page">
 						<a href="{{route('blog')}}" class=""><span>	Blog</span></a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</nav>

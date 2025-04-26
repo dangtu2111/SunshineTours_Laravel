@@ -216,7 +216,7 @@
                             </div>
                             <div class="col-md-6  d-flex">
                                 <div class="container">
-                                    <div class="elegant-calencar d-md-flex">\
+                                    <div class="elegant-calencar d-md-flex">
                                         @php
                                         $bg01=asset('frontend/images/bg.jpg');
                                         @endphp

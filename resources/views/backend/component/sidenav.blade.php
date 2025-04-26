@@ -20,9 +20,9 @@
                             IN+
                         </div>
                     </li>
-                    <li class="{{ request()->routeIs('admin.home') ? 'active' : '' }}">
+                    <!-- <li class="{{ request()->routeIs('admin.home') ? 'active' : '' }}">
                         <a href="{{route('admin.home')}}"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboards</span></a>
-                    </li>
+                    </li> -->
                     
                     <li class="{{ request()->routeIs('admin.tour') ? 'active' : '' }}">
                         <a href="{{route('admin.tour')}}"><i class="fa fa-edit"></i> <span class="nav-label">Tour </span></a>
@@ -49,7 +49,7 @@
                         
                     </li>
                     <li>
-                    <li class="{{ request()->routeIs('admin.report') ? 'active' : '' }}">
+                    <!-- <li class="{{ request()->routeIs('admin.report') ? 'active' : '' }}">
 
                         <a href="{{route('admin.report')}}"><i class="fa fa-picture-o"></i> <span class="nav-label">Report</span></a>
                         
@@ -59,7 +59,7 @@
 
                         <a href="{{route('admin.feedback')}}"><i class="fa fa-envelope"></i> <span class="nav-label">Feedback  </span><span class="label label-warning pull-right">16/24</span></a>
                         
-                    </li>
+                    </li> -->
                     
                 </ul>
 

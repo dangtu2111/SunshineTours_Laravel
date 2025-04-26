@@ -43,12 +43,12 @@
                        
                     </li>
                     
-                    <li class="{{ request()->routeIs('admin.content') ? 'active' : '' }}">
+                    <!-- <li class="{{ request()->routeIs('admin.content') ? 'active' : '' }}">
 
                         <a href="{{route('admin.content')}}"><i class="fa fa-desktop"></i> <span class="nav-label">Content </span>  <span class="pull-right label label-primary">SPECIAL</span></a>
                         
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li> -->
                     <!-- <li class="{{ request()->routeIs('admin.report') ? 'active' : '' }}">
 
                         <a href="{{route('admin.report')}}"><i class="fa fa-picture-o"></i> <span class="nav-label">Report</span></a>

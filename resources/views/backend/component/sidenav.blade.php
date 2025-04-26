@@ -3,7 +3,7 @@
                 <ul class="nav metismenu" id="side-menu">
                     <li class="nav-header">
                         <div class="dropdown profile-element"> <span>
-                            <img alt="image" class="img-circle" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/455697433_1046432807488151_2430198793174405003_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHX2I4sNPY1lDlMR1DLi7kUpwYk_EkRAMCnBiT8SREAwKQEg8rp067jux69FgIo7xmhHR94rW-F4-jUeqMdN02I&_nc_ohc=aHZ3DUH1ubYQ7kNvwFm5nTR&_nc_oc=AdnojaTa91abm9tsimYXLscQeBouBwFGT9bjhZCohHtwilU2RsRzo2mm4Gvvq-4Vqsg&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=36_hqy_2wshhacYt6j4jzg&oh=00_AfFD1bO3vYtg0YGMEx4myVDcOnwt5Tr9A6UXN-8TueYpdA&oe=6812555C" />
+                            <img alt="image" style="    width: 30%;" class="img-circle" src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/455697433_1046432807488151_2430198793174405003_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHX2I4sNPY1lDlMR1DLi7kUpwYk_EkRAMCnBiT8SREAwKQEg8rp067jux69FgIo7xmhHR94rW-F4-jUeqMdN02I&_nc_ohc=aHZ3DUH1ubYQ7kNvwFm5nTR&_nc_oc=AdnojaTa91abm9tsimYXLscQeBouBwFGT9bjhZCohHtwilU2RsRzo2mm4Gvvq-4Vqsg&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=36_hqy_2wshhacYt6j4jzg&oh=00_AfFD1bO3vYtg0YGMEx4myVDcOnwt5Tr9A6UXN-8TueYpdA&oe=6812555C" />
                              </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Dang Tu</strong>

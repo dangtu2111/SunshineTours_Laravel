@@ -49,7 +49,7 @@
             class="mkdf-title-holder mkdf-standard-type mkdf-title-va-header-bottom mkdf-preload-background mkdf-has-bg-image mkdf-bg-responsive-disabled"
             style="
     height: 452px;
-    background-image: url(frontend/img/background_booking1.jpg);
+    background-image: url(frontend/images/banner/DSC02129-Enhanced-NR.jpg);
         background-size: cover;
     background-position: center;
   "
@@ -109,7 +109,7 @@
 
 
                                                             <h5 itemprop="name" style="font-size: clamp(14px, 2vw, 24px);" class="entry-title mkdf-post-title">
-                                                                <a itemprop="url" href="http://127.0.0.1:8000/booking/tour_detail" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
+                                                                <a itemprop="url" href="{{route('tour_detail',['id'=>$tour->id])}}" title="Guided Hikes in Iceland – Rhyolite mountain Trail">
                                                                    {{$tour->title}}
                                                                 </a>
                                                             </h5>

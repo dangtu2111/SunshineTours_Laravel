@@ -47,7 +47,7 @@
             class="mkdf-title-holder mkdf-standard-type mkdf-title-va-header-bottom mkdf-preload-background mkdf-has-bg-image mkdf-bg-responsive-disabled"
             style="
                 height: 452px;
-                background-image: url(frontend/img/background_gallery.jpg);
+                background-image: url(frontend/images/banner/DSC02137-Enhanced-NR.jpg);
                 background-size: cover;
     background-position: center;
               "
@@ -55,7 +55,7 @@
             <div class="mkdf-title-image">
                 <img
                     itemprop="image"
-                    src="frontend/wp-content/uploads/2019/10/p4-bckg-01.jpg"
+                    src="frontend/images/banner/DSC02137-Enhanced-NR.jpg"
                     alt="d" />
             </div>
             <div

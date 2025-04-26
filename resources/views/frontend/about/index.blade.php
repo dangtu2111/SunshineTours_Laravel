@@ -505,13 +505,15 @@
       class="mkdf-title-holder mkdf-standard-type mkdf-title-va-header-bottom mkdf-preload-background mkdf-has-bg-image mkdf-bg-responsive-disabled"
       style="
           height: 452px;
-          background-image: url(frontend/wp-content/uploads/2019/10/p1-bckg-01.jpg);
+          background-image: url(frontend/images/banner/DSC02120-Enhanced-NR.jpg);
+          background-size: cover;
+    background-position: center;
         "
       data-height="452">
       <div class="mkdf-title-image">
         <img
           itemprop="image"
-          src="{{asset('frontend/wp-content/uploads/2019/10/p1-bckg-01.jpg')}}"
+          src="{{asset('frontend/images/banner/DSC02120-Enhanced-NR.jpg')}}"
           alt="s" />
       </div>
       <div
@@ -652,27 +654,27 @@
                       <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-218c7a13 elementor-widget elementor-widget-image" data-id="218c7a13" data-element_type="widget" data-settings="{" motion_fx_motion_fx_scrolling":"yes","motion_fx_scale_effect":"yes","motion_fx_scale_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_scale_direction":"out-in","motion_fx_scale_range":{"unit":"%","size":"","sizes":{"start":20,"end":80}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-03-package-01-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7482" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/chua/DSC01975.jpg')}}" class="attachment-large size-large wp-image-7482" alt="">
                           </div>
                         </div>
                         <div class="elementor-element elementor-element-13b91ebe elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="13b91ebe" data-element_type="widget" data-settings="{" _position":"absolute","motion_fx_motion_fx_scrolling":"yes","motion_fx_translatex_effect":"yes","motion_fx_translatex_direction":"negative","motion_fx_translatex_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_translatex_affectedrange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-04-package-02-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7483" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/chua/DSC01979.jpg')}}" class="attachment-large size-large wp-image-7483" alt="">
                           </div>
                         </div>
                         <div class="elementor-element elementor-element-b95c675 elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="b95c675" data-element_type="widget" data-settings="{" _position":"absolute","motion_fx_motion_fx_scrolling":"yes","motion_fx_translatey_effect":"yes","motion_fx_translatey_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_translatey_affectedrange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-07-destination-01-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7486" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/chua/DSC01982.jpg')}}" class="attachment-large size-large wp-image-7486" alt="">
                           </div>
                         </div>
                         <div class="elementor-element elementor-element-340e1177 elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="340e1177" data-element_type="widget" data-settings="{" _position":"absolute","motion_fx_motion_fx_scrolling":"yes","motion_fx_translatey_effect":"yes","motion_fx_translatey_direction":"negative","motion_fx_translatey_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_translatey_affectedrange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-05-package-03-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7484" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/chua/DSC01980.jpg')}}" class="attachment-large size-large wp-image-7484" alt="">
                           </div>
                         </div>
                         <div class="elementor-element elementor-element-38a33510 elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="38a33510" data-element_type="widget" data-settings="{" _position":"absolute","motion_fx_motion_fx_scrolling":"yes","motion_fx_translatey_effect":"yes","motion_fx_translatey_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_translatey_affectedrange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-06-package-04-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7485" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/chua/DSC01995.jpg')}}" class="attachment-large size-large wp-image-7485" alt="">
                           </div>
                         </div>
                       </div>
@@ -707,15 +709,10 @@
                                           decoding="async"
                                           width="800"
                                           height="688"
-                                          src="{{asset('frontend/wp-content/uploads/2019/10/p1-img-01.png')}}"
+                                          src="{{asset('frontend/images/victim.png')}}"
                                           class="attachment-full size-full"
                                           alt="s"
-                                          srcset="
-                                            https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/p1-img-01.png         800w,
-                                            https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/p1-img-01-300x258.png 300w,
-                                            https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/p1-img-01-768x660.png 768w,
-                                            https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/p1-img-01-600x516.png 600w
-                                          "
+                                         
                                           sizes="(max-width: 800px) 100vw, 800px" />
                                       </div>
                                     </div>
@@ -887,27 +884,27 @@ We’re committed to providing you with the best service, care, and a warm smile
                       <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-218c7a13 elementor-widget elementor-widget-image" data-id="218c7a13" data-element_type="widget" data-settings="{" motion_fx_motion_fx_scrolling":"yes","motion_fx_scale_effect":"yes","motion_fx_scale_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_scale_direction":"out-in","motion_fx_scale_range":{"unit":"%","size":"","sizes":{"start":20,"end":80}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-03-package-01-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7482" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/buudien/DSC01954.jpg')}}" class="attachment-large size-large wp-image-7482" alt="">
                           </div>
                         </div>
                         <div class="elementor-element elementor-element-13b91ebe elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="13b91ebe" data-element_type="widget" data-settings="{" _position":"absolute","motion_fx_motion_fx_scrolling":"yes","motion_fx_translatex_effect":"yes","motion_fx_translatex_direction":"negative","motion_fx_translatex_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_translatex_affectedrange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-04-package-02-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7483" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/buudien/DSC01955.jpg')}}" class="attachment-large size-large wp-image-7483" alt="">
                           </div>
                         </div>
                         <div class="elementor-element elementor-element-b95c675 elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="b95c675" data-element_type="widget" data-settings="{" _position":"absolute","motion_fx_motion_fx_scrolling":"yes","motion_fx_translatey_effect":"yes","motion_fx_translatey_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_translatey_affectedrange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-07-destination-01-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7486" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/buudien/DSC01958.jpg')}}" class="attachment-large size-large wp-image-7486" alt="">
                           </div>
                         </div>
                         <div class="elementor-element elementor-element-340e1177 elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="340e1177" data-element_type="widget" data-settings="{" _position":"absolute","motion_fx_motion_fx_scrolling":"yes","motion_fx_translatey_effect":"yes","motion_fx_translatey_direction":"negative","motion_fx_translatey_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_translatey_affectedrange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-05-package-03-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7484" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/buudien/DSC01960.jpg')}}" class="attachment-large size-large wp-image-7484" alt="">
                           </div>
                         </div>
                         <div class="elementor-element elementor-element-38a33510 elementor-widget__width-auto elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="38a33510" data-element_type="widget" data-settings="{" _position":"absolute","motion_fx_motion_fx_scrolling":"yes","motion_fx_translatey_effect":"yes","motion_fx_translatey_speed":{"unit":"px","size":"1","sizes":[]},"motion_fx_devices":["desktop","laptop"],"motion_fx_translatey_affectedrange":{"unit":"%","size":"","sizes":{"start":0,"end":100}}}"="" data-widget_type="image.default">
                           <div class="elementor-widget-container">
-                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/img/about/i-parallax-06-package-04-1024x683.jpeg')}}" class="attachment-large size-large wp-image-7485" alt="">
+                            <img decoding="async" width="1024" height="683" src="{{asset('frontend/images/buudien/DSC01960.jpg')}}" class="attachment-large size-large wp-image-7485" alt="">
                           </div>
                         </div>
                       </div>

@@ -1,5 +1,3 @@
-
-
 <a id='mkdf-back-to-top' href='#'>
 	<span class="mkdf-icon-stack">
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -45,7 +43,7 @@
 											<!-- START Main home REVOLUTION SLIDER 6.6.20 -->
 											<p class="rs-p-wp-fix"></p>
 											@php
-											$url=asset('frontend/img/background_nhatho.jpg');
+											$url=asset('frontend/images/banner/DSC02079-Enhanced-NR.jpg');
 											@endphp
 											<rs-module-wrap id="rev_slider_12_1_wrapper" data-source="gallery"
 												style="
@@ -59,13 +57,13 @@
 													<rs-slides style="overflow: hidden; position: absolute;">
 														<rs-slide style="position: absolute;" data-key="rs-23"
 															data-title="Slide"
-															data-thumb="//wanderland.qodeinteractive.com/wp-content/uploads/2019/11/h1-rev-slide1-bckg-50x100.jpg"
+															data-thumb="frontend/images/banner/DSC02102-Enhanced-NR.jpg"
 															data-anim="ms:1000;r:0;" data-in="o:0;" data-out="a:false;">
 															<img loading="lazy" decoding="async"
-																src="{{asset('frontend/wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
+																src="{{asset('frontend/images/banner/DSC02102-Enhanced-NR.jpg')}}"
 																alt="a" title="h1-rev-slide1-bckg" width="1920"
 																height="882" class="rev-slidebg tp-rs-img rs-lazyload"
-																data-lazyload="{{asset('frontend/img/background_nhatho.jpg')}}"
+																data-lazyload="{{asset('frontend/images/banner/DSC02102-Enhanced-NR.jpg')}}"
 																data-no-retina>
 															<!--
 				--><rs-layer id="slider-12-slide-23-layer-1" data-type="text" data-color="#fff"
@@ -198,13 +196,13 @@
 --> </rs-slide>
 														<rs-slide style="position: absolute;" data-key="rs-32"
 															data-title="Slide"
-															data-thumb="{{asset('frontend/img/background_lanmark.jpg')}}"
+															data-thumb="{{asset('frontend/images/banner/DSC02079-Enhanced-NR.jpg')}}"
 															data-anim="ms:1000;r:0;" data-in="o:0;" data-out="a:false;">
 															<img loading="lazy" decoding="async"
 																src="{{asset('frontend/img/background_lanmark.jpg')}}"
 																alt="a" title="h1-rev-slide2-bckg" width="1920"
 																height="882" class="rev-slidebg tp-rs-img rs-lazyload"
-																data-lazyload="{{asset('frontend/img/background_lanmark.jpg')}}"
+																data-lazyload="{{asset('frontend/images/banner/DSC02079-Enhanced-NR.jpg')}}"
 																data-no-retina>
 															<!--
 				--><rs-layer id="slider-12-slide-32-layer-1" data-type="text" data-color="#fff"
@@ -318,13 +316,13 @@
 --> </rs-slide>
 														<rs-slide style="position: absolute;" data-key="rs-33"
 															data-title="Slide"
-															data-thumb="{{asset('frontend/img/background.jpg')}}"
+															data-thumb="{{asset('frontend/images/banner/DSC01971.jpg')}}"
 															data-anim="ms:1000;r:0;" data-in="o:0;" data-out="a:false;">
 															<img loading="lazy" decoding="async"
-																src="{{asset('frontend/wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
+																src="{{asset('frontend/images/banner/DSC01971.jpg')}}"
 																alt="a" title="h1-rev-slide3-bckg" width="1920"
 																height="882" class="rev-slidebg tp-rs-img rs-lazyload"
-																data-lazyload="{{asset('frontend/img/background.jpg')}}"
+																data-lazyload="{{asset('frontend/images/banner/DSC01971.jpg')}}"
 																data-no-retina>
 															<!--
 				--><rs-layer id="slider-12-slide-33-layer-1" data-type="text" data-color="#fff"
@@ -440,7 +438,7 @@
 													<rs-static-layers><!--
 		--></rs-static-layers>
 												</rs-module>
-												
+
 											</rs-module-wrap>
 											<!-- END REVOLUTION SLIDER -->
 										</div>
@@ -464,7 +462,7 @@
 									</div>
 								</div>
 							</div>
-							
+
 							<div class="vc_row wpb_row vc_row-fluid vc_custom_1579084286868 vc_row-has-fill">
 								<div class="wpb_column vc_column_container vc_col-sm-12">
 									<div class="vc_column-inner">
@@ -698,7 +696,7 @@
 																			data-number-of-items="3"
 																			data-slider-margin="22"
 																			data-enable-pagination="no">
-																			
+
 																			@if(isset($tours))
 																			@foreach ($tours as $tour )
 																			<li class="mkdf-blog-slider-item">
@@ -795,9 +793,9 @@
 																										{{ $tour->title }}
 																									</a>
 																								</h5>
-																								<p itemprop="description" class="mkdf-post-excerpt" style ="font-weight:400">
+																								<p itemprop="description" class="mkdf-post-excerpt" style="font-weight:400">
 																									{{ Str::limit(strip_tags($tour->description), 80, '...') }}
-																													</p>
+																								</p>
 																							</div>
 																						</div>
 																					</div>
@@ -880,376 +878,6 @@
 													</div>
 												</div>
 											</div>
-											<!-- <div class="mkdf-row-grid-section-wrapper ">
-												<div class="mkdf-row-grid-section">
-													<div class="vc_row wpb_row vc_inner vc_row-fluid">
-														<div class="wpb_column vc_column_container vc_col-sm-12">
-															<div class="vc_column-inner">
-																<div class="wpb_wrapper">
-																	<div
-																		class="mkdf-pl-holder mkdf-grid-list mkdf-disable-bottom-space mkdf-standard-layout mkdf-five-columns mkdf-no-space mkdf-info-below-image ">
-																		<div class="mkdf-pl-outer mkdf-outer-space">
-																			<div class="mkdf-pli mkdf-item-space ">
-																				<div class="mkdf-pli-inner">
-																					<div class="mkdf-pli-image">
-
-																						<div class="mkdf-mark-wrapper">
-
-																						</div>
-																						<img loading="lazy"
-																							decoding="async" width="600"
-																							height="502"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/shop-img-10-1-600x502.jpg')}}"
-																							class="attachment-woocommerce_single size-woocommerce_single wp-post-image"
-																							alt="s"
-																							srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-10-1-600x502.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-10-1-300x251.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-10-1-768x642.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-10-1.jpg 800w"
-																							sizes="(max-width: 600px) 100vw, 600px" />
-																						<img decoding="async"
-																							class="mkdf-product-hover-image"
-																							alt="a"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/shop-img-18.png')}}" />
-																					</div>
-																					<div class="mkdf-pli-text">
-																						<div
-																							class="mkdf-pli-text-outer">
-																							<div
-																								class="mkdf-pli-text-inner">
-
-																								<div
-																									class="mkdf-pli-add-to-cart mkdf-default-skin">
-																									<a rel="nofollow"
-																										href="index71f3.html?add-to-cart=994"
-																										data-quantity="1"
-																										data-product_id="994"
-																										data-product_sku="456"
-																										class="button add_to_cart_button ajax_add_to_cart mkdf-button">Add
-																										to
-																										cart</a>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																					<a class="mkdf-pli-link"
-																						itemprop="url"
-																						href="product/shoes/index.html"
-																						title="Shoes"></a>
-																				</div>
-																				<div class="mkdf-pli-text-wrapper">
-																					<div class="mkdf-pli-price">
-																						<span
-																							class="woocommerce-Price-amount amount"><span
-																								class="woocommerce-Price-currencySymbol">&#036;</span>250.00</span>
-																					</div>
-
-																					<h6 itemprop="name"
-																						class="entry-title mkdf-pli-title">
-																						<a itemprop="url"
-																							href="product/shoes/index.html">Shoes</a>
-																					</h6>
-
-
-
-
-																					<div class="mkdf-pli-rating-holder">
-																						<div class="mkdf-pli-rating"
-																							title="Rated %s out of 5">
-																							<span
-																								style="width: 100%"></span>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																			<div class="mkdf-pli mkdf-item-space ">
-																				<div class="mkdf-pli-inner">
-																					<div class="mkdf-pli-image">
-
-																						<div class="mkdf-mark-wrapper">
-
-																						</div>
-																						<img loading="lazy"
-																							decoding="async" width="600"
-																							height="502"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/shop-img-12-1-600x502.jpg')}}"
-																							class="attachment-woocommerce_single size-woocommerce_single wp-post-image"
-																							alt="s"
-																							srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-12-1-600x502.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-12-1-300x251.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-12-1-768x642.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-12-1.jpg 800w"
-																							sizes="(max-width: 600px) 100vw, 600px" />
-																						<img decoding="async"
-																							class="mkdf-product-hover-image"
-																							alt="s"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/shop-img-17.png')}}" />
-																					</div>
-																					<div class="mkdf-pli-text">
-																						<div
-																							class="mkdf-pli-text-outer">
-																							<div
-																								class="mkdf-pli-text-inner">
-
-																								<div
-																									class="mkdf-pli-add-to-cart mkdf-default-skin">
-																									<a rel="nofollow"
-																										href="index0617.html?add-to-cart=1013"
-																										data-quantity="1"
-																										data-product_id="1013"
-																										data-product_sku="41-1"
-																										class="button add_to_cart_button ajax_add_to_cart mkdf-button">Add
-																										to
-																										cart</a>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																					<a class="mkdf-pli-link"
-																						itemprop="url"
-																						href="product/camera-tripod-2/index.html"
-																						title="Camera tripod"></a>
-																				</div>
-																				<div class="mkdf-pli-text-wrapper">
-																					<div class="mkdf-pli-price">
-																						<span
-																							class="woocommerce-Price-amount amount"><span
-																								class="woocommerce-Price-currencySymbol">&#036;</span>200.00</span>
-																					</div>
-
-																					<h6 itemprop="name"
-																						class="entry-title mkdf-pli-title">
-																						<a itemprop="url"
-																							href="product/camera-tripod-2/index.html">Camera
-																							tripod</a>
-																					</h6>
-
-
-
-
-																					<div class="mkdf-pli-rating-holder">
-																						<div class="mkdf-pli-rating"
-																							title="Rated %s out of 5">
-																							<span
-																								style="width: 100%"></span>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																			<div class="mkdf-pli mkdf-item-space ">
-																				<div class="mkdf-pli-inner">
-																					<div class="mkdf-pli-image">
-
-																						<div class="mkdf-mark-wrapper">
-
-																						</div>
-																						<img loading="lazy"
-																							decoding="async" width="600"
-																							height="502"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/shop-img-11w-600x502.jpg')}}"
-																							class="attachment-woocommerce_single size-woocommerce_single wp-post-image"
-																							alt="s"
-																							srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-11w-600x502.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-11w-300x251.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-11w-768x642.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-11w.jpg 800w"
-																							sizes="(max-width: 600px) 100vw, 600px" />
-																						<img decoding="async"
-																							class="mkdf-product-hover-image"
-																							alt="s"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/test-img-02.png')}}" />
-																					</div>
-																					<div class="mkdf-pli-text">
-																						<div
-																							class="mkdf-pli-text-outer">
-																							<div
-																								class="mkdf-pli-text-inner">
-
-																								<div
-																									class="mkdf-pli-add-to-cart mkdf-default-skin">
-																									<a rel="nofollow"
-																										href="indexf0b3.html?add-to-cart=1006"
-																										data-quantity="1"
-																										data-product_id="1006"
-																										data-product_sku="37"
-																										class="button add_to_cart_button ajax_add_to_cart mkdf-button">Add
-																										to
-																										cart</a>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																					<a class="mkdf-pli-link"
-																						itemprop="url"
-																						href="product/raincoat-2/index.html"
-																						title="Raincoat"></a>
-																				</div>
-																				<div class="mkdf-pli-text-wrapper">
-																					<div class="mkdf-pli-price">
-																						<span
-																							class="woocommerce-Price-amount amount"><span
-																								class="woocommerce-Price-currencySymbol">&#036;</span>200.00</span>
-																					</div>
-
-																					<h6 itemprop="name"
-																						class="entry-title mkdf-pli-title">
-																						<a itemprop="url"
-																							href="product/raincoat-2/index.html">Raincoat</a>
-																					</h6>
-
-
-
-
-																					<div class="mkdf-pli-rating-holder">
-																						<div class="mkdf-pli-rating"
-																							title="Rated %s out of 5">
-																							<span
-																								style="width: 100%"></span>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																			<div class="mkdf-pli mkdf-item-space ">
-																				<div class="mkdf-pli-inner">
-																					<div class="mkdf-pli-image">
-
-																						<div class="mkdf-mark-wrapper">
-
-																						</div>
-																						<img loading="lazy"
-																							decoding="async" width="600"
-																							height="502"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/shop-img-13-1-600x502.jpg')}}"
-																							class="attachment-woocommerce_single size-woocommerce_single wp-post-image"
-																							alt="s"
-																							srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-13-1-600x502.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-13-1-300x251.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-13-1-768x642.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-13-1.jpg 800w"
-																							sizes="(max-width: 600px) 100vw, 600px" />
-																						<img decoding="async"
-																							class="mkdf-product-hover-image"
-																							alt="a"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/shop-img-15.png')}}" />
-																					</div>
-																					<div class="mkdf-pli-text">
-																						<div
-																							class="mkdf-pli-text-outer">
-																							<div
-																								class="mkdf-pli-text-inner">
-
-																								<div
-																									class="mkdf-pli-add-to-cart mkdf-default-skin">
-																									<a rel="nofollow"
-																										href="indexd518.html?add-to-cart=1020"
-																										data-quantity="1"
-																										data-product_id="1020"
-																										data-product_sku="94"
-																										class="button add_to_cart_button ajax_add_to_cart mkdf-button">Add
-																										to
-																										cart</a>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																					<a class="mkdf-pli-link"
-																						itemprop="url"
-																						href="product/dslr-camera-2/index.html"
-																						title="DSLR camera"></a>
-																				</div>
-																				<div class="mkdf-pli-text-wrapper">
-																					<div class="mkdf-pli-price">
-																						<span
-																							class="woocommerce-Price-amount amount"><span
-																								class="woocommerce-Price-currencySymbol">&#036;</span>1,800.00</span>
-																					</div>
-
-																					<h6 itemprop="name"
-																						class="entry-title mkdf-pli-title">
-																						<a itemprop="url"
-																							href="product/dslr-camera-2/index.html">DSLR
-																							camera</a>
-																					</h6>
-
-
-
-
-																					<div class="mkdf-pli-rating-holder">
-																						<div class="mkdf-pli-rating"
-																							title="Rated %s out of 5">
-																							<span
-																								style="width: 0%"></span>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																			<div class="mkdf-pli mkdf-item-space ">
-																				<div class="mkdf-pli-inner">
-																					<div class="mkdf-pli-image">
-
-																						<div class="mkdf-mark-wrapper">
-
-																						</div>
-																						<img loading="lazy"
-																							decoding="async" width="600"
-																							height="502"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/shop-img-14-1-600x502.jpg')}}"
-																							class="attachment-woocommerce_single size-woocommerce_single wp-post-image"
-																							alt="f"
-																							srcset="https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-14-1-600x502.jpg 600w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-14-1-300x251.jpg 300w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-14-1-768x642.jpg 768w, https://wanderland.qodeinteractive.com/wp-content/uploads/2019/10/shop-img-14-1.jpg 800w"
-																							sizes="(max-width: 600px) 100vw, 600px" />
-																						<img decoding="async"
-																							class="mkdf-product-hover-image"
-																							alt="s"
-																							src="{{asset('frontend/wp-content/uploads/2019/10/shop-img-16.png')}}" />
-																					</div>
-																					<div class="mkdf-pli-text">
-																						<div
-																							class="mkdf-pli-text-outer">
-																							<div
-																								class="mkdf-pli-text-inner">
-
-																								<div
-																									class="mkdf-pli-add-to-cart mkdf-default-skin">
-																									<a rel="nofollow"
-																										href="index603e.html?add-to-cart=1028"
-																										data-quantity="1"
-																										data-product_id="1028"
-																										data-product_sku="99"
-																										class="button add_to_cart_button ajax_add_to_cart mkdf-button">Add
-																										to
-																										cart</a>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																					<a class="mkdf-pli-link"
-																						itemprop="url"
-																						href="product/watter-bottle-2/index.html"
-																						title="Watter bottle"></a>
-																				</div>
-																				<div class="mkdf-pli-text-wrapper">
-																					<div class="mkdf-pli-price">
-																						<span
-																							class="woocommerce-Price-amount amount"><span
-																								class="woocommerce-Price-currencySymbol">&#036;</span>17.00</span>
-																					</div>
-
-																					<h6 itemprop="name"
-																						class="entry-title mkdf-pli-title">
-																						<a itemprop="url"
-																							href="product/watter-bottle-2/index.html">Watter
-																							bottle</a>
-																					</h6>
-
-
-
-
-																					<div class="mkdf-pli-rating-holder">
-																						<div class="mkdf-pli-rating"
-																							title="Rated %s out of 5">
-																							<span
-																								style="width: 0%"></span>
-																						</div>
-																					</div>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div> -->
 										</div>
 									</div>
 								</div>
@@ -2069,7 +1697,7 @@
 																				</div>
 																				<div class="mkdf-hti-content-value">
 																					<h6 class="mkdf-hti-title">
-																					Bread in Viet Nam</h6>
+																						Bread in Viet Nam</h6>
 																					<p class="mkdf-hti-label-one">
 																						47.1388422</p>
 																					<p class="mkdf-hti-label-two">
@@ -2119,7 +1747,7 @@
 																				</div>
 																				<div class="mkdf-hti-content-value">
 																					<h6 class="mkdf-hti-title">
-																					Cook for yourself</h6>
+																						Cook for yourself</h6>
 																					<p class="mkdf-hti-label-one">
 																						47.1388422</p>
 																					<p class="mkdf-hti-label-two">
@@ -2283,7 +1911,7 @@
 									</div>
 								</div>
 							</div>
-							
+
 						</div>
 					</div>
 				</div>
